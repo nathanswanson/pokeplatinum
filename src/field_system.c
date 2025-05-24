@@ -38,6 +38,7 @@
 #include "system.h"
 #include "unk_0205F180.h"
 #include "unk_0209C370.h"
+#include "ap_memory.h"
 
 FS_EXTERN_OVERLAY(overlay5);
 FS_EXTERN_OVERLAY(overlay77);
@@ -172,6 +173,7 @@ static FieldSystem *InitFieldSystem(OverlayManager *ovyManager)
 
     fieldSystem->pokedexMemory = PokedexMemory_New(HEAP_ID_FIELDMAP);
     fieldSystem->battleSubscreenCursorOn = sub_0209C370(HEAP_ID_FIELDMAP);
+    APComm_init(fieldSystem);
 
     return fieldSystem;
 }
@@ -320,7 +322,7 @@ static void HandleFieldInput(FieldSystem *fieldSystem)
                 if (poketchSys != NULL) {
                     tappedPoketch = PoketchSystem_IsTapped(poketchSys);
                 }
-
+                APComm_task();
                 PlayerAvatar_MoveControl(fieldSystem->playerAvatar, fieldSystem->landDataMan, -1, fieldInput.pressedKeys, fieldInput.heldKeys, tappedPoketch);
             }
         }

@@ -138,3 +138,13 @@ void MiscSaveBlock_SetExtraSaveKey(MiscSaveBlock *miscSave, int saveTableID, u32
     miscSave->extraKey.oldKeys[saveTableID - 1] = oldKey;
     miscSave->extraKey.keyFlags[saveTableID - 1] = keyFlag;
 }
+
+u32 MiscSaveBlock_GetItem(const MiscSaveBlock *miscSave, u32 itemID)
+{
+    return miscSave->rec_items[itemID];
+}
+
+void MiscSaveBlock_SetItem(MiscSaveBlock *miscSave, u32 itemID, u64 item_data)
+{
+    miscSave->rec_items[itemID] = item_data;
+}

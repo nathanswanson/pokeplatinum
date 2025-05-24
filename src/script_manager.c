@@ -23,7 +23,7 @@
 #include "strbuf.h"
 #include "trainer_data.h"
 #include "vars_flags.h"
-
+#include "debug_print.h"
 #include "constdata/const_020EAB80.h"
 #include "constdata/const_020EAC58.h"
 
@@ -737,8 +737,9 @@ void FieldSystem_InitNewGameState(FieldSystem *fieldSystem)
 void FieldSystem_RunScript(FieldSystem *fieldSystem, u16 scriptID)
 {
     ScriptContext *ctx = ScriptContext_CreateAndStart(fieldSystem, scriptID);
-
+    desume_printf("Running script %04x\n", scriptID);
     while (ScriptContext_Run(ctx) == TRUE)
+        desume_printf("script ptr %08x\n", ctx->scriptPtr);
         ;
 
     ScriptContext_Free(ctx);

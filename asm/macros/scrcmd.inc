@@ -751,11 +751,12 @@
     /* See SubtractCoins for 122 */
 
     // If the player has no space left in the bag, destVarID will be set to FALSE
-    .macro AddItem item, count, destVarID
+    .macro AddItem item, count, destVarID, ap_id
     .short 123
     .short \item
     .short \count
     .short \destVarID
+    .short \ap_id
     .endm
 
     // destVarID will be set to TRUE if the player had at least 'count' items of the specified type in their bag

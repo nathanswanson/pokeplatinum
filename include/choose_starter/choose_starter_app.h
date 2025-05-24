@@ -6,5 +6,5 @@
 BOOL ChooseStarter_Init(OverlayManager *ovyManager, int *state);
 BOOL ChooseStarter_Main(OverlayManager *ovyManager, int *state);
 BOOL ChooseStarter_Exit(OverlayManager *ovyManager, int *state);
-
+int* getStarterSpecies();
 #endif // POKEPLATINUM_CHOOSE_STARTER_APP_H

@@ -119,7 +119,6 @@ _01C5:
     ApplyMovement 3, _0488
     ApplyMovement LOCALID_PLAYER, _04BC
     WaitMovement
-    StartCatchingTutorial
     ApplyMovement 3, _0490
     WaitMovement
     GetPlayerGender VAR_RESULT

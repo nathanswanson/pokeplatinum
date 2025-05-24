@@ -542,4 +542,16 @@
 		<attribute name="window_context_name">used</attribute>
 		<language name="English">Your Hall of Fame data is corrupted.\rIt will be fixed if you enter the\nHall of Fame again.\r</language>
 	</row>
+	<row id="pl_msg_00000213_00132" index="132">
+		<attribute name="window_context_name">used</attribute>
+		<language name="English">Your Hall of Fame data is corrupted.\rIt will be fixed if you enter the\nHall of Fame again.\r</language>
+	</row>
+	<row id="pl_msg_00000213_00133" index="133">
+	    <attribute name="window_context_name">used</attribute>
+	    <language name="English">Send item {STRVAR_1 0, 0, 0}\n to {STRVAR_1 0, 1, 0}\r</language>
+	</row>
+	<row id="pl_msg_00000213_00134" index="134">
+        <attribute name="window_context_name">used</attribute>
+        <language name="English">Received item {STRVAR_1 0, 0, 0}\n from {STRVAR_1 0, 1, 0}\r</language>
+    </row>
 </body>

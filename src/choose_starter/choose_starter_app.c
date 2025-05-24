@@ -58,9 +58,9 @@
 #include "vram_transfer.h"
 
 #define NUM_STARTER_OPTIONS 3
-#define STARTER_OPTION_0    SPECIES_TURTWIG
-#define STARTER_OPTION_1    SPECIES_CHIMCHAR
-#define STARTER_OPTION_2    SPECIES_PIPLUP
+#define STARTER_OPTION_0    getStarterSpecies()[0]
+#define STARTER_OPTION_1    getStarterSpecies()[2]
+#define STARTER_OPTION_2    getStarterSpecies()[3]
 
 #define OAM_MAIN_START 0
 #define OAM_MAIN_END   128
@@ -1796,4 +1796,18 @@ static u16 GetSelectedSpecies(u16 cursorPosition)
     }
 
     return SPECIES_NONE;
+}
+
+static volatile u32 gStarterSpeciesAddr = 0x746C696B;
+// magic word is "kilt" for byte search patch
+__attribute__((used))
+int* getStarterSpecies(){
+    // 10 bit mask is 0x3FF
+    // 2 bits unused then 3x10 bits for each starter
+    static int gStarterSpecies[3];
+    gStarterSpecies[0]= gStarterSpeciesAddr & 0x3FF;
+    gStarterSpecies[1]= (gStarterSpeciesAddr >> 10) & 0x3FF;
+    gStarterSpecies[2]= (gStarterSpeciesAddr >> 20) & 0x3FF;
+
+    return gStarterSpecies;
 }

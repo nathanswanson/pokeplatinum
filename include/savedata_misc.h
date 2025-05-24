@@ -30,6 +30,7 @@ typedef struct MiscSaveBlock {
     u8 vsRecorderColor : 4;
     u8 padding : 3;
     u32 unused;
+    u32 rec_items[16];
     Sentence introMsg;
     ExtraSaveKey extraKey;
 } MiscSaveBlock;
@@ -55,4 +56,6 @@ void MiscSaveBlock_SetVsRecorderColor(MiscSaveBlock *miscSave, u8 color);
 void MiscSaveBlock_ExtraSaveKey(const MiscSaveBlock *miscSave, int saveTableID, u32 *currKey, u32 *oldKey, u8 *keyFlag);
 void MiscSaveBlock_SetExtraSaveKey(MiscSaveBlock *miscSave, int saveTableID, u32 currKey, u32 oldKey, u8 keyFlag);
 
+u32 MiscSaveBlock_GetItem(const MiscSaveBlock *miscSave, u32 itemID);
+void MiscSaveBlock_SetItem(MiscSaveBlock *miscSave, u32 itemID, u64 item_data);
 #endif // POKEPLATINUM_SAVEDATA_MISC_H

@@ -75,6 +75,8 @@
 
 #include "constdata/const_020F2DAC.h"
 
+static volatile u32 gBattleScriptSettings = 0x6E6F7274;
+
 typedef BOOL (*BtlCmd)(BattleSystem *, BattleContext *);
 
 typedef struct BattleMessageParams {
@@ -2461,7 +2463,9 @@ static BOOL BtlCmd_CalcExpGain(BattleSystem *battleSys, BattleContext *battleCtx
     } else {
         BattleScript_Iter(battleCtx, jump);
     }
-
+    // exp mod is first 10 bits of gBattleScriptSettings
+    battleCtx->gainedExp *= gBattleScriptSettings & 0x3FF;
+    battleCtx->sharedExp *= gBattleScriptSettings & 0x3FF;
     return FALSE;
 }
 
@@ -11135,6 +11139,10 @@ static const struct Fraction sSafariCatchRate[] = {
  */
 static int BattleScript_CalcCatchShakes(BattleSystem *battleSys, BattleContext *battleCtx)
 {
+    //10 bit
+    if (gBattleScriptSettings >> 10 & 1) {
+        return 4;
+    }
     if (BattleSystem_BattleType(battleSys) & BATTLE_TYPE_ALWAYS_CATCH) {
         return 4;
     }

@@ -3,7 +3,7 @@
 	<key value="62160" />
 	<row id="pl_msg_00000389_00000" index="0">
 		<attribute name="window_context_name">used</attribute>
-		<language name="English">Hello there!\nIt’s so very nice to meet you!\rWelcome to the world of Pokémon!\r</language>
+		<language name="English">Hey, you.\rYou are finally awake. \rYou were trying to cross the border\nright?\rWalked right into that Imperial ambush\n</language>
 	</row>
 	<row id="pl_msg_00000389_00001" index="1">
 		<attribute name="window_context_name">used</attribute>

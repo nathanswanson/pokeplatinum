@@ -247,6 +247,7 @@ _0375:
 _0394:
     Message 12
     GivePokedex
+    GetSetNationalDexEnabled 1 0x8000
     SetFlag FLAG_UNK_0x0090
     BufferPlayerName 0
     Message 13
