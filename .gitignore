@@ -124,3 +124,5 @@ compile_commands.json
 # Cheat files
 *.dct
 *.mch
+scratch_folder/out/memory_mapping.json
+scratch_folder/out/platinum.sha1
