@@ -1018,7 +1018,7 @@ pokeplatinum_c = files(
     'overlay119/ov119_021D191C.c',
     'library_tv/library_tv.c',
     'dw_warp/dw_warp.c',
-    'ap_memory.c',
-    'archipelago_recording.c',
-    'debug_print.c'
+    'ap/ap_memory.c',
+    'ap/ap_debug_print.c',
+    'ap/ap_player_names.c'
 )

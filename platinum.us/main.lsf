@@ -368,8 +368,9 @@ Static main
 	Object main.nef.p/src_unk_0209C194.c.o
 	Object main.nef.p/src_unk_0209C370.c.o
 	Object main.nef.p/src_unk_0209C390.c.o
-	Object main.nef.p/src_ap_memory.c.o
-	Object main.nef.p/src_debug_print.c.o
+	Object main.nef.p/src_ap_ap_memory.c.o
+	Object main.nef.p/src_ap_ap_debug_print.c.o
+	Object main.nef.p/src_ap_ap_player_names.c.o
 	Library libspl.a
 	Library libwvr.a
 	Library libdwcbm.a

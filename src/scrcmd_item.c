@@ -3,6 +3,7 @@
 #include <nitro.h>
 #include <string.h>
 
+#include "ap/ap_memory.h"
 #include "field/field_system.h"
 
 #include "bag.h"
@@ -10,8 +11,6 @@
 #include "inlines.h"
 #include "item.h"
 #include "unk_0205DFC4.h"
-#include "debug_print.h"
-#include "ap_memory.h"
 BOOL ScrCmd_AddItem(ScriptContext *ctx)
 {
     FieldSystem *fieldSystem = ctx->fieldSystem;
@@ -19,19 +18,22 @@ BOOL ScrCmd_AddItem(ScriptContext *ctx)
     u16 count = ScriptContext_GetVar(ctx);
     u16 *destVar = ScriptContext_GetVarPointer(ctx);
     u16 ap_id = ScriptContext_GetVar(ctx);
-    if(ap_id != 0)
-    {
+    if (ap_id != 0) {
         APLocData data = loc_data_registry[ap_id];
-        if(data.is_local) {
-            *destVar = Bag_TryAddItem(SaveData_GetBag(fieldSystem->saveData), data.id, data.count, HEAP_ID_FIELD);
+        if (!APComm_getItemStatus(ap_id)) {
+            if (data.is_local) {
+                *destVar = Bag_TryAddItem(SaveData_GetBag(fieldSystem->saveData), data.id, data.count, HEAP_ID_FIELD);
+            } else {
+                *destVar = TRUE;
+            }
+            if (*destVar) {
+                APComm_sendMessage();
+                APComm_setItemStatus(ap_id);
+            }
         }
-        else
-        {
-            APComm_push_item_to_buf(ap_id);
-            *destVar = TRUE;
-        }
-    }
-    else {
+
+    } else {
+        // regular item or item not assigned yet
         *destVar = Bag_TryAddItem(SaveData_GetBag(fieldSystem->saveData), item, count, HEAP_ID_FIELD);
     }
     return FALSE;

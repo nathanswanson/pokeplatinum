@@ -1,0 +1,5182 @@
+</div>
+<div class="p"><b>bit.arshift</b><br />
+</div>
+<ul>
+	<li> int bit.arshift(uint val, int amt)
+	</li>
+</ul>
+<ul>
+	<li> Arithmetic shift right of 'val' by 'amt' bits
+	</li>
+</ul>
+<div class="p"><b>bit.band</b><br />
+</div>
+<ul>
+	<li> <b>[deprecated]</b> uint bit.band(uint val, uint amt)
+	</li>
+</ul>
+<ul>
+	<li> Bitwise AND of 'val' against 'amt'
+	</li>
+</ul>
+<div class="p"><b>bit.bnot</b><br />
+</div>
+<ul>
+	<li> <b>[deprecated]</b> uint bit.bnot(uint val)
+	</li>
+</ul>
+<ul>
+	<li> Bitwise NOT of 'val'
+	</li>
+</ul>
+<div class="p"><b>bit.bor</b><br />
+</div>
+<ul>
+	<li> <b>[deprecated]</b> uint bit.bor(uint val, uint amt)
+	</li>
+</ul>
+<ul>
+	<li> Bitwise OR of 'val' against 'amt'
+	</li>
+</ul>
+<div class="p"><b>bit.bxor</b><br />
+</div>
+<ul>
+	<li> <b>[deprecated]</b> uint bit.bxor(uint val, uint amt)
+	</li>
+</ul>
+<ul>
+	<li> Bitwise XOR of 'val' against 'amt'
+	</li>
+</ul>
+<div class="p"><b>bit.byteswap_16</b><br />
+</div>
+<ul>
+	<li> ushort bit.byteswap_16(ushort val)
+	</li>
+</ul>
+<ul>
+	<li> Byte swaps 'short', i.e. bit.byteswap_16(0xFF00) would return 0x00FF
+	</li>
+</ul>
+<div class="p"><b>bit.byteswap_32</b><br />
+</div>
+<ul>
+	<li> uint bit.byteswap_32(uint val)
+	</li>
+</ul>
+<ul>
+	<li> Byte swaps 'dword'
+	</li>
+</ul>
+<div class="p"><b>bit.byteswap_64</b><br />
+</div>
+<ul>
+	<li> ulong bit.byteswap_64(ulong val)
+	</li>
+</ul>
+<ul>
+	<li> Byte swaps 'long'
+	</li>
+</ul>
+<div class="p"><b>bit.check</b><br />
+</div>
+<ul>
+	<li> bool bit.check(long num, int pos)
+	</li>
+</ul>
+<ul>
+	<li> Returns result of bit 'pos' being set in 'num'
+	</li>
+</ul>
+<div class="p"><b>bit.clear</b><br />
+</div>
+<ul>
+	<li> long bit.clear(uint num, int pos)
+	</li>
+</ul>
+<ul>
+	<li> Clears the bit 'pos' in 'num'
+	</li>
+</ul>
+<div class="p"><b>bit.lshift</b><br />
+</div>
+<ul>
+	<li> <b>[deprecated]</b> uint bit.lshift(uint val, int amt)
+	</li>
+</ul>
+<ul>
+	<li> Logical shift left of 'val' by 'amt' bits
+	</li>
+</ul>
+<div class="p"><b>bit.rol</b><br />
+</div>
+<ul>
+	<li> uint bit.rol(uint val, int amt)
+	</li>
+</ul>
+<ul>
+	<li> Left rotate 'val' by 'amt' bits
+	</li>
+</ul>
+<div class="p"><b>bit.ror</b><br />
+</div>
+<ul>
+	<li> uint bit.ror(uint val, int amt)
+	</li>
+</ul>
+<ul>
+	<li> Right rotate 'val' by 'amt' bits
+	</li>
+</ul>
+<div class="p"><b>bit.rshift</b><br />
+</div>
+<ul>
+	<li> <b>[deprecated]</b> uint bit.rshift(uint val, int amt)
+	</li>
+</ul>
+<ul>
+	<li> Logical shift right of 'val' by 'amt' bits
+	</li>
+</ul>
+<div class="p"><b>bit.set</b><br />
+</div>
+<ul>
+	<li> uint bit.set(uint num, int pos)
+	</li>
+</ul>
+<ul>
+	<li> Sets the bit 'pos' in 'num'
+	</li>
+</ul>
+</div>
+<div id="tabs-5593-1" class="tab-pane fade">
+	<div class="p">A library exposing standard .NET string methods
+	</div>
+	<div class="p"><b>bizstring.binary</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.binary(long num)
+		</li>
+	</ul>
+	<ul>
+		<li> Converts the number to a string representation of the binary value of the given number
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.contains</b><br />
+	</div>
+	<ul>
+		<li> bool bizstring.contains(string str, string str2)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether or not str contains str2
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.endswith</b><br />
+	</div>
+	<ul>
+		<li> bool bizstring.endswith(string str, string str2)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether str ends wth str2
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.hex</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.hex(long num)
+		</li>
+	</ul>
+	<ul>
+		<li> Converts the number to a string representation of the hexadecimal value of the given number
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.octal</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.octal(long num)
+		</li>
+	</ul>
+	<ul>
+		<li> Converts the number to a string representation of the octal value of the given number
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.pad_end</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.pad_end(string str, int length, string pad_char)
+		</li>
+	</ul>
+	<ul>
+		<li> Appends zero or more of pad_char to the end (right) of str until it's at least length chars long. If
+			pad_char is not a string exactly one char long, its first char will be used, or ' ' if it's empty.
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.pad_start</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.pad_start(string str, int length, string pad_char)
+		</li>
+	</ul>
+	<ul>
+		<li> Prepends zero or more of pad_char to the start (left) of str until it's at least length chars long. If
+			pad_char is not a string exactly one char long, its first char will be used, or ' ' if it's empty.
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.remove</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.remove(string str, int position, int count)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a string that represents str with the given position and count removed
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.replace</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.replace(string str, string str2, string replace)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a string that replaces all occurrences of str2 in str1 with the value of replace
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.split</b><br />
+	</div>
+	<ul>
+		<li> nluatable bizstring.split(string str, string separator)
+		</li>
+	</ul>
+	<ul>
+		<li> Splits str into a Lua-style array using the given separator (consecutive separators in str will NOT create
+			empty entries in the array). If the separator is not a string exactly one char long, ',' will be used.
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.startswith</b><br />
+	</div>
+	<ul>
+		<li> bool bizstring.startswith(string str, string str2)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether str starts with str2
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.substring</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.substring(string str, int position, int length)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a string that represents a substring of str starting at position for the specified length
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.tolower</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.tolower(string str)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns an lowercase version of the given string
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.toupper</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.toupper(string str)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns an uppercase version of the given string
+		</li>
+	</ul>
+	<div class="p"><b>bizstring.trim</b><br />
+	</div>
+	<ul>
+		<li> string bizstring.trim(string str)
+		</li>
+	</ul>
+	<ul>
+		<li> returns a string that trims whitespace on the left and right ends of the string
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-2" class="tab-pane fade">
+	<div class="p">A library for manipulating the EmuHawk client UI
+	</div>
+	<div class="p"><b>client.addcheat</b><br />
+	</div>
+	<ul>
+		<li> void client.addcheat(string code)
+		</li>
+	</ul>
+	<ul>
+		<li> adds a cheat code, if supported
+		</li>
+	</ul>
+	<div class="p"><b>client.borderheight</b><br />
+	</div>
+	<ul>
+		<li> int client.borderheight()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the current height in pixels of the letter/pillarbox area (top side only) around the emu display
+			surface, excluding the gameExtraPadding you've set. This function (the whole lot of them) should be renamed
+			or refactored since the padding areas have got more complex.
+		</li>
+	</ul>
+	<div class="p"><b>client.borderwidth</b><br />
+	</div>
+	<ul>
+		<li> int client.borderwidth()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the current width in pixels of the letter/pillarbox area (left side only) around the emu display
+			surface, excluding the gameExtraPadding you've set. This function (the whole lot of them) should be renamed
+			or refactored since the padding areas have got more complex.
+		</li>
+	</ul>
+	<div class="p"><b>client.bufferheight</b><br />
+	</div>
+	<ul>
+		<li> int client.bufferheight()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the visible height of the emu display surface (the core video output). This excludes the
+			gameExtraPadding you've set.
+		</li>
+	</ul>
+	<div class="p"><b>client.bufferwidth</b><br />
+	</div>
+	<ul>
+		<li> int client.bufferwidth()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the visible width of the emu display surface (the core video output). This excludes the
+			gameExtraPadding you've set.
+		</li>
+	</ul>
+	<div class="p"><b>client.clearautohold</b><br />
+	</div>
+	<ul>
+		<li> void client.clearautohold()
+		</li>
+	</ul>
+	<ul>
+		<li> Clears all autohold keys
+		</li>
+	</ul>
+	<div class="p"><b>client.closerom</b><br />
+	</div>
+	<ul>
+		<li> void client.closerom()
+		</li>
+	</ul>
+	<ul>
+		<li> Closes the loaded Rom
+		</li>
+	</ul>
+	<div class="p"><b>client.createinstance</b><br />
+	</div>
+	<ul>
+		<li> nluatable client.createinstance(string name)
+		</li>
+	</ul>
+	<ul>
+		<li> returns a default instance of the given type of object if it exists (not case sensitive). Note: This will
+			only work on objects which have a parameterless constructor. If no suitable type is found, or the type does
+			not have a parameterless constructor, then nil is returned
+		</li>
+	</ul>
+	<div class="p"><b>client.displaymessages</b><br />
+	</div>
+	<ul>
+		<li> void client.displaymessages(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> sets whether or not on screen messages will display
+		</li>
+	</ul>
+	<div class="p"><b>client.enablerewind</b><br />
+	</div>
+	<ul>
+		<li> void client.enablerewind(bool enabled)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether or not the rewind feature is enabled
+		</li>
+	</ul>
+	<div class="p"><b>client.exactsleep</b><br />
+	</div>
+	<ul>
+		<li> void client.exactsleep(int millis)
+		</li>
+	</ul>
+	<ul>
+		<li> sleeps exactly for n milliseconds
+		</li>
+	</ul>
+	<div class="p"><b>client.exit</b><br />
+	</div>
+	<ul>
+		<li> void client.exit()
+		</li>
+	</ul>
+	<ul>
+		<li> Closes the emulator
+		</li>
+	</ul>
+	<div class="p"><b>client.exitCode</b><br />
+	</div>
+	<ul>
+		<li> void client.exitCode(int exitcode)
+		</li>
+	</ul>
+	<ul>
+		<li> Closes the emulator and returns the provided code
+		</li>
+	</ul>
+	<div class="p"><b>client.frameskip</b><br />
+	</div>
+	<ul>
+		<li> void client.frameskip(int numframes)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the frame skip value of the client UI (use 0 to disable)
+		</li>
+	</ul>
+	<div class="p"><b>client.get_approx_framerate</b><br />
+	</div>
+	<ul>
+		<li> int client.get_approx_framerate()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the (host) framerate, approximated from frame durations.
+		</li>
+	</ul>
+	<div class="p"><b>client.get_lua_engine</b><br />
+	</div>
+	<ul>
+		<li> string client.get_lua_engine()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the name of the Lua engine currently in use
+		</li>
+	</ul>
+	<div class="p"><b>client.getavailabletools</b><br />
+	</div>
+	<ul>
+		<li> nluatable client.getavailabletools()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a list of the tools currently open
+		</li>
+	</ul>
+	<div class="p"><b>client.getconfig</b><br />
+	</div>
+	<ul>
+		<li> object client.getconfig()
+		</li>
+	</ul>
+	<ul>
+		<li> gets the current config settings object
+		</li>
+	</ul>
+	<div class="p"><b>client.GetSoundOn</b><br />
+	</div>
+	<ul>
+		<li> bool client.GetSoundOn()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the state of the Sound On toggle
+		</li>
+	</ul>
+	<div class="p"><b>client.gettargetscanlineintensity</b><br />
+	</div>
+	<ul>
+		<li> int client.gettargetscanlineintensity()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the current scanline intensity setting, used for the scanline display filter
+		</li>
+	</ul>
+	<div class="p"><b>client.gettool</b><br />
+	</div>
+	<ul>
+		<li> nluatable client.gettool(string name)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns an object that represents a tool of the given name (not case sensitive). If the tool is not open,
+			it will be loaded if available. Use getavailabletools to get a list of names
+		</li>
+	</ul>
+	<div class="p"><b>client.getversion</b><br />
+	</div>
+	<ul>
+		<li> string client.getversion()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the current stable BizHawk version
+		</li>
+	</ul>
+	<div class="p"><b>client.getwindowsize</b><br />
+	</div>
+	<ul>
+		<li> int client.getwindowsize()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the main window's size Possible values are 1, 2, 3, 4, 5, and 10
+		</li>
+	</ul>
+	<div class="p"><b>client.invisibleemulation</b><br />
+	</div>
+	<ul>
+		<li> void client.invisibleemulation(bool invisible)
+		</li>
+	</ul>
+	<ul>
+		<li> Disables and enables emulator updates
+		</li>
+	</ul>
+	<div class="p"><b>client.ispaused</b><br />
+	</div>
+	<ul>
+		<li> bool client.ispaused()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns true if emulator is paused, otherwise, false
+		</li>
+	</ul>
+	<div class="p"><b>client.isseeking</b><br />
+	</div>
+	<ul>
+		<li> bool client.isseeking()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns true if emulator is seeking, otherwise, false
+		</li>
+	</ul>
+	<div class="p"><b>client.isturbo</b><br />
+	</div>
+	<ul>
+		<li> bool client.isturbo()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns true if emulator is in turbo mode, otherwise, false
+		</li>
+	</ul>
+	<div class="p"><b>client.opencheats</b><br />
+	</div>
+	<ul>
+		<li> void client.opencheats()
+		</li>
+	</ul>
+	<ul>
+		<li> opens the Cheats dialog
+		</li>
+	</ul>
+	<div class="p"><b>client.openhexeditor</b><br />
+	</div>
+	<ul>
+		<li> void client.openhexeditor()
+		</li>
+	</ul>
+	<ul>
+		<li> opens the Hex Editor dialog
+		</li>
+	</ul>
+	<div class="p"><b>client.openramsearch</b><br />
+	</div>
+	<ul>
+		<li> void client.openramsearch()
+		</li>
+	</ul>
+	<ul>
+		<li> opens the RAM Search dialog
+		</li>
+	</ul>
+	<div class="p"><b>client.openramwatch</b><br />
+	</div>
+	<ul>
+		<li> void client.openramwatch()
+		</li>
+	</ul>
+	<ul>
+		<li> opens the RAM Watch dialog
+		</li>
+	</ul>
+	<div class="p"><b>client.openrom</b><br />
+	</div>
+	<ul>
+		<li> bool client.openrom(string path)
+		</li>
+	</ul>
+	<ul>
+		<li> Loads a ROM from the given path. Returns true if the ROM was successfully loaded, otherwise false.
+		</li>
+	</ul>
+	<div class="p"><b>client.opentasstudio</b><br />
+	</div>
+	<ul>
+		<li> void client.opentasstudio()
+		</li>
+	</ul>
+	<ul>
+		<li> opens the TAStudio dialog
+		</li>
+	</ul>
+	<div class="p"><b>client.opentoolbox</b><br />
+	</div>
+	<ul>
+		<li> void client.opentoolbox()
+		</li>
+	</ul>
+	<ul>
+		<li> opens the Toolbox Dialog
+		</li>
+	</ul>
+	<div class="p"><b>client.opentracelogger</b><br />
+	</div>
+	<ul>
+		<li> void client.opentracelogger()
+		</li>
+	</ul>
+	<ul>
+		<li> opens the tracelogger if it is available for the given core
+		</li>
+	</ul>
+	<div class="p"><b>client.pause</b><br />
+	</div>
+	<ul>
+		<li> void client.pause()
+		</li>
+	</ul>
+	<ul>
+		<li> Pauses the emulator
+		</li>
+	</ul>
+	<div class="p"><b>client.pause_av</b><br />
+	</div>
+	<ul>
+		<li> void client.pause_av()
+		</li>
+	</ul>
+	<ul>
+		<li> If currently capturing Audio/Video, this will suspend the record. Frames will not be captured into the AV
+			until client.unpause_av() is called
+		</li>
+	</ul>
+	<div class="p"><b>client.reboot_core</b><br />
+	</div>
+	<ul>
+		<li> void client.reboot_core()
+		</li>
+	</ul>
+	<ul>
+		<li> Reboots the currently loaded core
+		</li>
+	</ul>
+	<div class="p"><b>client.removecheat</b><br />
+	</div>
+	<ul>
+		<li> void client.removecheat(string code)
+		</li>
+	</ul>
+	<ul>
+		<li> removes a cheat, if it already exists
+		</li>
+	</ul>
+	<div class="p"><b>client.saveram</b><br />
+	</div>
+	<ul>
+		<li> void client.saveram()
+		</li>
+	</ul>
+	<ul>
+		<li> flushes save ram to disk
+		</li>
+	</ul>
+	<div class="p"><b>client.screenheight</b><br />
+	</div>
+	<ul>
+		<li> int client.screenheight()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the current height in pixels of the emulator's drawing area
+		</li>
+	</ul>
+	<div class="p"><b>client.screenshot</b><br />
+	</div>
+	<ul>
+		<li> void client.screenshot([string path = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> if a parameter is passed it will function as the Screenshot As menu item of EmuHawk, else it will function
+			as the Screenshot menu item
+		</li>
+	</ul>
+	<div class="p"><b>client.screenshottoclipboard</b><br />
+	</div>
+	<ul>
+		<li> void client.screenshottoclipboard()
+		</li>
+	</ul>
+	<ul>
+		<li> Performs the same function as EmuHawk's Screenshot To Clipboard menu item
+		</li>
+	</ul>
+	<div class="p"><b>client.screenwidth</b><br />
+	</div>
+	<ul>
+		<li> int client.screenwidth()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the current width in pixels of the emulator's drawing area
+		</li>
+	</ul>
+	<div class="p"><b>client.seekframe</b><br />
+	</div>
+	<ul>
+		<li> void client.seekframe(int frame)
+		</li>
+	</ul>
+	<ul>
+		<li> Makes the emulator seek to the frame specified
+		</li>
+	</ul>
+	<div class="p"><b>client.SetClientExtraPadding</b><br />
+	</div>
+	<ul>
+		<li> void client.SetClientExtraPadding(int left, int top, int right, int bottom)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the extra padding added to the 'native' surface so that you can draw HUD elements in predictable
+			placements
+		</li>
+	</ul>
+	<div class="p"><b>client.SetGameExtraPadding</b><br />
+	</div>
+	<ul>
+		<li> void client.SetGameExtraPadding(int left, int top, int right, int bottom)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the extra padding added to the 'emu' surface so that you can draw HUD elements in predictable
+			placements
+		</li>
+	</ul>
+	<div class="p"><b>client.setscreenshotosd</b><br />
+	</div>
+	<ul>
+		<li> void client.setscreenshotosd(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the screenshot Capture OSD property of the client
+		</li>
+	</ul>
+	<div class="p"><b>client.SetSoundOn</b><br />
+	</div>
+	<ul>
+		<li> void client.SetSoundOn(bool enable)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the state of the Sound On toggle
+		</li>
+	</ul>
+	<div class="p"><b>client.settargetscanlineintensity</b><br />
+	</div>
+	<ul>
+		<li> void client.settargetscanlineintensity(int val)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the current scanline intensity setting, used for the scanline display filter
+		</li>
+	</ul>
+	<div class="p"><b>client.setwindowsize</b><br />
+	</div>
+	<ul>
+		<li> void client.setwindowsize(int size)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the main window's size to the give value. Accepted values are 1, 2, 3, 4, 5, and 10
+		</li>
+	</ul>
+	<div class="p"><b>client.sleep</b><br />
+	</div>
+	<ul>
+		<li> void client.sleep(int millis)
+		</li>
+	</ul>
+	<ul>
+		<li> sleeps for n milliseconds
+		</li>
+	</ul>
+	<div class="p"><b>client.speedmode</b><br />
+	</div>
+	<ul>
+		<li> void client.speedmode(int percent)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the speed of the emulator (in terms of percent)
+		</li>
+	</ul>
+	<div class="p"><b>client.togglepause</b><br />
+	</div>
+	<ul>
+		<li> void client.togglepause()
+		</li>
+	</ul>
+	<ul>
+		<li> Toggles the current pause state
+		</li>
+	</ul>
+	<div class="p"><b>client.transformPoint</b><br />
+	</div>
+	<ul>
+		<li> nluatable client.transformPoint(int x, int y)
+		</li>
+	</ul>
+	<ul>
+		<li> Transforms a point (x, y) in emulator space to a point in client space
+		</li>
+	</ul>
+	<div class="p"><b>client.unpause</b><br />
+	</div>
+	<ul>
+		<li> void client.unpause()
+		</li>
+	</ul>
+	<ul>
+		<li> Unpauses the emulator
+		</li>
+	</ul>
+	<div class="p"><b>client.unpause_av</b><br />
+	</div>
+	<ul>
+		<li> void client.unpause_av()
+		</li>
+	</ul>
+	<ul>
+		<li> If currently capturing Audio/Video this resumes capturing
+		</li>
+	</ul>
+	<div class="p"><b>client.xpos</b><br />
+	</div>
+	<ul>
+		<li> int client.xpos()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the x value of the screen position where the client currently sits
+		</li>
+	</ul>
+	<div class="p"><b>client.ypos</b><br />
+	</div>
+	<ul>
+		<li> int client.ypos()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the y value of the screen position where the client currently sits
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-3" class="tab-pane fade">
+	<div class="p">A library for communicating with other programs
+	</div>
+	<div class="p"><b>comm.getluafunctionslist</b><br />
+	</div>
+	<ul>
+		<li> string comm.getluafunctionslist()
+		</li>
+	</ul>
+	<ul>
+		<li> returns a list of implemented functions
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpGet</b><br />
+	</div>
+	<ul>
+		<li> string comm.httpGet(string url)
+		</li>
+	</ul>
+	<ul>
+		<li> makes a HTTP GET request
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpGetGetUrl</b><br />
+	</div>
+	<ul>
+		<li> string comm.httpGetGetUrl()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets HTTP GET URL
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpGetPostUrl</b><br />
+	</div>
+	<ul>
+		<li> string comm.httpGetPostUrl()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets HTTP POST URL
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpPost</b><br />
+	</div>
+	<ul>
+		<li> string comm.httpPost(string url, string payload)
+		</li>
+	</ul>
+	<ul>
+		<li> makes a HTTP POST request
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpPostScreenshot</b><br />
+	</div>
+	<ul>
+		<li> string comm.httpPostScreenshot()
+		</li>
+	</ul>
+	<ul>
+		<li> HTTP POST screenshot
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpSetGetUrl</b><br />
+	</div>
+	<ul>
+		<li> void comm.httpSetGetUrl(string url)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets HTTP GET URL
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpSetPostUrl</b><br />
+	</div>
+	<ul>
+		<li> void comm.httpSetPostUrl(string url)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets HTTP POST URL
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpSetTimeout</b><br />
+	</div>
+	<ul>
+		<li> void comm.httpSetTimeout(int timeout)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets HTTP timeout in milliseconds
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpTest</b><br />
+	</div>
+	<ul>
+		<li> string comm.httpTest()
+		</li>
+	</ul>
+	<ul>
+		<li> tests HTTP connections
+		</li>
+	</ul>
+	<div class="p"><b>comm.httpTestGet</b><br />
+	</div>
+	<ul>
+		<li> string comm.httpTestGet()
+		</li>
+	</ul>
+	<ul>
+		<li> tests the HTTP GET connection
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfCopyFromMemory</b><br />
+	</div>
+	<ul>
+		<li> int comm.mmfCopyFromMemory(string mmf_filename, long addr, int length, string domain)
+		</li>
+	</ul>
+	<ul>
+		<li> Copy a section of the memory to a memory mapped file
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfCopyToMemory</b><br />
+	</div>
+	<ul>
+		<li> void comm.mmfCopyToMemory(string mmf_filename, long addr, int length, string domain)
+		</li>
+	</ul>
+	<ul>
+		<li> Copy a memory mapped file to a section of the memory
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfGetFilename</b><br />
+	</div>
+	<ul>
+		<li> string comm.mmfGetFilename()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the filename for the screenshots
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfRead</b><br />
+	</div>
+	<ul>
+		<li> string comm.mmfRead(string mmf_filename, int expectedsize)
+		</li>
+	</ul>
+	<ul>
+		<li> Reads a string from a memory mapped file
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfReadBytes</b><br />
+	</div>
+	<ul>
+		<li> nluatable comm.mmfReadBytes(string mmf_filename, int expectedsize)
+		</li>
+	</ul>
+	<ul>
+		<li> Reads bytes from a memory mapped file
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfScreenshot</b><br />
+	</div>
+	<ul>
+		<li> int comm.mmfScreenshot()
+		</li>
+	</ul>
+	<ul>
+		<li> Saves screenshot to memory mapped file
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfSetFilename</b><br />
+	</div>
+	<ul>
+		<li> void comm.mmfSetFilename(string filename)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the filename for the screenshots
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfWrite</b><br />
+	</div>
+	<ul>
+		<li> int comm.mmfWrite(string mmf_filename, string outputstring )
+		</li>
+	</ul>
+	<ul>
+		<li> Writes a string to a memory mapped file
+		</li>
+	</ul>
+	<div class="p"><b>comm.mmfWriteBytes</b><br />
+	</div>
+	<ul>
+		<li> int comm.mmfWriteBytes(string mmf_filename, nluatable bytearray)
+		</li>
+	</ul>
+	<ul>
+		<li> Write bytes to a memory mapped file
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerGetInfo</b><br />
+	</div>
+	<ul>
+		<li> string comm.socketServerGetInfo()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the IP and port of the Lua socket server
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerGetIp</b><br />
+	</div>
+	<ul>
+		<li> string comm.socketServerGetIp()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the IP address of the Lua socket server
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerGetPort</b><br />
+	</div>
+	<ul>
+		<li> int? comm.socketServerGetPort()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the port of the Lua socket server
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerIsConnected</b><br />
+	</div>
+	<ul>
+		<li> bool comm.socketServerIsConnected()
+		</li>
+	</ul>
+	<ul>
+		<li> socketServerIsConnected
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerResponse</b><br />
+	</div>
+	<ul>
+		<li> string comm.socketServerResponse()
+		</li>
+	</ul>
+	<ul>
+		<li> Receives a message from the Socket server. Since BizHawk 2.6.2, all responses must be of the form
+			$"{msg.Length:D} {msg}" i.e. prefixed with the length in base-10 and a space.
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerScreenShot</b><br />
+	</div>
+	<ul>
+		<li> string comm.socketServerScreenShot()
+		</li>
+	</ul>
+	<ul>
+		<li> sends a screenshot to the Socket server
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerScreenShotResponse</b><br />
+	</div>
+	<ul>
+		<li> string comm.socketServerScreenShotResponse()
+		</li>
+	</ul>
+	<ul>
+		<li> sends a screenshot to the Socket server and retrieves the response
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerSend</b><br />
+	</div>
+	<ul>
+		<li> int comm.socketServerSend(string sendstring )
+		</li>
+	</ul>
+	<ul>
+		<li> sends a string to the Socket server
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerSendBytes</b><br />
+	</div>
+	<ul>
+		<li> int comm.socketServerSendBytes(nluatable bytearray)
+		</li>
+	</ul>
+	<ul>
+		<li> sends bytes to the Socket server
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerSetIp</b><br />
+	</div>
+	<ul>
+		<li> void comm.socketServerSetIp(string ip)
+		</li>
+	</ul>
+	<ul>
+		<li> sets the IP address of the Lua socket server
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerSetPort</b><br />
+	</div>
+	<ul>
+		<li> void comm.socketServerSetPort(ushort port)
+		</li>
+	</ul>
+	<ul>
+		<li> sets the port of the Lua socket server
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerSetTimeout</b><br />
+	</div>
+	<ul>
+		<li> void comm.socketServerSetTimeout(int timeout)
+		</li>
+	</ul>
+	<ul>
+		<li> sets the timeout in milliseconds for receiving messages
+		</li>
+	</ul>
+	<div class="p"><b>comm.socketServerSuccessful</b><br />
+	</div>
+	<ul>
+		<li> bool comm.socketServerSuccessful()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the status of the last Socket server action
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-4" class="tab-pane fade">
+	<div class="p"><b>console.clear</b><br />
+	</div>
+	<ul>
+		<li> void console.clear()
+		</li>
+	</ul>
+	<ul>
+		<li> clears the output box of the Lua Console window
+		</li>
+	</ul>
+	<div class="p"><b>console.getluafunctionslist</b><br />
+	</div>
+	<ul>
+		<li> string console.getluafunctionslist()
+		</li>
+	</ul>
+	<ul>
+		<li> returns a list of implemented functions
+		</li>
+	</ul>
+	<div class="p"><b>console.log</b><br />
+	</div>
+	<ul>
+		<li> void console.log(object[] outputs)
+		</li>
+	</ul>
+	<ul>
+		<li> Outputs the given object to the output box on the Lua Console dialog. Note: Can accept a LuaTable
+		</li>
+	</ul>
+	<div class="p"><b>console.write</b><br />
+	</div>
+	<ul>
+		<li> void console.write(object[] outputs)
+		</li>
+	</ul>
+	<ul>
+		<li> Outputs the given object to the output box on the Lua Console dialog. Note: Can accept a LuaTable
+		</li>
+	</ul>
+	<div class="p"><b>console.writeline</b><br />
+	</div>
+	<ul>
+		<li> void console.writeline(object[] outputs)
+		</li>
+	</ul>
+	<ul>
+		<li> Outputs the given object to the output box on the Lua Console dialog. Note: Can accept a LuaTable
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-5" class="tab-pane fade">
+	<div class="p">A library for interacting with the currently loaded emulator core
+	</div>
+	<div class="p"><b>emu.disassemble</b><br />
+	</div>
+	<ul>
+		<li> nluatable emu.disassemble(uint pc, [string name = ])
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the disassembly object (disasm string and length int) for the given PC address. Uses System Bus
+			domain if no domain name provided
+		</li>
+	</ul>
+	<div class="p"><b>emu.displayvsync</b><br />
+	</div>
+	<ul>
+		<li> void emu.displayvsync(bool enabled)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the display vsync property of the emulator
+		</li>
+	</ul>
+	<div class="p"><b>emu.frameadvance</b><br />
+	</div>
+	<ul>
+		<li> void emu.frameadvance()
+		</li>
+	</ul>
+	<ul>
+		<li> Signals to the emulator to resume emulation. Necessary for any lua script while loop or else the emulator
+			will freeze!
+		</li>
+	</ul>
+	<div class="p"><b>emu.framecount</b><br />
+	</div>
+	<ul>
+		<li> int emu.framecount()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the current frame count
+		</li>
+	</ul>
+	<div class="p"><b>emu.getboardname</b><br />
+	</div>
+	<ul>
+		<li> string emu.getboardname()
+		</li>
+	</ul>
+	<ul>
+		<li> returns (if available) the board name of the loaded ROM
+		</li>
+	</ul>
+	<div class="p"><b>emu.getdisplaytype</b><br />
+	</div>
+	<ul>
+		<li> string emu.getdisplaytype()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the display type (PAL vs NTSC) that the emulator is currently running in
+		</li>
+	</ul>
+	<div class="p"><b>emu.getluacore</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> string emu.getluacore()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the name of the Lua core currently in use
+		</li>
+	</ul>
+	<div class="p"><b>emu.getregister</b><br />
+	</div>
+	<ul>
+		<li> int emu.getregister(string name)
+		</li>
+	</ul>
+	<ul>
+		<li> returns the value of a cpu register or flag specified by name. For a complete list of possible registers or
+			flags for a given core, use getregisters
+		</li>
+	</ul>
+	<div class="p"><b>emu.getregisters</b><br />
+	</div>
+	<ul>
+		<li> nluatable emu.getregisters()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the complete set of available flags and registers for a given core
+		</li>
+	</ul>
+	<div class="p"><b>emu.getsystemid</b><br />
+	</div>
+	<ul>
+		<li> string emu.getsystemid()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the ID string of the current core loaded. Note: No ROM loaded will return the string NULL
+		</li>
+	</ul>
+	<div class="p"><b>emu.islagged</b><br />
+	</div>
+	<ul>
+		<li> bool emu.islagged()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether or not the current frame is a lag frame
+		</li>
+	</ul>
+	<div class="p"><b>emu.lagcount</b><br />
+	</div>
+	<ul>
+		<li> int emu.lagcount()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the current lag count
+		</li>
+	</ul>
+	<div class="p"><b>emu.limitframerate</b><br />
+	</div>
+	<ul>
+		<li> void emu.limitframerate(bool enabled)
+		</li>
+	</ul>
+	<ul>
+		<li> sets the limit framerate property of the emulator
+		</li>
+	</ul>
+	<div class="p"><b>emu.minimizeframeskip</b><br />
+	</div>
+	<ul>
+		<li> void emu.minimizeframeskip(bool enabled)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the autominimizeframeskip value of the emulator
+		</li>
+	</ul>
+	<div class="p"><b>emu.setislagged</b><br />
+	</div>
+	<ul>
+		<li> void emu.setislagged([bool value = True])
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the lag flag for the current frame. If no value is provided, it will default to true
+		</li>
+	</ul>
+	<div class="p"><b>emu.setlagcount</b><br />
+	</div>
+	<ul>
+		<li> void emu.setlagcount(int count)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the current lag count
+		</li>
+	</ul>
+	<div class="p"><b>emu.setregister</b><br />
+	</div>
+	<ul>
+		<li> void emu.setregister(string register, int value)
+		</li>
+	</ul>
+	<ul>
+		<li> sets the given register name to the given value
+		</li>
+	</ul>
+	<div class="p"><b>emu.setrenderplanes</b><br />
+	</div>
+	<ul>
+		<li> void emu.setrenderplanes(bool[] luaparam)
+		</li>
+	</ul>
+	<ul>
+		<li> Toggles the drawing of sprites and background planes. Set to false or nil to disable a pane, anything else
+			will draw them
+		</li>
+	</ul>
+	<div class="p"><b>emu.totalexecutedcycles</b><br />
+	</div>
+	<ul>
+		<li> long emu.totalexecutedcycles()
+		</li>
+	</ul>
+	<ul>
+		<li> gets the total number of executed cpu cycles
+		</li>
+	</ul>
+	<div class="p"><b>emu.yield</b><br />
+	</div>
+	<ul>
+		<li> void emu.yield()
+		</li>
+	</ul>
+	<ul>
+		<li> allows a script to run while emulation is paused and interact with the gui/main window in realtime
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-6" class="tab-pane fade">
+	<div class="p">A library for registering lua functions to emulator events.
+	</div>
+	<pre>All events support multiple registered methods.
+</pre>
+	<div class="p">All registered event methods can be named and return a Guid when registered
+	</div>
+	<div class="p"><b>event.availableScopes</b><br />
+	</div>
+	<ul>
+		<li> nluatable event.availableScopes()
+		</li>
+	</ul>
+	<ul>
+		<li> Lists the available scopes that can be specified for on_bus_* events
+		</li>
+	</ul>
+	<div class="p"><b>event.can_use_callback_params</b><br />
+	</div>
+	<ul>
+		<li> bool event.can_use_callback_params([string subset = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether EmuHawk will pass arguments to callbacks. The current version passes arguments to "memory"
+			callbacks (RAM/ROM/bus R/W), so this function will return true for that input. (It returns false for any
+			other input.) This tells you whether it's necessary to enable workarounds/hacks because a script is running
+			in a version without parameter support.
+		</li>
+	</ul>
+	<div class="p"><b>event.on_bus_exec</b><br />
+	</div>
+	<ul>
+		<li> string event.on_bus_exec(nluafunc luaf, uint address, [string name = nil], [string scope = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires immediately before the given address is executed by the core. Your callback can have 3 parameters
+			<code>(addr, val, flags)</code>. <code>val</code> is the value to be executed (or <code>0</code> always, if
+			this feature is only partially implemented).
+		</li>
+	</ul>
+	<div class="p"><b>event.on_bus_exec_any</b><br />
+	</div>
+	<ul>
+		<li> string event.on_bus_exec_any(nluafunc luaf, [string name = nil], [string scope = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires immediately before every instruction executed (in the specified scope) by the core (CPU-intensive).
+			Your callback can have 3 parameters <code>(addr, val, flags)</code>. <code>val</code> is the value to be
+			executed (or <code>0</code> always, if this feature is only partially implemented).
+		</li>
+	</ul>
+	<div class="p"><b>event.on_bus_read</b><br />
+	</div>
+	<ul>
+		<li> string event.on_bus_read(nluafunc luaf, [uint? address = nil], [string name = nil], [string scope = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires immediately before the given address is read by the core. Your callback can have 3 parameters
+			<code>(addr, val, flags)</code>. <code>val</code> is the value read. If no address is given, it will fire on
+			every memory read.
+		</li>
+	</ul>
+	<div class="p"><b>event.on_bus_write</b><br />
+	</div>
+	<ul>
+		<li> string event.on_bus_write(nluafunc luaf, [uint? address = nil], [string name = nil], [string scope = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires immediately before the given address is written by the core. Your callback can have 3 parameters
+			<code>(addr, val, flags)</code>. <code>val</code> is the value to be written (or <code>0</code> always, if
+			this feature is only partially implemented). If no address is given, it will fire on every memory write.
+		</li>
+	</ul>
+	<div class="p"><b>event.onconsoleclose</b><br />
+	</div>
+	<ul>
+		<li> string event.onconsoleclose(nluafunc luaf, [string name = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires when the emulator console closes
+		</li>
+	</ul>
+	<div class="p"><b>event.onexit</b><br />
+	</div>
+	<ul>
+		<li> string event.onexit(nluafunc luaf, [string name = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires after the calling script has stopped
+		</li>
+	</ul>
+	<div class="p"><b>event.onframeend</b><br />
+	</div>
+	<ul>
+		<li> string event.onframeend(nluafunc luaf, [string name = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Calls the given lua function at the end of each frame, after all emulation and drawing has completed. Note:
+			this is the default behavior of lua scripts
+		</li>
+	</ul>
+	<div class="p"><b>event.onframestart</b><br />
+	</div>
+	<ul>
+		<li> string event.onframestart(nluafunc luaf, [string name = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Calls the given lua function at the beginning of each frame before any emulation and drawing occurs
+		</li>
+	</ul>
+	<div class="p"><b>event.oninputpoll</b><br />
+	</div>
+	<ul>
+		<li> string event.oninputpoll(nluafunc luaf, [string name = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Calls the given lua function after each time the emulator core polls for input
+		</li>
+	</ul>
+	<div class="p"><b>event.onloadstate</b><br />
+	</div>
+	<ul>
+		<li> string event.onloadstate(nluafunc luaf, [string name = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires after a state is loaded. Your callback can have 1 parameter, which will be the name of the loaded
+			state.
+		</li>
+	</ul>
+	<div class="p"><b>event.onmemoryexecute</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> string event.onmemoryexecute(nluafunc luaf, uint address, [string name = nil], [string
+			scope = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires immediately before the given address is executed by the core. Your callback can have 3 parameters
+			<code>(addr, val, flags)</code>. <code>val</code> is the value to be executed (or <code>0</code> always, if
+			this feature is only partially implemented).
+		</li>
+	</ul>
+	<div class="p"><b>event.onmemoryexecuteany</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> string event.onmemoryexecuteany(nluafunc luaf, [string name = nil], [string scope =
+			nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires immediately before every instruction executed (in the specified scope) by the core (CPU-intensive).
+			Your callback can have 3 parameters <code>(addr, val, flags)</code>. <code>val</code> is the value to be
+			executed (or <code>0</code> always, if this feature is only partially implemented).
+		</li>
+	</ul>
+	<div class="p"><b>event.onmemoryread</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> string event.onmemoryread(nluafunc luaf, [uint? address = nil], [string name = nil],
+			[string scope = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires immediately before the given address is read by the core. Your callback can have 3 parameters
+			<code>(addr, val, flags)</code>. <code>val</code> is the value read. If no address is given, it will fire on
+			every memory read.
+		</li>
+	</ul>
+	<div class="p"><b>event.onmemorywrite</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> string event.onmemorywrite(nluafunc luaf, [uint? address = nil], [string name = nil],
+			[string scope = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires immediately before the given address is written by the core. Your callback can have 3 parameters
+			<code>(addr, val, flags)</code>. <code>val</code> is the value to be written (or <code>0</code> always, if
+			this feature is only partially implemented). If no address is given, it will fire on every memory write.
+		</li>
+	</ul>
+	<div class="p"><b>event.onsavestate</b><br />
+	</div>
+	<ul>
+		<li> string event.onsavestate(nluafunc luaf, [string name = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Fires after a state is saved. Your callback can have 1 parameter, which will be the name of the saved
+			state.
+		</li>
+	</ul>
+	<div class="p"><b>event.unregisterbyid</b><br />
+	</div>
+	<ul>
+		<li> bool event.unregisterbyid(string guid)
+		</li>
+	</ul>
+	<ul>
+		<li> Removes the registered function that matches the guid. If a function is found and remove the function will
+			return true. If unable to find a match, the function will return false.
+		</li>
+	</ul>
+	<div class="p"><b>event.unregisterbyname</b><br />
+	</div>
+	<ul>
+		<li> bool event.unregisterbyname(string name)
+		</li>
+	</ul>
+	<ul>
+		<li> Removes the first registered function that matches Name. If a function is found and remove the function
+			will return true. If unable to find a match, the function will return false.
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-7" class="tab-pane fade">
+	<div class="p">A library for creating and managing custom dialogs
+	</div>
+	<div class="p"><b>forms.addclick</b><br />
+	</div>
+	<ul>
+		<li> void forms.addclick(long handle, nluafunc clickevent)
+		</li>
+	</ul>
+	<ul>
+		<li> adds the given lua function as a click event to the given control
+		</li>
+	</ul>
+	<div class="p"><b>forms.button</b><br />
+	</div>
+	<ul>
+		<li> long forms.button(long formhandle, string caption, nluafunc clickevent, [int? x = nil], [int? y = nil],
+			[int? width = nil], [int? height = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a button control on the form at formHandle, returning an opaque handle to the new control. The
+			button's label will be set to the value passed for the caption parameter. The callback passed for the
+			clickEvent parameter will be invoked whenever the button is clicked. If the x and y parameters are both
+			nil/unset, the control's Location property won't be set. If both are specified, the control will be
+			positioned at (x, y) within the given form. If the width and height parameters are both nil/unset, the
+			control will be the default size. If both are specified, the control will be that size.
+		</li>
+	</ul>
+	<div class="p"><b>forms.checkbox</b><br />
+	</div>
+	<ul>
+		<li> long forms.checkbox(long formhandle, string caption, [int? x = nil], [int? y = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a checkbox control on the form at formHandle, returning an opaque handle to the new control. The
+			checkbox' label will be set to the value passed for the caption parameter. If the x and y parameters are
+			both nil/unset, the control's Location property won't be set. If both are specified, the control will be
+			positioned at (x, y) within the given form.
+		</li>
+	</ul>
+	<div class="p"><b>forms.clear</b><br />
+	</div>
+	<ul>
+		<li> void forms.clear(long componenthandle, luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Clears the canvas
+		</li>
+	</ul>
+	<div class="p"><b>forms.clearclicks</b><br />
+	</div>
+	<ul>
+		<li> void forms.clearclicks(long handle)
+		</li>
+	</ul>
+	<ul>
+		<li> Removes all click events from the given widget at the specified handle
+		</li>
+	</ul>
+	<div class="p"><b>forms.clearImageCache</b><br />
+	</div>
+	<ul>
+		<li> void forms.clearImageCache(long componenthandle)
+		</li>
+	</ul>
+	<ul>
+		<li> clears the image cache that is built up by using gui.drawImage, also releases the file handle for cached
+			images
+		</li>
+	</ul>
+	<div class="p"><b>forms.createcolor</b><br />
+	</div>
+	<ul>
+		<li> color forms.createcolor(int r, int g, int b, int a)
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a color object useful with setproperty
+		</li>
+	</ul>
+	<div class="p"><b>forms.destroy</b><br />
+	</div>
+	<ul>
+		<li> bool forms.destroy(long handle)
+		</li>
+	</ul>
+	<ul>
+		<li> Closes and removes a Lua created form with the specified handle. If a dialog was found and removed true is
+			returned, else false
+		</li>
+	</ul>
+	<div class="p"><b>forms.destroyall</b><br />
+	</div>
+	<ul>
+		<li> void forms.destroyall()
+		</li>
+	</ul>
+	<ul>
+		<li> Closes and removes all Lua created dialogs
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawArc</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawArc(long componenthandle, int x, int y, int width, int height, int startangle, int
+			sweepangle, [luacolor line = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> draws a Arc shape at the given coordinates and the given width and height
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawAxis</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawAxis(long componenthandle, int x, int y, int size, [luacolor color = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws an axis of the specified size at the coordinate pair.)
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawBezier</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawBezier(long componenthandle, nluatable points, luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a Bezier curve using the table of coordinates provided in the given color
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawBox</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawBox(long componenthandle, int x, int y, int x2, int y2, [luacolor line = nil], [luacolor
+			background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a rectangle on screen from x1/y1 to x2/y2. Same as drawRectangle except it receives two points intead
+			of a point and width/height
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawEllipse</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawEllipse(long componenthandle, int x, int y, int width, int height, [luacolor line = nil],
+			[luacolor background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws an ellipse at the given coordinates and the given width and height. Line is the color of the ellipse.
+			Background is the optional fill color
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawIcon</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawIcon(long componenthandle, string path, int x, int y, [int? width = nil], [int? height =
+			nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the image in the given .ico file to a canvas. Canvases can be created with the forms.pictureBox
+			function. The image will be positioned such that its top-left corner will be at (x, y) on the canvas. If
+			width and height are both nil/unset, the image will be drawn at full size (100%). If both are specified, the
+			image will be stretched to that size.
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawImage</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawImage(long componenthandle, string path, int x, int y, [int? width = nil], [int? height =
+			nil], [bool cache = True])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the image in the given file (.bmp, .gif, .jpg, .png, or .tif) to a canvas. Canvases can be created
+			with the forms.pictureBox function. The image will be positioned such that its top-left corner will be at
+			(x, y) on the canvas. If width and height are both nil/unset, the image will be drawn at full size (100%).
+			If both are specified, the image will be stretched to that size. If true is passed for the cache parameter,
+			or if it's omitted, the file contents will be cached and re-used next time this function is called with the
+			same path and canvas handle. The canvas' cache can be cleared with forms.clearImageCache.
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawImageRegion</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawImageRegion(long componenthandle, string path, int source_x, int source_y, int source_width,
+			int source_height, int dest_x, int dest_y, [int? dest_width = nil], [int? dest_height = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws part of the image in the given file (.bmp, .gif, .jpg, .png, or .tif) to a canvas. Canvases can be
+			created with the forms.pictureBox function. Consult this diagram to see its usage (renders embedded on the
+			TASVideos Wiki): <img
+				src="https://user-images.githubusercontent.com/13409956/198868522-55dc1e5f-ae67-4ebb-a75f-558656cb4468.png"
+				alt="Diagram showing how to use forms.drawImageRegion" class="embed mw-100" /> The file contents will be
+			cached and re-used next time this function is called with the same path and canvas handle. The canvas' cache
+			can be cleared with forms.clearImageCache.
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawLine</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawLine(long componenthandle, int x1, int y1, int x2, int y2, [luacolor color = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a line from the first coordinate pair to the 2nd. Color is optional (if not specified it will be
+			drawn black)
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawPie</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawPie(long componenthandle, int x, int y, int width, int height, int startangle, int
+			sweepangle, [luacolor line = nil], [luacolor background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> draws a Pie shape at the given coordinates and the given width and height
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawPixel</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawPixel(long componenthandle, int x, int y, [luacolor color = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a single pixel at the given coordinates in the given color. Color is optional (if not specified it
+			will be drawn black)
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawPolygon</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawPolygon(long componenthandle, nluatable points, [int? x = nil], [int? y = nil], [luacolor
+			line = nil], [luacolor background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a polygon (cyclic polyline) to a canvas. Canvases can be created with the forms.pictureBox function.
+			The polygon must be given as a list of length-2 lists (co-ordinate pairs). Each pair is interpreted as the
+			absolute co-ordinates of one of the vertices, and these are joined together in sequence to form a polygon.
+			The last is connected to the first; you DON'T need to end with a copy of the first to close the cycle. If
+			the x and y parameters are both specified, the whole polygon will be offset by that amount. If a value is
+			passed for the line parameter, the polygon's edges are drawn in that color (i.e. the stroke color). If a
+			value is passed for the background parameter, the polygon's face is filled in that color.
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawRectangle</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawRectangle(long componenthandle, int x, int y, int width, int height, [luacolor line = nil],
+			[luacolor background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a rectangle at the given coordinate and the given width and height. Line is the color of the box.
+			Background is the optional fill color
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawString</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawString(long componenthandle, int x, int y, string message, [luacolor forecolor = nil],
+			[luacolor backcolor = nil], [int? fontsize = nil], [string fontfamily = nil], [string fontstyle = nil],
+			[string horizalign = nil], [string vertalign = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Alias of DrawText()
+		</li>
+	</ul>
+	<div class="p"><b>forms.drawText</b><br />
+	</div>
+	<ul>
+		<li> void forms.drawText(long componenthandle, int x, int y, string message, [luacolor forecolor = nil],
+			[luacolor backcolor = nil], [int? fontsize = nil], [string fontfamily = nil], [string fontstyle = nil],
+			[string horizalign = nil], [string vertalign = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the given message at the given x,y coordinates and the given color. The default color is white. A
+			fontfamily can be specified and is monospace generic if none is specified (font family options are the same
+			as the .NET FontFamily class). The fontsize default is 12. The default font style is regular. Font style
+			options are regular, bold, italic, strikethrough, underline. Horizontal alignment options are left
+			(default), center, or right. Vertical alignment options are bottom (default), middle, or top. Alignment
+			options specify which ends of the text will be drawn at the x and y coordinates.
+		</li>
+	</ul>
+	<div class="p"><b>forms.dropdown</b><br />
+	</div>
+	<ul>
+		<li> long forms.dropdown(long formhandle, nluatable items, [int? x = nil], [int? y = nil], [int? width = nil],
+			[int? height = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a dropdown menu control on the form at formHandle, returning an opaque handle to the new control.
+			The items table should contain all the items (strings) you want to be in the menu. Items will be sorted
+			alphabetically. It doesn't matter if the items table has out-of-order keys or non-numeric keys. If the x and
+			y parameters are both nil/unset, the control's Location property won't be set. If both are specified, the
+			control will be positioned at (x, y) within the given form. If the width and height parameters are both
+			nil/unset, the control will be the default size. If both are specified, the control will be that size.
+		</li>
+	</ul>
+	<div class="p"><b>forms.getMouseX</b><br />
+	</div>
+	<ul>
+		<li> int forms.getMouseX(long componenthandle)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns an integer representation of the mouse X coordinate relative to the PictureBox.
+		</li>
+	</ul>
+	<div class="p"><b>forms.getMouseY</b><br />
+	</div>
+	<ul>
+		<li> int forms.getMouseY(long componenthandle)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns an integer representation of the mouse Y coordinate relative to the PictureBox.
+		</li>
+	</ul>
+	<div class="p"><b>forms.getproperty</b><br />
+	</div>
+	<ul>
+		<li> string forms.getproperty(long handle, string property)
+		</li>
+	</ul>
+	<ul>
+		<li> returns a string representation of the value of a property of the widget at the given handle
+		</li>
+	</ul>
+	<div class="p"><b>forms.gettext</b><br />
+	</div>
+	<ul>
+		<li> string forms.gettext(long handle)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the text property of a given form or control
+		</li>
+	</ul>
+	<div class="p"><b>forms.ischecked</b><br />
+	</div>
+	<ul>
+		<li> bool forms.ischecked(long handle)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the given checkbox's checked property
+		</li>
+	</ul>
+	<div class="p"><b>forms.label</b><br />
+	</div>
+	<ul>
+		<li> long forms.label(long formhandle, string caption, [int? x = nil], [int? y = nil], [int? width = nil], [int?
+			height = nil], [bool fixedwidth = False])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a string label control on the form at formHandle, returning an opaque handle to the new control.
+			The label text will be set to the value passed for the caption parameter. If the x and y parameters are both
+			nil/unset, the control's Location property won't be set. If both are specified, the control will be
+			positioned at (x, y) within the given form. If the width and height parameters are both nil/unset, the
+			control will be the default size. If both are specified, the control will be that size. If true is passed
+			for the fixedWidth parameters, a monospace font will be used.
+		</li>
+	</ul>
+	<div class="p"><b>forms.newform</b><br />
+	</div>
+	<ul>
+		<li> long forms.newform([int? width = nil], [int? height = nil], [string title = nil], [nluafunc onclose = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a new form (window), returning an opaque handle to it. If width and height are both nil/unset, the
+			window will be the default size. If both are specified, the window will be that size. The window's title
+			will be set to the value passed for the title parameter, or "Lua Dialog" if nil/unset. If a callback is
+			passed for the onClose parameter, it will be invoked when the window is closed.
+		</li>
+	</ul>
+	<div class="p"><b>forms.openfile</b><br />
+	</div>
+	<ul>
+		<li> string forms.openfile([string filename = nil], [string initialdirectory = nil], [string filter = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a standard openfile dialog with optional parameters for the filename, directory, and filter. The
+			return value is the directory that the user picked. If they chose to cancel, it will return an empty string
+		</li>
+	</ul>
+	<div class="p"><b>forms.pictureBox</b><br />
+	</div>
+	<ul>
+		<li> long forms.pictureBox(long formhandle, [int? x = nil], [int? y = nil], [int? width = nil], [int? height =
+			nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a drawing canvas control on the form at formHandle, returning an opaque handle to the new control.
+			If the x and y parameters are both nil/unset, the control's Location property won't be set. If both are
+			specified, the control will be positioned at (x, y) within the given form. If the width and height
+			parameters are both nil/unset, the control will be the default size. If both are specified, the control will
+			be that size.
+		</li>
+	</ul>
+	<div class="p"><b>forms.refresh</b><br />
+	</div>
+	<ul>
+		<li> void forms.refresh(long componenthandle)
+		</li>
+	</ul>
+	<ul>
+		<li> Redraws the canvas
+		</li>
+	</ul>
+	<div class="p"><b>forms.setDefaultBackgroundColor</b><br />
+	</div>
+	<ul>
+		<li> void forms.setDefaultBackgroundColor(long componenthandle, luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default background color to use in drawing methods, transparent by default
+		</li>
+	</ul>
+	<div class="p"><b>forms.setDefaultForegroundColor</b><br />
+	</div>
+	<ul>
+		<li> void forms.setDefaultForegroundColor(long componenthandle, luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default foreground color to use in drawing methods, white by default
+		</li>
+	</ul>
+	<div class="p"><b>forms.setDefaultTextBackground</b><br />
+	</div>
+	<ul>
+		<li> void forms.setDefaultTextBackground(long componenthandle, luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default backgroiund color to use in text drawing methods, half-transparent black by default
+		</li>
+	</ul>
+	<div class="p"><b>forms.setdropdownitems</b><br />
+	</div>
+	<ul>
+		<li> void forms.setdropdownitems(long handle, nluatable items, [bool alphabetize = True])
+		</li>
+	</ul>
+	<ul>
+		<li> Updates the item list of a dropdown menu. The optional third parameter toggles alphabetical sorting of
+			items, pass false to skip sorting.
+		</li>
+	</ul>
+	<div class="p"><b>forms.setlocation</b><br />
+	</div>
+	<ul>
+		<li> void forms.setlocation(long handle, int x, int y)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the location of a control or form by passing in the handle of the created object
+		</li>
+	</ul>
+	<div class="p"><b>forms.setproperty</b><br />
+	</div>
+	<ul>
+		<li> void forms.setproperty(long handle, string property, object value)
+		</li>
+	</ul>
+	<ul>
+		<li> Attempts to set the given property of the widget with the given value. Note: not all properties will be
+			able to be represented for the control to accept
+		</li>
+	</ul>
+	<div class="p"><b>forms.setsize</b><br />
+	</div>
+	<ul>
+		<li> void forms.setsize(long handle, int width, int height)
+		</li>
+	</ul>
+	<ul>
+		<li> TODO
+		</li>
+	</ul>
+	<div class="p"><b>forms.settext</b><br />
+	</div>
+	<ul>
+		<li> void forms.settext(long handle, string caption)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the text property of a control or form by passing in the handle of the created object
+		</li>
+	</ul>
+	<div class="p"><b>forms.textbox</b><br />
+	</div>
+	<ul>
+		<li> long forms.textbox(long formhandle, [string caption = nil], [int? width = nil], [int? height = nil],
+			[string boxtype = nil], [int? x = nil], [int? y = nil], [bool multiline = False], [bool fixedwidth = False],
+			[string scrollbars = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a textbox control on the form at formHandle, returning an opaque handle to the new control. The
+			initial value of the textbox will be set to the value passed for the caption parameter, or if nil/unset,
+			left blank. If the x and y parameters are both nil/unset, the control's Location property won't be set. If
+			both are specified, the control will be positioned at (x, y) within the given form. If the width and height
+			parameters are both nil/unset, the control will be the default size. If both are specified, the control will
+			be that size. Passing "HEX", "SIGNED", or "UNSIGNED" for the boxtype parameter will restrict the textbox to
+			accepting valid numbers in that format. If nil/unset, any string value can be entered. If true is passed for
+			the fixedWidth parameters, a monospace font will be used. If true is passed for the multiline parameter, the
+			textbox will accept line breaks. Passing "Vertical", "Horizontal", "Both", or "None" for the scrollbars
+			parameter will set whether the vertical scrollbar is visible for a multiline textbox, and also whether lines
+			should wrap or remain in-line with a scrollbar.
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-8" class="tab-pane fade">
+	<div class="p"><b>gameinfo.getboardtype</b><br />
+	</div>
+	<ul>
+		<li> string gameinfo.getboardtype()
+		</li>
+	</ul>
+	<ul>
+		<li> returns identifying information about the 'mapper' or similar capability used for this game. empty if no
+			such useful distinction can be drawn
+		</li>
+	</ul>
+	<div class="p"><b>gameinfo.getoptions</b><br />
+	</div>
+	<ul>
+		<li> nluatable gameinfo.getoptions()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the game options for the currently loaded rom. Options vary per platform
+		</li>
+	</ul>
+	<div class="p"><b>gameinfo.getromhash</b><br />
+	</div>
+	<ul>
+		<li> string gameinfo.getromhash()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the hash of the currently loaded rom, if a rom is loaded
+		</li>
+	</ul>
+	<div class="p"><b>gameinfo.getromname</b><br />
+	</div>
+	<ul>
+		<li> string gameinfo.getromname()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the name of the currently loaded rom, if a rom is loaded
+		</li>
+	</ul>
+	<div class="p"><b>gameinfo.getstatus</b><br />
+	</div>
+	<ul>
+		<li> string gameinfo.getstatus()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the game database status of the currently loaded rom. Statuses are for example: GoodDump, BadDump,
+			Hack, Unknown, NotInDatabase
+		</li>
+	</ul>
+	<div class="p"><b>gameinfo.indatabase</b><br />
+	</div>
+	<ul>
+		<li> bool gameinfo.indatabase()
+		</li>
+	</ul>
+	<ul>
+		<li> returns whether or not the currently loaded rom is in the game database
+		</li>
+	</ul>
+	<div class="p"><b>gameinfo.isstatusbad</b><br />
+	</div>
+	<ul>
+		<li> bool gameinfo.isstatusbad()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the currently loaded rom's game database status is considered 'bad'
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-9" class="tab-pane fade">
+	<div class="p">Functions specific to GenesisHawk (functions may not run when an Genesis game is not loaded)
+	</div>
+	<div class="p"><b>genesis.add_deepfreeze_value</b><br />
+	</div>
+	<ul>
+		<li> int genesis.add_deepfreeze_value(int address, byte value)
+		</li>
+	</ul>
+	<ul>
+		<li> Adds an address to deepfreeze to a given value. The value will not change at any point during emulation.
+		</li>
+	</ul>
+	<div class="p"><b>genesis.clear_deepfreeze_list</b><br />
+	</div>
+	<ul>
+		<li> void genesis.clear_deepfreeze_list()
+		</li>
+	</ul>
+	<ul>
+		<li> Clears the list of deep frozen variables
+		</li>
+	</ul>
+	<div class="p"><b>genesis.getlayer_bga</b><br />
+	</div>
+	<ul>
+		<li> bool genesis.getlayer_bga()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the bg layer A is displayed
+		</li>
+	</ul>
+	<div class="p"><b>genesis.getlayer_bgb</b><br />
+	</div>
+	<ul>
+		<li> bool genesis.getlayer_bgb()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the bg layer B is displayed
+		</li>
+	</ul>
+	<div class="p"><b>genesis.getlayer_bgw</b><br />
+	</div>
+	<ul>
+		<li> bool genesis.getlayer_bgw()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the bg layer W is displayed
+		</li>
+	</ul>
+	<div class="p"><b>genesis.setlayer_bga</b><br />
+	</div>
+	<ul>
+		<li> void genesis.setlayer_bga(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the bg layer A is displayed
+		</li>
+	</ul>
+	<div class="p"><b>genesis.setlayer_bgb</b><br />
+	</div>
+	<ul>
+		<li> void genesis.setlayer_bgb(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the bg layer B is displayed
+		</li>
+	</ul>
+	<div class="p"><b>genesis.setlayer_bgw</b><br />
+	</div>
+	<ul>
+		<li> void genesis.setlayer_bgw(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the bg layer W is displayed
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-10" class="tab-pane fade">
+	<div class="p"><b>gui.addmessage</b><br />
+	</div>
+	<ul>
+		<li> void gui.addmessage(string message)
+		</li>
+	</ul>
+	<ul>
+		<li> Adds a message to the OSD's message area
+		</li>
+	</ul>
+	<div class="p"><b>gui.clearGraphics</b><br />
+	</div>
+	<ul>
+		<li> void gui.clearGraphics([string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> clears all lua drawn graphics from the screen
+		</li>
+	</ul>
+	<div class="p"><b>gui.clearImageCache</b><br />
+	</div>
+	<ul>
+		<li> void gui.clearImageCache()
+		</li>
+	</ul>
+	<ul>
+		<li> clears the image cache that is built up by using gui.drawImage, also releases the file handle for cached
+			images
+		</li>
+	</ul>
+	<div class="p"><b>gui.cleartext</b><br />
+	</div>
+	<ul>
+		<li> void gui.cleartext()
+		</li>
+	</ul>
+	<ul>
+		<li> clears all text created by gui.text()
+		</li>
+	</ul>
+	<div class="p"><b>gui.createcanvas</b><br />
+	</div>
+	<ul>
+		<li> nluatable gui.createcanvas(int width, int height, [int? x = nil], [int? y = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a dedicated canvas window, returning a table containing some callbacks for drawing. These are the
+			LuaCanvas functions in the API reference. The width and height parameters determine the size of the canvas.
+			If the x and y parameters are both nil/unset, the form (window) will appear at the default position. If both
+			are specified, the form will be positioned at (x, y) on the screen.
+		</li>
+	</ul>
+	<div class="p"><b>gui.defaultBackground</b><br />
+	</div>
+	<ul>
+		<li> void gui.defaultBackground(luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default background color to use in drawing methods, transparent by default
+		</li>
+	</ul>
+	<div class="p"><b>gui.defaultForeground</b><br />
+	</div>
+	<ul>
+		<li> void gui.defaultForeground(luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default foreground color to use in drawing methods, white by default
+		</li>
+	</ul>
+	<div class="p"><b>gui.defaultPixelFont</b><br />
+	</div>
+	<ul>
+		<li> void gui.defaultPixelFont(string fontfamily)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default font to use in gui.pixelText(). Two font families are available, "fceux" and "gens" (or
+			"0" and "1" respectively), "gens" is used by default
+		</li>
+	</ul>
+	<div class="p"><b>gui.defaultTextBackground</b><br />
+	</div>
+	<ul>
+		<li> void gui.defaultTextBackground(luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default background color to use in text drawing methods, half-transparent black by default
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawAxis</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawAxis(int x, int y, int size, [luacolor color = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws an axis of the specified size at the coordinate pair.)
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawBezier</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawBezier(nluatable points, luacolor color, [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a Bezier curve using the table of coordinates provided in the given color
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawBox</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawBox(int x, int y, int x2, int y2, [luacolor line = nil], [luacolor background = nil], [string
+			surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a rectangle on screen from x1/y1 to x2/y2. Same as drawRectangle except it receives two points intead
+			of a point and width/height
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawEllipse</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawEllipse(int x, int y, int width, int height, [luacolor line = nil], [luacolor background =
+			nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws an ellipse at the given coordinates and the given width and height. Line is the color of the ellipse.
+			Background is the optional fill color
+		</li>
+	</ul>
+	<div class="p"><b>gui.DrawFinish</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> void gui.DrawFinish()
+		</li>
+	</ul>
+	<ul>
+		<li> Finishes drawing to the current lua surface and causes it to get displayed.
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawIcon</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawIcon(string path, int x, int y, [int? width = nil], [int? height = nil], [string surfacename =
+			nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the image in the given .ico file to the surface specified by the surfaceName parameter, or the
+			current surface if nil/unset. The image will be positioned such that its top-left corner will be at (x, y)
+			on the surface. If width and height are both nil/unset, the image will be drawn at full size (100%). If both
+			are specified, the image will be stretched to that size.
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawImage</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawImage(string path, int x, int y, [int? width = nil], [int? height = nil], [bool cache = True],
+			[string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the image in the given file (.bmp, .gif, .jpg, .png, or .tif) to the surface specified by the
+			surfaceName parameter, or the current surface if nil/unset. The image will be positioned such that its
+			top-left corner will be at (x, y) on the surface. If width and height are both nil/unset, the image will be
+			drawn at full size (100%). If both are specified, the image will be stretched to that size. If true is
+			passed for the cache parameter, or if it's omitted, the file contents will be cached and re-used next time
+			this function is called with the same path. The cache can be cleared with gui.clearImageCache.
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawImageRegion</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawImageRegion(string path, int source_x, int source_y, int source_width, int source_height, int
+			dest_x, int dest_y, [int? dest_width = nil], [int? dest_height = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws part of the image in the given file (.bmp, .gif, .jpg, .png, or .tif) to the surface specified by the
+			surfaceName parameter, or the current surface if nil/unset. Consult this diagram to see its usage (renders
+			embedded on the TASVideos Wiki): <img
+				src="https://user-images.githubusercontent.com/13409956/198868522-55dc1e5f-ae67-4ebb-a75f-558656cb4468.png"
+				alt="Diagram showing how to use forms.drawImageRegion" class="embed mw-100" /> The file contents will be
+			cached and re-used next time this function is called with the same path. The cache can be cleared with
+			gui.clearImageCache.
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawLine</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawLine(int x1, int y1, int x2, int y2, [luacolor color = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a line from the first coordinate pair to the 2nd. Color is optional (if not specified it will be
+			drawn black)
+		</li>
+	</ul>
+	<div class="p"><b>gui.DrawNew</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> void gui.DrawNew(string name, [bool? clear = True])
+		</li>
+	</ul>
+	<ul>
+		<li> Changes drawing target to the specified lua surface name. This may clobber any previous drawing to this
+			surface (pass false if you don't want it to)
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawPie</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawPie(int x, int y, int width, int height, int startangle, int sweepangle, [luacolor line =
+			nil], [luacolor background = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> draws a Pie shape at the given coordinates and the given width and height
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawPixel</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawPixel(int x, int y, [luacolor color = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a single pixel at the given coordinates in the given color. Color is optional (if not specified it
+			will be drawn black)
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawPolygon</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawPolygon(nluatable points, [int? offsetx = nil], [int? offsety = nil], [luacolor line = nil],
+			[luacolor background = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a polygon (cyclic polyline) to the surface specified by the surfaceName parameter, or the current
+			surface if nil/unset. The polygon must be given as a list of length-2 lists (co-ordinate pairs). Each pair
+			is interpreted as the absolute co-ordinates of one of the vertices, and these are joined together in
+			sequence to form a polygon. The last is connected to the first; you DON'T need to end with a copy of the
+			first to close the cycle. If the offsetX and offsetY parameters are both specified, the whole polygon will
+			be offset by that amount. If a value is passed for the line parameter, the polygon's edges are drawn in that
+			color (i.e. the stroke color). If a value is passed for the background parameter, the polygon's face is
+			filled in that color.
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawRectangle</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawRectangle(int x, int y, int width, int height, [luacolor line = nil], [luacolor background =
+			nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a rectangle at the given coordinate and the given width and height. Line is the color of the box.
+			Background is the optional fill color
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawString</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawString(int x, int y, string message, [luacolor forecolor = nil], [luacolor backcolor = nil],
+			[int? fontsize = nil], [string fontfamily = nil], [string fontstyle = nil], [string horizalign = nil],
+			[string vertalign = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the given message in the emulator screen space (like all draw functions) at the given x,y coordinates
+			and the given color. The default color is white. A fontfamily can be specified and is monospace generic if
+			none is specified (font family options are the same as the .NET FontFamily class). The fontsize default is
+			12. The default font style is regular. Font style options are regular, bold, italic, strikethrough,
+			underline. Horizontal alignment options are left (default), center, or right. Vertical alignment options are
+			bottom (default), middle, or top. Alignment options specify which ends of the text will be drawn at the x
+			and y coordinates. For pixel-perfect font look, make sure to disable aspect ratio correction.
+		</li>
+	</ul>
+	<div class="p"><b>gui.drawText</b><br />
+	</div>
+	<ul>
+		<li> void gui.drawText(int x, int y, string message, [luacolor forecolor = nil], [luacolor backcolor = nil],
+			[int? fontsize = nil], [string fontfamily = nil], [string fontstyle = nil], [string horizalign = nil],
+			[string vertalign = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> alias for gui.drawString
+		</li>
+	</ul>
+	<div class="p"><b>gui.pixelText</b><br />
+	</div>
+	<ul>
+		<li> void gui.pixelText(int x, int y, string message, [luacolor forecolor = nil], [luacolor backcolor = nil],
+			[string fontfamily = nil], [string surfacename = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the given message in the emulator screen space (like all draw functions) at the given x,y coordinates
+			and the given color. The default color is white. Two font families are available, "fceux" and "gens" (or "0"
+			and "1" respectively), both are monospace and have the same size as in the emulators they've been taken
+			from. If no font family is specified, it uses "gens" font, unless that's overridden via
+			gui.defaultPixelFont().
+		</li>
+	</ul>
+	<div class="p"><b>gui.text</b><br />
+	</div>
+	<ul>
+		<li> void gui.text(int x, int y, string message, [luacolor forecolor = nil], [string anchor = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Displays the given text on the screen at the given coordinates. Optional Foreground color. The optional
+			anchor flag anchors the text to one of the four corners. Anchor flag parameters: topleft, topright,
+			bottomleft, bottomright. This function is generally much faster than other text drawing functions, at the
+			cost of customization.
+		</li>
+	</ul>
+	<div class="p"><b>gui.use_surface</b><br />
+	</div>
+	<ul>
+		<li> void gui.use_surface(string surfacename)
+		</li>
+	</ul>
+	<ul>
+		<li> Stores the name of a surface to draw on, so you don't need to pass it to every draw function. The default
+			is "emucore", and the other valid value is "client".
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-11" class="tab-pane fade">
+	<div class="p"><b>input.get</b><br />
+	</div>
+	<ul>
+		<li> nluatable input.get()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a dict-like table of key/button names (of host). Only pressed buttons will appear (with a value of
+			<code>true</code>); unpressed buttons are omitted. Includes gamepad axes (<code>!axis.isNeutral</code>, with
+			sticks as 4 "buttons" suffixed
+			<code>"Up"</code>/<code>"Down"</code>/<code>"Left"</code>/<code>"Right"</code>). Includes mouse buttons, but
+			not axes (cursor position and wheel rotation). Unlike <code>getmouse</code>, these have the names
+			<code>"WMouse L"</code>, <code>"WMouse R"</code>, <code>"WMouse M"</code>, <code>"WMouse 1"</code>, and
+			<code>"WMouse 2"</code> for LMB, RMB, MMB, Mouse4, and Mouse5, respectively.
+		</li>
+	</ul>
+	<div class="p"><b>input.get_pressed_axes</b><br />
+	</div>
+	<ul>
+		<li> nluatable input.get_pressed_axes()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a dict-like table of (host) axis names and their state. Axes may not appear if they have never been
+			seen with a value other than <code>0</code> (for example, if the gamepad has been set down on a table since
+			launch, or if it was recently reconnected). Includes mouse cursor position axes, but not mouse wheel
+			rotation. Unlike <code>getmouse</code>, these have the names <code>"WMouse X"</code> and
+			<code>"WMouse Y"</code>.
+		</li>
+	</ul>
+	<div class="p"><b>input.getmouse</b><br />
+	</div>
+	<ul>
+		<li> nluatable input.getmouse()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a lua table of the mouse X/Y coordinates and button states. Table keys are X, Y, Left, Middle,
+			Right, XButton1, XButton2, Wheel.
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-12" class="tab-pane fade">
+	<div class="p"><b>joypad.get</b><br />
+	</div>
+	<ul>
+		<li> nluatable joypad.get([int? controller = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> returns a lua table of the controller buttons pressed. If supplied, it will only return a table of buttons
+			for the given controller
+		</li>
+	</ul>
+	<div class="p"><b>joypad.getimmediate</b><br />
+	</div>
+	<ul>
+		<li> nluatable joypad.getimmediate([int? controller = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> returns a lua table of any controller buttons currently pressed by the user
+		</li>
+	</ul>
+	<div class="p"><b>joypad.getwithmovie</b><br />
+	</div>
+	<ul>
+		<li> nluatable joypad.getwithmovie([int? controller = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> returns a lua table of the controller buttons pressed, including ones pressed by the current movie. If
+			supplied, it will only return a table of buttons for the given controller
+		</li>
+	</ul>
+	<div class="p"><b>joypad.set</b><br />
+	</div>
+	<ul>
+		<li> void joypad.set(nluatable buttons, [int? controller = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> sets the given buttons to their provided values for the current frame
+		</li>
+	</ul>
+	<div class="p"><b>joypad.setanalog</b><br />
+	</div>
+	<ul>
+		<li> void joypad.setanalog(nluatable controls, [int? controller = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> sets the given analog controls to their provided values for the current frame. Note that unlike set() there
+			is only the logic of overriding with the given value.
+		</li>
+	</ul>
+	<div class="p"><b>joypad.setfrommnemonicstr</b><br />
+	</div>
+	<ul>
+		<li> void joypad.setfrommnemonicstr(string inputlogentry)
+		</li>
+	</ul>
+	<ul>
+		<li> sets the given buttons to their provided values for the current frame, string will be interpreted the same
+			way an entry from a movie input log would be
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-13" class="tab-pane fade">
+	<div class="p">Represents a canvas object returned by the gui.createcanvas() method
+	</div>
+	<div class="p"><b>LuaCanvas.Clear</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.Clear(luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Clears the canvas
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.ClearImageCache</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.ClearImageCache()
+		</li>
+	</ul>
+	<ul>
+		<li> clears the image cache that is built up by using gui.drawImage, also releases the file handle for cached
+			images
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawArc</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawArc(int x, int y, int width, int height, int startangle, int sweepangle, [luacolor line
+			= nil])
+		</li>
+	</ul>
+	<ul>
+		<li> draws a Arc shape at the given coordinates and the given width and height
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawAxis</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawAxis(int x, int y, int size, [luacolor color = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws an axis of the specified size at the coordinate pair.)
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawBezier</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawBezier(nluatable points, luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a Bezier curve using the table of coordinates provided in the given color
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawBox</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawBox(int x, int y, int x2, int y2, [luacolor line = nil], [luacolor background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a rectangle on screen from x1/y1 to x2/y2. Same as drawRectangle except it receives two points intead
+			of a point and width/height
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawEllipse</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawEllipse(int x, int y, int width, int height, [luacolor line = nil], [luacolor background
+			= nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws an ellipse at the given coordinates and the given width and height. Line is the color of the ellipse.
+			Background is the optional fill color
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawIcon</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawIcon(string path, int x, int y, [int? width = nil], [int? height = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the image in the given .ico file to the referenced canvas. The image will be positioned such that its
+			top-left corner will be at (x, y) on the canvas. If width and height are both nil/unset, the image will be
+			drawn at full size (100%). If both are specified, the image will be stretched to that size.
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawImage</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawImage(string path, int x, int y, [int? width = nil], [int? height = nil], [bool cache =
+			True])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the image in the given file (.bmp, .gif, .jpg, .png, or .tif) to the referenced canvas. The image
+			will be positioned such that its top-left corner will be at (x, y) on the canvas. If width and height are
+			both nil/unset, the image will be drawn at full size (100%). If both are specified, the image will be
+			stretched to that size. If true is passed for the cache parameter, or if it's omitted, the file contents
+			will be cached and re-used next time this function is called with the same path on this canvas. The canvas'
+			cache can be cleared with ClearImageCache.
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawImageRegion</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawImageRegion(string path, int sourcex, int sourcey, int sourcewidth, int sourceheight,
+			int destx, int desty, [int? destwidth = nil], [int? destheight = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws part of the image in the given file (.bmp, .gif, .jpg, .png, or .tif) to the referenced. Consult this
+			diagram to see its usage (renders embedded on the TASVideos Wiki): <img
+				src="https://user-images.githubusercontent.com/13409956/198868522-55dc1e5f-ae67-4ebb-a75f-558656cb4468.png"
+				alt="Diagram showing how to use forms.drawImageRegion" class="embed mw-100" /> The file contents will be
+			cached and re-used next time this function is called with the same path on this canvas. The canvas' cache
+			can be cleared with ClearImageCache.
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawLine</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawLine(int x1, int y1, int x2, int y2, [luacolor color = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a line from the first coordinate pair to the 2nd. Color is optional (if not specified it will be
+			drawn black)
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawPie</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawPie(int x, int y, int width, int height, int startangle, int sweepangle, [luacolor line
+			= nil], [luacolor background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> draws a Pie shape at the given coordinates and the given width and height
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawPixel</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawPixel(int x, int y, [luacolor color = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a single pixel at the given coordinates in the given color. Color is optional (if not specified it
+			will be drawn black)
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawPolygon</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawPolygon(nluatable points, [int? x = nil], [int? y = nil], [luacolor line = nil],
+			[luacolor background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a polygon (cyclic polyline) to the referenced canvas. The polygon must be given as a list of length-2
+			lists (co-ordinate pairs). Each pair is interpreted as the absolute co-ordinates of one of the vertices, and
+			these are joined together in sequence to form a polygon. The last is connected to the first; you DON'T need
+			to end with a copy of the first to close the cycle. If the x and y parameters are both specified, the whole
+			polygon will be offset by that amount. If a value is passed for the line parameter, the polygon's edges are
+			drawn in that color (i.e. the stroke color). If a value is passed for the background parameter, the
+			polygon's face is filled in that color.
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawRectangle</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawRectangle(int x, int y, int width, int height, [luacolor line = nil], [luacolor
+			background = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws a rectangle at the given coordinate and the given width and height. Line is the color of the box.
+			Background is the optional fill color
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawString</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawString(int x, int y, string message, [luacolor forecolor = nil], [luacolor backcolor =
+			nil], [int? fontsize = nil], [string fontfamily = nil], [string fontstyle = nil], [string horizontalalign =
+			nil], [string verticalalign = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Alias of DrawText()
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.DrawText</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.DrawText(int x, int y, string message, [luacolor forecolor = nil], [luacolor backcolor =
+			nil], [int? fontsize = nil], [string fontfamily = nil], [string fontstyle = nil], [string horizontalalign =
+			nil], [string verticalalign = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Draws the given message at the given x,y coordinates and the given color. The default color is white. A
+			fontfamily can be specified and is monospace generic if none is specified (font family options are the same
+			as the .NET FontFamily class). The fontsize default is 12. The default font style is regular. Font style
+			options are regular, bold, italic, strikethrough, underline. Horizontal alignment options are left
+			(default), center, or right. Vertical alignment options are bottom (default), middle, or top. Alignment
+			options specify which ends of the text will be drawn at the x and y coordinates.
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.GetMouseX</b><br />
+	</div>
+	<ul>
+		<li> int LuaCanvas.GetMouseX()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns an integer representation of the mouse X coordinate relative to the canvas window.
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.GetMouseY</b><br />
+	</div>
+	<ul>
+		<li> int LuaCanvas.GetMouseY()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns an integer representation of the mouse Y coordinate relative to the canvas window.
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.Refresh</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.Refresh()
+		</li>
+	</ul>
+	<ul>
+		<li> Redraws the canvas
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.save_image_to_disk</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.save_image_to_disk(string path)
+		</li>
+	</ul>
+	<ul>
+		<li> Saves everything that's been drawn to a .png file at the given path. Relative paths are relative to the
+			path set for "Screenshots" for the current system.
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.SetDefaultBackgroundColor</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.SetDefaultBackgroundColor(luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default background color to use in drawing methods, transparent by default
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.SetDefaultForegroundColor</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.SetDefaultForegroundColor(luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default foreground color to use in drawing methods, white by default
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.SetDefaultTextBackground</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.SetDefaultTextBackground(luacolor color)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the default background color to use in text drawing methods, half-transparent black by default
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.SetLocation</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.SetLocation(int x, int y)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the location of the canvas window
+		</li>
+	</ul>
+	<div class="p"><b>LuaCanvas.SetTitle</b><br />
+	</div>
+	<ul>
+		<li> void LuaCanvas.SetTitle(string title)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the canvas window title
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-14" class="tab-pane fade">
+	<div class="p">Main memory library reads and writes from the Main memory domain (the default memory domain set by
+		any given core)
+	</div>
+	<div class="p"><b>mainmemory.getcurrentmemorydomainsize</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.getcurrentmemorydomainsize()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the number of bytes of the domain defined as main memory
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.getname</b><br />
+	</div>
+	<ul>
+		<li> string mainmemory.getname()
+		</li>
+	</ul>
+	<ul>
+		<li> returns the name of the domain defined as main memory for the given core
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_bytes_as_array</b><br />
+	</div>
+	<ul>
+		<li> nluatable mainmemory.read_bytes_as_array(long addr, int length)
+		</li>
+	</ul>
+	<ul>
+		<li> Reads length bytes starting at addr into an array-like table (1-indexed).
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_bytes_as_dict</b><br />
+	</div>
+	<ul>
+		<li> nluatable mainmemory.read_bytes_as_dict(long addr, int length)
+		</li>
+	</ul>
+	<ul>
+		<li> Reads length bytes starting at addr into a dict-like table (where the keys are the addresses, relative to
+			the start of the main memory).
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_s16_be</b><br />
+	</div>
+	<ul>
+		<li> int mainmemory.read_s16_be(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 2 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_s16_le</b><br />
+	</div>
+	<ul>
+		<li> int mainmemory.read_s16_le(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 2 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_s24_be</b><br />
+	</div>
+	<ul>
+		<li> int mainmemory.read_s24_be(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 24 bit value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_s24_le</b><br />
+	</div>
+	<ul>
+		<li> int mainmemory.read_s24_le(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 24 bit value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_s32_be</b><br />
+	</div>
+	<ul>
+		<li> int mainmemory.read_s32_be(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 4 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_s32_le</b><br />
+	</div>
+	<ul>
+		<li> int mainmemory.read_s32_le(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 4 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_s8</b><br />
+	</div>
+	<ul>
+		<li> int mainmemory.read_s8(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read signed byte
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_u16_be</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.read_u16_be(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 2 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_u16_le</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.read_u16_le(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 2 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_u24_be</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.read_u24_be(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 24 bit value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_u24_le</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.read_u24_le(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 24 bit value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_u32_be</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.read_u32_be(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 4 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_u32_le</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.read_u32_le(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 4 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.read_u8</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.read_u8(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned byte
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.readbyte</b><br />
+	</div>
+	<ul>
+		<li> uint mainmemory.readbyte(long addr)
+		</li>
+	</ul>
+	<ul>
+		<li> gets the value from the given address as an unsigned byte
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.readbyterange</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> nluatable mainmemory.readbyterange(long addr, int length)
+		</li>
+	</ul>
+	<ul>
+		<li> Reads the address range that starts from address, and is length long. Returns a zero-indexed table
+			containing the read values (an array of bytes.)
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.readfloat</b><br />
+	</div>
+	<ul>
+		<li> single mainmemory.readfloat(long addr, bool bigendian)
+		</li>
+	</ul>
+	<ul>
+		<li> Reads the given address as a 32-bit float value from the main memory domain with th e given endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_bytes_as_array</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_bytes_as_array(long addr, nluatable bytes)
+		</li>
+	</ul>
+	<ul>
+		<li> Writes sequential bytes starting at addr.
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_bytes_as_dict</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_bytes_as_dict(nluatable addrmap)
+		</li>
+	</ul>
+	<ul>
+		<li> Writes bytes at arbitrary addresses (the keys of the given table are the addresses, relative to the start
+			of the main memory).
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_s16_be</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_s16_be(long addr, int value)
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 2 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_s16_le</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_s16_le(long addr, int value)
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 2 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_s24_be</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_s24_be(long addr, int value)
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 24 bit value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_s24_le</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_s24_le(long addr, int value)
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 24 bit value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_s32_be</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_s32_be(long addr, int value)
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 4 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_s32_le</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_s32_le(long addr, int value)
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 4 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_s8</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_s8(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> write signed byte
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_u16_be</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_u16_be(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 2 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_u16_le</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_u16_le(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 2 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_u24_be</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_u24_be(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 24 bit value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_u24_le</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_u24_le(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 24 bit value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_u32_be</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_u32_be(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 4 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_u32_le</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_u32_le(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 4 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.write_u8</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.write_u8(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned byte
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.writebyte</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.writebyte(long addr, uint value)
+		</li>
+	</ul>
+	<ul>
+		<li> Writes the given value to the given address as an unsigned byte
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.writebyterange</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> void mainmemory.writebyterange(nluatable memoryblock)
+		</li>
+	</ul>
+	<ul>
+		<li> Writes the given values to the given addresses as unsigned bytes
+		</li>
+	</ul>
+	<div class="p"><b>mainmemory.writefloat</b><br />
+	</div>
+	<ul>
+		<li> void mainmemory.writefloat(long addr, singlevalue, bool bigendian)
+		</li>
+	</ul>
+	<ul>
+		<li> Writes the given 32-bit float value to the given address and endian
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-15" class="tab-pane fade">
+	<div class="p">These functions behavior identically to the mainmemory functions but the user can set the memory
+		domain to read and write from. The default domain is the system bus. Use getcurrentmemorydomain(), and
+		usememorydomain() to control which domain is used. Each core has its own set of valid memory domains. Use
+		getmemorydomainlist() to get a list of memory domains for the current core loaded.
+	</div>
+	<div class="p"><b>memory.getcurrentmemorydomain</b><br />
+	</div>
+	<ul>
+		<li> string memory.getcurrentmemorydomain()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a string name of the current memory domain selected by Lua. The default is Main memory
+		</li>
+	</ul>
+	<div class="p"><b>memory.getcurrentmemorydomainsize</b><br />
+	</div>
+	<ul>
+		<li> uint memory.getcurrentmemorydomainsize()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the number of bytes of the current memory domain selected by Lua. The default is Main memory
+		</li>
+	</ul>
+	<div class="p"><b>memory.getmemorydomainlist</b><br />
+	</div>
+	<ul>
+		<li> nluatable memory.getmemorydomainlist()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a string of the memory domains for the loaded platform core. List will be a single string delimited
+			by line feeds
+		</li>
+	</ul>
+	<div class="p"><b>memory.getmemorydomainsize</b><br />
+	</div>
+	<ul>
+		<li> uint memory.getmemorydomainsize([string name = ])
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the number of bytes of the specified memory domain. If no domain is specified, or the specified
+			domain doesn't exist, returns the current domain size
+		</li>
+	</ul>
+	<div class="p"><b>memory.hash_region</b><br />
+	</div>
+	<ul>
+		<li> string memory.hash_region(long addr, int count, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a hash as a string of a region of memory, starting from addr, through count bytes. If the domain is
+			unspecified, it uses the current region.
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_bytes_as_array</b><br />
+	</div>
+	<ul>
+		<li> nluatable memory.read_bytes_as_array(long addr, int length, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Reads length bytes starting at addr into an array-like table (1-indexed).
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_bytes_as_dict</b><br />
+	</div>
+	<ul>
+		<li> nluatable memory.read_bytes_as_dict(long addr, int length, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Reads length bytes starting at addr into a dict-like table (where the keys are the addresses, relative to
+			the start of the domain).
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_s16_be</b><br />
+	</div>
+	<ul>
+		<li> int memory.read_s16_be(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 2 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_s16_le</b><br />
+	</div>
+	<ul>
+		<li> int memory.read_s16_le(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 2 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_s24_be</b><br />
+	</div>
+	<ul>
+		<li> int memory.read_s24_be(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 24 bit value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_s24_le</b><br />
+	</div>
+	<ul>
+		<li> int memory.read_s24_le(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 24 bit value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_s32_be</b><br />
+	</div>
+	<ul>
+		<li> int memory.read_s32_be(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 4 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_s32_le</b><br />
+	</div>
+	<ul>
+		<li> int memory.read_s32_le(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read signed 4 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_s8</b><br />
+	</div>
+	<ul>
+		<li> int memory.read_s8(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read signed byte
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_u16_be</b><br />
+	</div>
+	<ul>
+		<li> uint memory.read_u16_be(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 2 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_u16_le</b><br />
+	</div>
+	<ul>
+		<li> uint memory.read_u16_le(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 2 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_u24_be</b><br />
+	</div>
+	<ul>
+		<li> uint memory.read_u24_be(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 24 bit value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_u24_le</b><br />
+	</div>
+	<ul>
+		<li> uint memory.read_u24_le(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 24 bit value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_u32_be</b><br />
+	</div>
+	<ul>
+		<li> uint memory.read_u32_be(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 4 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_u32_le</b><br />
+	</div>
+	<ul>
+		<li> uint memory.read_u32_le(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned 4 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.read_u8</b><br />
+	</div>
+	<ul>
+		<li> uint memory.read_u8(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> read unsigned byte
+		</li>
+	</ul>
+	<div class="p"><b>memory.readbyte</b><br />
+	</div>
+	<ul>
+		<li> uint memory.readbyte(long addr, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> gets the value from the given address as an unsigned byte
+		</li>
+	</ul>
+	<div class="p"><b>memory.readbyterange</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> nluatable memory.readbyterange(long addr, int length, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Reads the address range that starts from address, and is length long. Returns a zero-indexed table
+			containing the read values (an array of bytes.)
+		</li>
+	</ul>
+	<div class="p"><b>memory.readfloat</b><br />
+	</div>
+	<ul>
+		<li> single memory.readfloat(long addr, bool bigendian, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Reads the given address as a 32-bit float value from the main memory domain with th e given endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.usememorydomain</b><br />
+	</div>
+	<ul>
+		<li> bool memory.usememorydomain(string domain)
+		</li>
+	</ul>
+	<ul>
+		<li> Attempts to set the current memory domain to the given domain. If the name does not match a valid memory
+			domain, the function returns false, else it returns true
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_bytes_as_array</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_bytes_as_array(long addr, nluatable bytes, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Writes sequential bytes starting at addr.
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_bytes_as_dict</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_bytes_as_dict(nluatable addrmap, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Writes bytes at arbitrary addresses (the keys of the given table are the addresses, relative to the start
+			of the domain).
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_s16_be</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_s16_be(long addr, int value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 2 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_s16_le</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_s16_le(long addr, int value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 2 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_s24_be</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_s24_be(long addr, int value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 24 bit value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_s24_le</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_s24_le(long addr, int value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 24 bit value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_s32_be</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_s32_be(long addr, int value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 4 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_s32_le</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_s32_le(long addr, int value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write signed 4 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_s8</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_s8(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write signed byte
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_u16_be</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_u16_be(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 2 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_u16_le</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_u16_le(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 2 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_u24_be</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_u24_be(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 24 bit value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_u24_le</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_u24_le(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 24 bit value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_u32_be</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_u32_be(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 4 byte value, big endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_u32_le</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_u32_le(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned 4 byte value, little endian
+		</li>
+	</ul>
+	<div class="p"><b>memory.write_u8</b><br />
+	</div>
+	<ul>
+		<li> void memory.write_u8(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> write unsigned byte
+		</li>
+	</ul>
+	<div class="p"><b>memory.writebyte</b><br />
+	</div>
+	<ul>
+		<li> void memory.writebyte(long addr, uint value, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Writes the given value to the given address as an unsigned byte
+		</li>
+	</ul>
+	<div class="p"><b>memory.writebyterange</b><br />
+	</div>
+	<ul>
+		<li> <b>[deprecated]</b> void memory.writebyterange(nluatable memoryblock, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Writes the given values to the given addresses as unsigned bytes
+		</li>
+	</ul>
+	<div class="p"><b>memory.writefloat</b><br />
+	</div>
+	<ul>
+		<li> void memory.writefloat(long addr, singlevalue, bool bigendian, [string domain = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Writes the given 32-bit float value to the given address and endian
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-16" class="tab-pane fade">
+	<div class="p"><b>memorysavestate.clearstatesfrommemory</b><br />
+	</div>
+	<ul>
+		<li> void memorysavestate.clearstatesfrommemory()
+		</li>
+	</ul>
+	<ul>
+		<li> clears all savestates stored in memory
+		</li>
+	</ul>
+	<div class="p"><b>memorysavestate.loadcorestate</b><br />
+	</div>
+	<ul>
+		<li> void memorysavestate.loadcorestate(string identifier)
+		</li>
+	</ul>
+	<ul>
+		<li> loads an in memory state with the given identifier
+		</li>
+	</ul>
+	<div class="p"><b>memorysavestate.removestate</b><br />
+	</div>
+	<ul>
+		<li> void memorysavestate.removestate(string identifier)
+		</li>
+	</ul>
+	<ul>
+		<li> removes the savestate with the given identifier from memory
+		</li>
+	</ul>
+	<div class="p"><b>memorysavestate.savecorestate</b><br />
+	</div>
+	<ul>
+		<li> string memorysavestate.savecorestate()
+		</li>
+	</ul>
+	<ul>
+		<li> creates a core savestate and stores it in memory. Note: a core savestate is only the raw data from the
+			core, and not extras such as movie input logs, or framebuffers. Returns a unique identifer for the savestate
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-17" class="tab-pane fade">
+	<div class="p"><b>movie.filename</b><br />
+	</div>
+	<ul>
+		<li> string movie.filename()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the file name including path of the currently loaded movie
+		</li>
+	</ul>
+	<div class="p"><b>movie.getcomments</b><br />
+	</div>
+	<ul>
+		<li> nluatable movie.getcomments()
+		</li>
+	</ul>
+	<ul>
+		<li> If a movie is active, will return the movie comments as a lua table
+		</li>
+	</ul>
+	<div class="p"><b>movie.getfps</b><br />
+	</div>
+	<ul>
+		<li> double movie.getfps()
+		</li>
+	</ul>
+	<ul>
+		<li> If a movie is loaded, gets the frames per second used by the movie to determine the movie length time
+		</li>
+	</ul>
+	<div class="p"><b>movie.getheader</b><br />
+	</div>
+	<ul>
+		<li> nluatable movie.getheader()
+		</li>
+	</ul>
+	<ul>
+		<li> If a movie is active, will return the movie header as a lua table
+		</li>
+	</ul>
+	<div class="p"><b>movie.getinput</b><br />
+	</div>
+	<ul>
+		<li> nluatable movie.getinput(int frame, [int? controller = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a table of buttons pressed on a given frame of the loaded movie
+		</li>
+	</ul>
+	<div class="p"><b>movie.getinputasmnemonic</b><br />
+	</div>
+	<ul>
+		<li> string movie.getinputasmnemonic(int frame)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the input of a given frame of the loaded movie in a raw inputlog string
+		</li>
+	</ul>
+	<div class="p"><b>movie.getreadonly</b><br />
+	</div>
+	<ul>
+		<li> bool movie.getreadonly()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns true if the movie is in read-only mode, false if in read+write
+		</li>
+	</ul>
+	<div class="p"><b>movie.getrerecordcount</b><br />
+	</div>
+	<ul>
+		<li> ulong movie.getrerecordcount()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the rerecord count of the current movie.
+		</li>
+	</ul>
+	<div class="p"><b>movie.getrerecordcounting</b><br />
+	</div>
+	<ul>
+		<li> bool movie.getrerecordcounting()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether or not the current movie is incrementing rerecords on loadstate
+		</li>
+	</ul>
+	<div class="p"><b>movie.getsubtitles</b><br />
+	</div>
+	<ul>
+		<li> nluatable movie.getsubtitles()
+		</li>
+	</ul>
+	<ul>
+		<li> If a movie is active, will return the movie subtitles as a lua table
+		</li>
+	</ul>
+	<div class="p"><b>movie.isloaded</b><br />
+	</div>
+	<ul>
+		<li> bool movie.isloaded()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns true if a movie is loaded in memory (play, record, or finished modes), false if not (inactive mode)
+		</li>
+	</ul>
+	<div class="p"><b>movie.length</b><br />
+	</div>
+	<ul>
+		<li> int movie.length()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the total number of frames of the loaded movie
+		</li>
+	</ul>
+	<div class="p"><b>movie.mode</b><br />
+	</div>
+	<ul>
+		<li> string movie.mode()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the mode of the current movie. Possible modes: "PLAY", "RECORD", "FINISHED", "INACTIVE"
+		</li>
+	</ul>
+	<div class="p"><b>movie.play_from_start</b><br />
+	</div>
+	<ul>
+		<li> bool movie.play_from_start([string path = ])
+		</li>
+	</ul>
+	<ul>
+		<li> Resets the core to frame 0 with the currently loaded movie in playback mode. If a path to a movie is
+			specified, attempts to load it, then continues with playback if it was successful. Returns true iff
+			successful.
+		</li>
+	</ul>
+	<div class="p"><b>movie.save</b><br />
+	</div>
+	<ul>
+		<li> void movie.save([string filename = ])
+		</li>
+	</ul>
+	<ul>
+		<li> Saves the current movie to the disc. If the filename is provided (no extension or path needed), the movie
+			is saved under the specified name to the current movie directory. The filename may contain a subdirectory,
+			it will be created if it doesn't exist. Existing files won't get overwritten.
+		</li>
+	</ul>
+	<div class="p"><b>movie.setreadonly</b><br />
+	</div>
+	<ul>
+		<li> void movie.setreadonly(bool readonly)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the read-only state to the given value. true for read only, false for read+write
+		</li>
+	</ul>
+	<div class="p"><b>movie.setrerecordcount</b><br />
+	</div>
+	<ul>
+		<li> void movie.setrerecordcount(ulong count)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the rerecord count of the current movie.
+		</li>
+	</ul>
+	<div class="p"><b>movie.setrerecordcounting</b><br />
+	</div>
+	<ul>
+		<li> void movie.setrerecordcounting(bool counting)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether or not the current movie will increment the rerecord counter on loadstate
+		</li>
+	</ul>
+	<div class="p"><b>movie.startsfromsaveram</b><br />
+	</div>
+	<ul>
+		<li> bool movie.startsfromsaveram()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether or not the movie is a saveram-anchored movie
+		</li>
+	</ul>
+	<div class="p"><b>movie.startsfromsavestate</b><br />
+	</div>
+	<ul>
+		<li> bool movie.startsfromsavestate()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether or not the movie is a savestate-anchored movie
+		</li>
+	</ul>
+	<div class="p"><b>movie.stop</b><br />
+	</div>
+	<ul>
+		<li> void movie.stop([bool savechanges = True])
+		</li>
+	</ul>
+	<ul>
+		<li> Stops the current movie. Pass false to discard changes.
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-18" class="tab-pane fade">
+	<div class="p">Functions specific to NDSHawk (functions may not run when an NDS game is not loaded)
+	</div>
+	<div class="p"><b>nds.getaudiobitdepth</b><br />
+	</div>
+	<ul>
+		<li> string nds.getaudiobitdepth()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the audio bitdepth setting
+		</li>
+	</ul>
+	<div class="p"><b>nds.getscreengap</b><br />
+	</div>
+	<ul>
+		<li> int nds.getscreengap()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns the gap between the screens
+		</li>
+	</ul>
+	<div class="p"><b>nds.getscreeninvert</b><br />
+	</div>
+	<ul>
+		<li> bool nds.getscreeninvert()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether screens are inverted
+		</li>
+	</ul>
+	<div class="p"><b>nds.getscreenlayout</b><br />
+	</div>
+	<ul>
+		<li> string nds.getscreenlayout()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns which screen layout is active
+		</li>
+	</ul>
+	<div class="p"><b>nds.getscreenrotation</b><br />
+	</div>
+	<ul>
+		<li> string nds.getscreenrotation()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns how screens are rotated
+		</li>
+	</ul>
+	<div class="p"><b>nds.setaudiobitdepth</b><br />
+	</div>
+	<ul>
+		<li> void nds.setaudiobitdepth(string value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the audio bitdepth setting
+		</li>
+	</ul>
+	<div class="p"><b>nds.setscreengap</b><br />
+	</div>
+	<ul>
+		<li> void nds.setscreengap(int value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the gap between the screens
+		</li>
+	</ul>
+	<div class="p"><b>nds.setscreeninvert</b><br />
+	</div>
+	<ul>
+		<li> void nds.setscreeninvert(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether screens are inverted
+		</li>
+	</ul>
+	<div class="p"><b>nds.setscreenlayout</b><br />
+	</div>
+	<ul>
+		<li> void nds.setscreenlayout(string value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets which screen layout is active
+		</li>
+	</ul>
+	<div class="p"><b>nds.setscreenrotation</b><br />
+	</div>
+	<ul>
+		<li> void nds.setscreenrotation(string value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets how screens are rotated
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-19" class="tab-pane fade">
+	<div class="p">Functions related specifically to Nes Cores
+	</div>
+	<div class="p"><b>nes.getallowmorethaneightsprites</b><br />
+	</div>
+	<ul>
+		<li> bool nes.getallowmorethaneightsprites()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the NES setting 'Allow more than 8 sprites per scanline' value
+		</li>
+	</ul>
+	<div class="p"><b>nes.getbottomscanline</b><br />
+	</div>
+	<ul>
+		<li> int nes.getbottomscanline([bool pal = False])
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the current value for the bottom scanline value
+		</li>
+	</ul>
+	<div class="p"><b>nes.getclipleftandright</b><br />
+	</div>
+	<ul>
+		<li> bool nes.getclipleftandright()
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the current value for the Clip Left and Right sides option
+		</li>
+	</ul>
+	<div class="p"><b>nes.getdispbackground</b><br />
+	</div>
+	<ul>
+		<li> bool nes.getdispbackground()
+		</li>
+	</ul>
+	<ul>
+		<li> Indicates whether or not the bg layer is being displayed
+		</li>
+	</ul>
+	<div class="p"><b>nes.getdispsprites</b><br />
+	</div>
+	<ul>
+		<li> bool nes.getdispsprites()
+		</li>
+	</ul>
+	<ul>
+		<li> Indicates whether or not sprites are being displayed
+		</li>
+	</ul>
+	<div class="p"><b>nes.gettopscanline</b><br />
+	</div>
+	<ul>
+		<li> int nes.gettopscanline([bool pal = False])
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the current value for the top scanline value
+		</li>
+	</ul>
+	<div class="p"><b>nes.setallowmorethaneightsprites</b><br />
+	</div>
+	<ul>
+		<li> void nes.setallowmorethaneightsprites(bool allow)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the NES setting 'Allow more than 8 sprites per scanline'
+		</li>
+	</ul>
+	<div class="p"><b>nes.setclipleftandright</b><br />
+	</div>
+	<ul>
+		<li> void nes.setclipleftandright(bool leftandright)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the Clip Left and Right sides option
+		</li>
+	</ul>
+	<div class="p"><b>nes.setdispbackground</b><br />
+	</div>
+	<ul>
+		<li> void nes.setdispbackground(bool show)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether or not the background layer will be displayed
+		</li>
+	</ul>
+	<div class="p"><b>nes.setdispsprites</b><br />
+	</div>
+	<ul>
+		<li> void nes.setdispsprites(bool show)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether or not sprites will be displayed
+		</li>
+	</ul>
+	<div class="p"><b>nes.setscanlines</b><br />
+	</div>
+	<ul>
+		<li> void nes.setscanlines(int top, int bottom, [bool pal = False])
+		</li>
+	</ul>
+	<ul>
+		<li> sets the top and bottom scanlines to be drawn (same values as in the graphics options dialog). Top must be
+			in the range of 0 to 127, bottom must be between 128 and 239. Not supported in the Quick Nes core
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-20" class="tab-pane fade">
+	<div class="p"><b>savestate.load</b><br />
+	</div>
+	<ul>
+		<li> bool savestate.load(string path, [bool suppressosd = False])
+		</li>
+	</ul>
+	<ul>
+		<li> Loads a savestate with the given path. Returns true iff succeeded. If EmuHawk is deferring quicksaves, to
+			TAStudio for example, that form will do what it likes (and the path is ignored).
+		</li>
+	</ul>
+	<div class="p"><b>savestate.loadslot</b><br />
+	</div>
+	<ul>
+		<li> bool savestate.loadslot(int slotnum, [bool suppressosd = False])
+		</li>
+	</ul>
+	<ul>
+		<li> Loads the savestate at the given slot number (must be an integer between 1 and 10). Returns true iff
+			succeeded. If EmuHawk is deferring quicksaves, to TAStudio for example, that form will do what it likes with
+			the slot number.
+		</li>
+	</ul>
+	<div class="p"><b>savestate.save</b><br />
+	</div>
+	<ul>
+		<li> void savestate.save(string path, [bool suppressosd = False])
+		</li>
+	</ul>
+	<ul>
+		<li> Saves a state at the given path. If EmuHawk is deferring quicksaves, to TAStudio for example, that form
+			will do what it likes (and the path is ignored).
+		</li>
+	</ul>
+	<div class="p"><b>savestate.saveslot</b><br />
+	</div>
+	<ul>
+		<li> void savestate.saveslot(int slotnum, [bool suppressosd = False])
+		</li>
+	</ul>
+	<ul>
+		<li> Saves a state at the given save slot (must be an integer between 1 and 10). If EmuHawk is deferring
+			quicksaves, to TAStudio for example, that form will do what it likes with the slot number.
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-21" class="tab-pane fade">
+	<div class="p">Functions specific to SNESHawk (functions may not run when an SNES game is not loaded)
+	</div>
+	<div class="p"><b>snes.getlayer_bg_1</b><br />
+	</div>
+	<ul>
+		<li> bool snes.getlayer_bg_1()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the bg 1 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.getlayer_bg_2</b><br />
+	</div>
+	<ul>
+		<li> bool snes.getlayer_bg_2()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the bg 2 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.getlayer_bg_3</b><br />
+	</div>
+	<ul>
+		<li> bool snes.getlayer_bg_3()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the bg 3 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.getlayer_bg_4</b><br />
+	</div>
+	<ul>
+		<li> bool snes.getlayer_bg_4()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the bg 4 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.getlayer_obj_1</b><br />
+	</div>
+	<ul>
+		<li> bool snes.getlayer_obj_1()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the obj 1 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.getlayer_obj_2</b><br />
+	</div>
+	<ul>
+		<li> bool snes.getlayer_obj_2()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the obj 2 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.getlayer_obj_3</b><br />
+	</div>
+	<ul>
+		<li> bool snes.getlayer_obj_3()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the obj 3 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.getlayer_obj_4</b><br />
+	</div>
+	<ul>
+		<li> bool snes.getlayer_obj_4()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether the obj 4 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.setlayer_bg_1</b><br />
+	</div>
+	<ul>
+		<li> void snes.setlayer_bg_1(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the bg 1 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.setlayer_bg_2</b><br />
+	</div>
+	<ul>
+		<li> void snes.setlayer_bg_2(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the bg 2 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.setlayer_bg_3</b><br />
+	</div>
+	<ul>
+		<li> void snes.setlayer_bg_3(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the bg 3 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.setlayer_bg_4</b><br />
+	</div>
+	<ul>
+		<li> void snes.setlayer_bg_4(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the bg 4 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.setlayer_obj_1</b><br />
+	</div>
+	<ul>
+		<li> void snes.setlayer_obj_1(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the obj 1 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.setlayer_obj_2</b><br />
+	</div>
+	<ul>
+		<li> void snes.setlayer_obj_2(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the obj 2 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.setlayer_obj_3</b><br />
+	</div>
+	<ul>
+		<li> void snes.setlayer_obj_3(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the obj 3 layer is displayed
+		</li>
+	</ul>
+	<div class="p"><b>snes.setlayer_obj_4</b><br />
+	</div>
+	<ul>
+		<li> void snes.setlayer_obj_4(bool value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets whether the obj 4 layer is displayed
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-22" class="tab-pane fade">
+	<div class="p">A library for performing SQLite operations.
+	</div>
+	<div class="p"><b>SQL.createdatabase</b><br />
+	</div>
+	<ul>
+		<li> string SQL.createdatabase(string name)
+		</li>
+	</ul>
+	<ul>
+		<li> Creates a SQLite Database. Name should end with .db
+		</li>
+	</ul>
+	<div class="p"><b>SQL.opendatabase</b><br />
+	</div>
+	<ul>
+		<li> string SQL.opendatabase(string name)
+		</li>
+	</ul>
+	<ul>
+		<li> Opens a SQLite database. Name should end with .db
+		</li>
+	</ul>
+	<div class="p"><b>SQL.readcommand</b><br />
+	</div>
+	<ul>
+		<li> object SQL.readcommand([string query = ])
+		</li>
+	</ul>
+	<ul>
+		<li> Run a SQLite read command which includes Select. Returns all rows into a LuaTable.Ex: select * from rewards
+		</li>
+	</ul>
+	<div class="p"><b>SQL.writecommand</b><br />
+	</div>
+	<ul>
+		<li> string SQL.writecommand([string query = ])
+		</li>
+	</ul>
+	<ul>
+		<li> Runs a SQLite write command which includes CREATE,INSERT, UPDATE. Ex: create TABLE rewards (ID integer
+			PRIMARY KEY, action VARCHAR(20))
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-23" class="tab-pane fade">
+	<div class="p">A library for manipulating the Tastudio dialog of the EmuHawk client
+	</div>
+	<div class="p"><b>tastudio.addcolumn</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.addcolumn(string name, string text, int width)
+		</li>
+	</ul>
+	<ul>
+		<li>
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.applyinputchanges</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.applyinputchanges()
+		</li>
+	</ul>
+	<ul>
+		<li>
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.clearIconCache</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.clearIconCache()
+		</li>
+	</ul>
+	<ul>
+		<li> Clears the cache that is built up by using <code>tastudio.onqueryitemicon</code>, so that changes to the
+			icons on disk can be picked up.
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.clearinputchanges</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.clearinputchanges()
+		</li>
+	</ul>
+	<ul>
+		<li>
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.engaged</b><br />
+	</div>
+	<ul>
+		<li> bool tastudio.engaged()
+		</li>
+	</ul>
+	<ul>
+		<li> returns whether or not tastudio is currently engaged (active)
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.getbranches</b><br />
+	</div>
+	<ul>
+		<li> nluatable tastudio.getbranches()
+		</li>
+	</ul>
+	<ul>
+		<li> Returns a list of the current tastudio branches. Each entry will have the Id, Frame, and Text properties of
+			the branch
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.getbranchinput</b><br />
+	</div>
+	<ul>
+		<li> nluatable tastudio.getbranchinput(string branchid, int frame)
+		</li>
+	</ul>
+	<ul>
+		<li> Gets the controller state of the given frame with the given branch identifier
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.getmarker</b><br />
+	</div>
+	<ul>
+		<li> string tastudio.getmarker(int frame)
+		</li>
+	</ul>
+	<ul>
+		<li> returns the marker text at the given frame, or an empty string if there is no marker for the given frame
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.getrecording</b><br />
+	</div>
+	<ul>
+		<li> bool tastudio.getrecording()
+		</li>
+	</ul>
+	<ul>
+		<li> returns whether or not TAStudio is in recording mode
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.getselection</b><br />
+	</div>
+	<ul>
+		<li> nluatable tastudio.getselection()
+		</li>
+	</ul>
+	<ul>
+		<li> gets the currently selected frames
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.hasstate</b><br />
+	</div>
+	<ul>
+		<li> bool tastudio.hasstate(int frame)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether or not the given frame has a savestate associated with it
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.islag</b><br />
+	</div>
+	<ul>
+		<li> bool? tastudio.islag(int frame)
+		</li>
+	</ul>
+	<ul>
+		<li> Returns whether or not the given frame was a lag frame, null if unknown
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.loadbranch</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.loadbranch(int index)
+		</li>
+	</ul>
+	<ul>
+		<li> Loads a branch at the given index, if a branch at that index exists.
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.onbranchload</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.onbranchload(nluafunc luaf)
+		</li>
+	</ul>
+	<ul>
+		<li> called whenever a branch is loaded. luaf must be a function that takes the integer branch index as a
+			parameter
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.onbranchremove</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.onbranchremove(nluafunc luaf)
+		</li>
+	</ul>
+	<ul>
+		<li> called whenever a branch is removed. luaf must be a function that takes the integer branch index as a
+			parameter
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.onbranchsave</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.onbranchsave(nluafunc luaf)
+		</li>
+	</ul>
+	<ul>
+		<li> called whenever a branch is created or updated. luaf must be a function that takes the integer branch index
+			as a parameter
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.ongreenzoneinvalidated</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.ongreenzoneinvalidated(nluafunc luaf)
+		</li>
+	</ul>
+	<ul>
+		<li> Called whenever the greenzone is invalidated. Your callback can have 1 parameter, which will be the index
+			of the last row before the invalidated ones.
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.onqueryitembg</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.onqueryitembg(nluafunc luaf)
+		</li>
+	</ul>
+	<ul>
+		<li> called during the background draw event of the tastudio listview. luaf must be a function that takes 2
+			params: index, column. The first is the integer row index of the listview, and the 2nd is the string column
+			name. luaf should return a value that can be parsed into a .NET Color object (string color name, or integer
+			value)
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.onqueryitemicon</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.onqueryitemicon(nluafunc luaf)
+		</li>
+	</ul>
+	<ul>
+		<li> Called during the icon draw event of the tastudio listview. <code>luaf</code> must be a function that takes
+			2 params: <code>(index, column)</code>. The first is the integer row index of the listview, and the 2nd is
+			the string column name. The callback should return a string, the path to the <code>.ico</code> file to be
+			displayed. The file will be cached, so if you change the file on disk, call
+			<code>tastudio.clearIconCache()</code>.
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.onqueryitemtext</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.onqueryitemtext(nluafunc luaf)
+		</li>
+	</ul>
+	<ul>
+		<li> Called during the text draw event of the tastudio listview. <code>luaf</code> must be a function that takes
+			2 params: <code>(index, column)</code>. The first is the integer row index of the listview, and the 2nd is
+			the string column name. The callback should return a string to be displayed.
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.removemarker</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.removemarker(int frame)
+		</li>
+	</ul>
+	<ul>
+		<li> if there is a marker for the given frame, it will be removed
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.setbranchtext</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.setbranchtext(string text, [int? index = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> adds the given message to the existing branch, or to the branch that will be created next if branch index
+			is not specified
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.setlag</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.setlag(int frame, bool? value)
+		</li>
+	</ul>
+	<ul>
+		<li> Sets the lag information for the given frame, if the frame does not exist in the lag log, it will be added.
+			If the value is null, the lag information for that frame will be removed
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.setmarker</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.setmarker(int frame, [string message = nil])
+		</li>
+	</ul>
+	<ul>
+		<li> Adds or sets a marker at the given frame, with an optional message
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.setplayback</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.setplayback(object frame)
+		</li>
+	</ul>
+	<ul>
+		<li> Seeks the given frame (a number) or marker (a string)
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.setrecording</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.setrecording(bool val)
+		</li>
+	</ul>
+	<ul>
+		<li> sets the recording mode on/off depending on the parameter
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.submitanalogchange</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.submitanalogchange(int frame, string button, singlevalue)
+		</li>
+	</ul>
+	<ul>
+		<li>
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.submitclearframes</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.submitclearframes(int frame, int number)
+		</li>
+	</ul>
+	<ul>
+		<li>
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.submitdeleteframes</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.submitdeleteframes(int frame, int number)
+		</li>
+	</ul>
+	<ul>
+		<li>
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.submitinputchange</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.submitinputchange(int frame, string button, bool value)
+		</li>
+	</ul>
+	<ul>
+		<li>
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.submitinsertframes</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.submitinsertframes(int frame, int number)
+		</li>
+	</ul>
+	<ul>
+		<li>
+		</li>
+	</ul>
+	<div class="p"><b>tastudio.togglerecording</b><br />
+	</div>
+	<ul>
+		<li> void tastudio.togglerecording()
+		</li>
+	</ul>
+	<ul>
+		<li> toggles tastudio recording mode on/off depending on its current state
+		</li>
+	</ul>
+</div>
+<div id="tabs-5593-24" class="tab-pane fade">
+	<div class="p">A library for setting and retrieving dynamic data that will be saved and loaded with savestates
+	</div>
+	<div class="p"><b>userdata.clear</b><br />
+	</div>
+	<ul>
+		<li> void userdata.clear()
+		</li>
+	</ul>
+	<ul>
+		<li> clears all user data
+		</li>
+	</ul>
+	<div class="p"><b>userdata.containskey</b><br />
+	</div>
+	<ul>
+		<li> bool userdata.containskey(string key)
+		</li>
+	</ul>
+	<ul>
+		<li> returns whether or not there is an entry for the given key
+		</li>
+	</ul>
+	<div class="p"><b>userdata.get</b><br />
+	</div>
+	<ul>
+		<li> object userdata.get(string key)
+		</li>
+	</ul>
+	<ul>
+		<li> gets the data with the given key, if the key does not exist it will return nil
+		</li>
+	</ul>
+	<div class="p"><b>userdata.get_keys</b><br />
+	</div>
+	<ul>
+		<li> nluatable userdata.get_keys()
+		</li>
+	</ul>
+	<ul>
+		<li> returns a list-like table of valid keys
+		</li>
+	</ul>
+	<div class="p"><b>userdata.remove</b><br />
+	</div>
+	<ul>
+		<li> bool userdata.remove(string key)
+		</li>
+	</ul>
+	<ul>
+		<li> remove the data with the given key. Returns true if the element is successfully found and removed;
+			otherwise, false.
+		</li>
+	</ul>
+	<div class="p"><b>userdata.set</b><br />
+	</div>
+	<ul>
+		<li> void userdata.set(string name, object value)
+		</li>
+	</ul>
+	<ul>
+		<li> adds or updates the data with the given key with the given value

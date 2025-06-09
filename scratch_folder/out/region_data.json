@@ -1,0 +1,5695 @@
+{
+    "regions": [
+        {
+            "id": 2,
+            "name": "JUBILIFE_CITY",
+            "locations": [
+                "OVERWORLD_ITEM_257",
+                "HIDDEN_ITEM_161"
+            ],
+            "exits": {
+                "JUBILIFE_CITY_CONDOMINIUMS_1F:0": 0,
+                "GLOBAL_TERMINAL_1F:0": 0,
+                "JUBILIFE_CITY_POKECENTER_1F:0": 0,
+                "JUBILIFE_TV_1F:0": 0,
+                "JUBILIFE_CITY_SOUTH_HOUSE_1F:0": 0,
+                "POKETCH_CO_1F:1": 0,
+                "JUBILIFE_CITY_MART:0": 0,
+                "TRAINERS_SCHOOL:0": 0,
+                "POKETCH_CO_1F:0": 0,
+                "JUBILIFE_CITY_SOUTHWEST_HOUSE_1F:0": 0,
+                "JUBILIFE_CITY_UNKNOWN_HOUSE_3:0": 0,
+                "JUBILIFE_CITY_UNKNOWN_HOUSE_4:0": 0,
+                "ROUTE_218_GATE_TO_JUBILIFE_CITY:1": 0,
+                "ROUTE_218": 0,
+                "ROUTE_204_SOUTH": 0,
+                "ROUTE_203": 0,
+                "ROUTE_202": 0
+            }
+        },
+        {
+            "id": 3,
+            "name": "JUBILIFE_CITY_MART",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:6": 0
+            }
+        },
+        {
+            "id": 5,
+            "name": "JUBILIFE_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:2": 0,
+                "JUBILIFE_CITY_POKECENTER_2F:0": 0,
+                "JUBILIFE_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 6,
+            "name": "JUBILIFE_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 7,
+            "name": "POKETCH_CO_1F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:8": 0,
+                "JUBILIFE_CITY:5": 0,
+                "POKETCH_CO_2F:0": 0
+            }
+        },
+        {
+            "id": 8,
+            "name": "POKETCH_CO_2F",
+            "locations": [],
+            "exits": {
+                "POKETCH_CO_1F:2": 0,
+                "POKETCH_CO_3F:0": 0
+            }
+        },
+        {
+            "id": 9,
+            "name": "POKETCH_CO_3F",
+            "locations": [],
+            "exits": {
+                "POKETCH_CO_2F:1": 0
+            }
+        },
+        {
+            "id": 10,
+            "name": "JUBILIFE_TV_1F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:3": 0,
+                "JUBILIFE_TV_2F:0": 0,
+                "JUBILIFE_TV_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 11,
+            "name": "JUBILIFE_TV_2F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_TV_1F:1": 0,
+                "JUBILIFE_TV_3F:0": 0,
+                "JUBILIFE_TV_2F_GALLERY:0": 0,
+                "JUBILIFE_TV_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 12,
+            "name": "JUBILIFE_TV_3F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_TV_2F:1": 0,
+                "JUBILIFE_TV_4F:0": 0,
+                "JUBILIFE_TV_3F_GROUP_RANKING_ROOM:0": 0,
+                "JUBILIFE_TV_3F_GLOBAL_RANKING_ROOM:0": 0,
+                "JUBILIFE_TV_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 13,
+            "name": "JUBILIFE_TV_4F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_TV_3F:1": 0,
+                "JUBILIFE_TV_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 14,
+            "name": "JUBILIFE_TV_2F_GALLERY",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_TV_2F:2": 0
+            }
+        },
+        {
+            "id": 15,
+            "name": "JUBILIFE_TV_3F_GLOBAL_RANKING_ROOM",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_TV_3F:3": 0
+            }
+        },
+        {
+            "id": 16,
+            "name": "JUBILIFE_TV_3F_GROUP_RANKING_ROOM",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_TV_3F:2": 0
+            }
+        },
+        {
+            "id": 17,
+            "name": "JUBILIFE_TV_ELEVATOR",
+            "locations": [],
+            "exits": {}
+        },
+        {
+            "id": 18,
+            "name": "JUBILIFE_CITY_SOUTH_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:4": 0,
+                "JUBILIFE_CITY_SOUTH_HOUSE_2F:0": 0
+            }
+        },
+        {
+            "id": 19,
+            "name": "JUBILIFE_CITY_SOUTH_HOUSE_2F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_SOUTH_HOUSE_1F:1": 0,
+                "JUBILIFE_CITY_SOUTH_HOUSE_3F:0": 0
+            }
+        },
+        {
+            "id": 20,
+            "name": "JUBILIFE_CITY_SOUTH_HOUSE_3F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_SOUTH_HOUSE_2F:1": 0,
+                "JUBILIFE_CITY_SOUTH_HOUSE_4F:0": 0
+            }
+        },
+        {
+            "id": 21,
+            "name": "JUBILIFE_CITY_SOUTH_HOUSE_4F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_SOUTH_HOUSE_3F:1": 0
+            }
+        },
+        {
+            "id": 23,
+            "name": "JUBILIFE_CITY_CONDOMINIUMS_1F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:0": 0,
+                "JUBILIFE_CITY_CONDOMINIUMS_2F:0": 0
+            }
+        },
+        {
+            "id": 24,
+            "name": "JUBILIFE_CITY_CONDOMINIUMS_2F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_CONDOMINIUMS_1F:1": 0,
+                "JUBILIFE_CITY_CONDOMINIUMS_3F:0": 0
+            }
+        },
+        {
+            "id": 25,
+            "name": "JUBILIFE_CITY_CONDOMINIUMS_3F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_CONDOMINIUMS_2F:1": 0,
+                "JUBILIFE_CITY_CONDOMINIUMS_4F:0": 0
+            }
+        },
+        {
+            "id": 26,
+            "name": "JUBILIFE_CITY_CONDOMINIUMS_4F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_CONDOMINIUMS_3F:1": 0
+            }
+        },
+        {
+            "id": 27,
+            "name": "GLOBAL_TERMINAL_1F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:1": 0,
+                "GLOBAL_TERMINAL_2F:0": 0,
+                "GLOBAL_TERMINAL_3F:0": 0
+            }
+        },
+        {
+            "id": 28,
+            "name": "TRAINERS_SCHOOL",
+            "locations": [
+                "OVERWORLD_ITEM_258"
+            ],
+            "exits": {
+                "JUBILIFE_CITY:7": 0
+            }
+        },
+        {
+            "id": 29,
+            "name": "JUBILIFE_CITY_SOUTHWEST_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:9": 0,
+                "JUBILIFE_CITY_SOUTHWEST_HOUSE_2F:0": 0
+            }
+        },
+        {
+            "id": 30,
+            "name": "JUBILIFE_CITY_UNKNOWN_HOUSE_3",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:10": 0
+            }
+        },
+        {
+            "id": 31,
+            "name": "JUBILIFE_CITY_UNKNOWN_HOUSE_4",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY:11": 0
+            }
+        },
+        {
+            "id": 32,
+            "name": "CANALAVE_CITY",
+            "locations": [
+                "OVERWORLD_ITEM_134",
+                "HIDDEN_ITEM_218"
+            ],
+            "exits": {
+                "CANALAVE_CITY_GYM:0": 0,
+                "CANALAVE_CITY_POKECENTER_1F:0": 0,
+                "CANALAVE_CITY_MART:0": 0,
+                "CANALAVE_LIBRARY_1F:0": 0,
+                "CANALAVE_CITY_SOUTHEAST_HOUSE:0": 0,
+                "CANALAVE_CITY_HARBOR_INN:0": 0,
+                "CANALAVE_CITY_SAILOR_ELDRITCH_HOUSE:0": 0,
+                "ROUTE_218_GATE_TO_CANALAVE_CITY:0": 0,
+                "CANALAVE_CITY_EAST_HOUSE:0": 0,
+                "CANALAVE_CITY_WEST_HOUSE:0": 0,
+                "IRON_ISLAND": 0,
+                "FULLMOON_ISLAND": 0,
+                "ROUTE_218": 0
+            }
+        },
+        {
+            "id": 33,
+            "name": "CANALAVE_CITY_MART",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:2": 0
+            }
+        },
+        {
+            "id": 34,
+            "name": "CANALAVE_CITY_GYM",
+            "locations": [
+                "TRAINER_WORKER_GARY",
+                "TRAINER_WORKER_JACKSON",
+                "TRAINER_WORKER_GERARDO",
+                "TRAINER_BLACK_BELT_RICKY",
+                "TRAINER_BLACK_BELT_DAVID",
+                "TRAINER_ACE_TRAINER_BREANNA",
+                "TRAINER_ACE_TRAINER_CESAR",
+                "BADGE_6"
+            ],
+            "exits": {
+                "CANALAVE_CITY:0": 0
+            }
+        },
+        {
+            "id": 35,
+            "name": "CANALAVE_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:1": 0,
+                "CANALAVE_CITY_POKECENTER_2F:0": 0,
+                "CANALAVE_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 36,
+            "name": "CANALAVE_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 37,
+            "name": "CANALAVE_LIBRARY_1F",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:3": 0,
+                "CANALAVE_LIBRARY_2F:0": 0
+            }
+        },
+        {
+            "id": 38,
+            "name": "CANALAVE_LIBRARY_2F",
+            "locations": [],
+            "exits": {
+                "CANALAVE_LIBRARY_1F:1": 0,
+                "CANALAVE_LIBRARY_3F:0": 0
+            }
+        },
+        {
+            "id": 39,
+            "name": "CANALAVE_LIBRARY_3F",
+            "locations": [],
+            "exits": {
+                "CANALAVE_LIBRARY_2F:1": 0
+            }
+        },
+        {
+            "id": 40,
+            "name": "CANALAVE_CITY_SOUTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:4": 0
+            }
+        },
+        {
+            "id": 41,
+            "name": "CANALAVE_CITY_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:9": 0
+            }
+        },
+        {
+            "id": 42,
+            "name": "CANALAVE_CITY_HARBOR_INN",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:5": 0,
+                "NEWMOON_ISLAND": 0
+            }
+        },
+        {
+            "id": 43,
+            "name": "CANALAVE_CITY_SAILOR_ELDRITCH_HOUSE",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:6": 0
+            }
+        },
+        {
+            "id": 44,
+            "name": "OREBURGH_CITY",
+            "locations": [
+                "OVERWORLD_ITEM_259",
+                "OVERWORLD_ITEM_260",
+                "HIDDEN_ITEM_87",
+                "HIDDEN_ITEM_257"
+            ],
+            "exits": {
+                "OREBURGH_CITY_GYM:0": 0,
+                "OREBURGH_CITY_POKECENTER_1F:0": 0,
+                "OREBURGH_CITY_MART:0": 0,
+                "OREBURGH_CITY_NORTHWEST_HOUSE_1F:0": 0,
+                "OREBURGH_CITY_WEST_HOUSE:0": 0,
+                "OREBURGH_CITY_MIDDLE_HOUSE:0": 0,
+                "MINING_MUSEUM:0": 0,
+                "OREBURGH_CITY_EAST_HOUSE_1F:0": 0,
+                "OREBURGH_CITY_NORTH_HOUSE_1F:0": 0,
+                "OREBURGH_CITY_SOUTH_HOUSE:0": 0,
+                "OREBURGH_GATE_1F:1": 0,
+                "OREBURGH_MINE_B1F:0": 0,
+                "OREBURGH_MINE_B1F:1": 0,
+                "OREBURGH_MINE_B1F:2": 0,
+                "ROUTE_203": 0,
+                "ROUTE_207": 0
+            }
+        },
+        {
+            "id": 45,
+            "name": "OREBURGH_CITY_MART",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:2": 0
+            }
+        },
+        {
+            "id": 46,
+            "name": "OREBURGH_CITY_GYM",
+            "locations": [
+                "TRAINER_YOUNGSTER_DARIUS",
+                "TRAINER_YOUNGSTER_JONATHON",
+                "BADGE_1"
+            ],
+            "exits": {
+                "OREBURGH_CITY:0": 0
+            }
+        },
+        {
+            "id": 47,
+            "name": "OREBURGH_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:1": 0,
+                "OREBURGH_CITY_POKECENTER_2F:0": 0,
+                "OREBURGH_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 48,
+            "name": "OREBURGH_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 49,
+            "name": "OREBURGH_CITY_NORTHWEST_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:3": 0,
+                "OREBURGH_CITY_NORTHWEST_HOUSE_2F:0": 0
+            }
+        },
+        {
+            "id": 50,
+            "name": "OREBURGH_CITY_NORTHWEST_HOUSE_2F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_NORTHWEST_HOUSE_1F:1": 0,
+                "OREBURGH_CITY_NORTHWEST_HOUSE_3F:0": 0
+            }
+        },
+        {
+            "id": 51,
+            "name": "OREBURGH_CITY_NORTHWEST_HOUSE_3F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_NORTHWEST_HOUSE_2F:1": 0,
+                "OREBURGH_CITY_NORTHWEST_HOUSE_4F:0": 0
+            }
+        },
+        {
+            "id": 52,
+            "name": "OREBURGH_CITY_NORTHWEST_HOUSE_4F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_NORTHWEST_HOUSE_3F:1": 0
+            }
+        },
+        {
+            "id": 53,
+            "name": "OREBURGH_CITY_NORTH_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:8": 0,
+                "OREBURGH_CITY_NORTH_HOUSE_2F:0": 0
+            }
+        },
+        {
+            "id": 54,
+            "name": "OREBURGH_CITY_NORTH_HOUSE_2F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_NORTH_HOUSE_1F:1": 0,
+                "OREBURGH_CITY_NORTH_HOUSE_3F:0": 0
+            }
+        },
+        {
+            "id": 55,
+            "name": "OREBURGH_CITY_NORTH_HOUSE_3F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_NORTH_HOUSE_2F:1": 0,
+                "OREBURGH_CITY_NORTH_HOUSE_4F:0": 0
+            }
+        },
+        {
+            "id": 56,
+            "name": "OREBURGH_CITY_NORTH_HOUSE_4F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_NORTH_HOUSE_3F:1": 0
+            }
+        },
+        {
+            "id": 57,
+            "name": "OREBURGH_CITY_MIDDLE_HOUSE",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:5": 0
+            }
+        },
+        {
+            "id": 58,
+            "name": "MINING_MUSEUM",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:6": 0
+            }
+        },
+        {
+            "id": 59,
+            "name": "OREBURGH_CITY_WEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:4": 0
+            }
+        },
+        {
+            "id": 60,
+            "name": "OREBURGH_CITY_EAST_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:7": 0,
+                "OREBURGH_CITY_EAST_HOUSE_2F:0": 0
+            }
+        },
+        {
+            "id": 61,
+            "name": "OREBURGH_CITY_EAST_HOUSE_2F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_EAST_HOUSE_1F:1": 0,
+                "OREBURGH_CITY_EAST_HOUSE_3F:0": 0
+            }
+        },
+        {
+            "id": 62,
+            "name": "OREBURGH_CITY_EAST_HOUSE_3F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_EAST_HOUSE_2F:1": 0
+            }
+        },
+        {
+            "id": 63,
+            "name": "OREBURGH_CITY_SOUTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY:9": 0
+            }
+        },
+        {
+            "id": 64,
+            "name": "ETERNA_CITY",
+            "locations": [
+                "OVERWORLD_ITEM_24",
+                "OVERWORLD_ITEM_26",
+                "HIDDEN_ITEM_2",
+                "HIDDEN_ITEM_150",
+                "HIDDEN_ITEM_3",
+                "HIDDEN_ITEM_228"
+            ],
+            "exits": {
+                "ETERNA_CITY_POKECENTER_1F:0": 0,
+                "ETERNA_CITY_MART:0": 0,
+                "CYCLE_SHOP:0": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_1F:0": 0,
+                "ETERNA_CITY_CONDOMINIUMS_1F:0": 0,
+                "ETERNA_CITY_SOUTH_HOUSE:0": 0,
+                "ETERNA_CITY_EAST_HOUSE:0": 0,
+                "ETERNA_CITY_NORTH_HOUSE:0": 0,
+                "ROUTE_206_CYCLING_ROAD_NORTH_GATE:0": 0,
+                "ETERNA_CITY_GYM:0": 0,
+                "ETERNA_CITY_UNDERGROUND_MAN_HOUSE:0": 0,
+                "ROUTE_205_NORTH": 0,
+                "ROUTE_211_WEST": 0,
+                "ROUTE_206": 0
+            }
+        },
+        {
+            "id": 65,
+            "name": "ETERNA_CITY_MART",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:1": 0
+            }
+        },
+        {
+            "id": 66,
+            "name": "ETERNA_CITY_GYM",
+            "locations": [
+                "BADGE_2"
+            ],
+            "exits": {
+                "ETERNA_CITY:10": 0
+            }
+        },
+        {
+            "id": 68,
+            "name": "ETERNA_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:0": 0,
+                "ETERNA_CITY_POKECENTER_2F:0": 0,
+                "ETERNA_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 69,
+            "name": "ETERNA_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 70,
+            "name": "CYCLE_SHOP",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:2": 0
+            }
+        },
+        {
+            "id": 71,
+            "name": "TEAM_GALACTIC_ETERNA_BUILDING_1F",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_TEAM_GALACTIC_ETERNA_BUILDING_1F_1",
+                "TRAINER_GALACTIC_GRUNT_TEAM_GALACTIC_ETERNA_BUILDING_1F_2"
+            ],
+            "exits": {
+                "ETERNA_CITY:3": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_2F:0": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_2F:2": 0,
+                "ROTOMS_ROOM:0": 0
+            }
+        },
+        {
+            "id": 72,
+            "name": "TEAM_GALACTIC_ETERNA_BUILDING_2F",
+            "locations": [
+                "OVERWORLD_ITEM_262",
+                "TRAINER_GALACTIC_GRUNT_TEAM_GALACTIC_ETERNA_BUILDING_2F_2",
+                "TRAINER_GALACTIC_GRUNT_TEAM_GALACTIC_ETERNA_BUILDING_2F_1"
+            ],
+            "exits": {
+                "TEAM_GALACTIC_ETERNA_BUILDING_1F:1": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_3F:0": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_1F:2": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_3F:2": 0
+            }
+        },
+        {
+            "id": 73,
+            "name": "TEAM_GALACTIC_ETERNA_BUILDING_3F",
+            "locations": [
+                "OVERWORLD_ITEM_263",
+                "TRAINER_SCIENTIST_TRAVON",
+                "TRAINER_GALACTIC_GRUNT_TEAM_GALACTIC_ETERNA_BUILDING_3F"
+            ],
+            "exits": {
+                "TEAM_GALACTIC_ETERNA_BUILDING_2F:1": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_4F:0": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_2F:3": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_4F:1": 0
+            }
+        },
+        {
+            "id": 74,
+            "name": "TEAM_GALACTIC_ETERNA_BUILDING_4F",
+            "locations": [
+                "OVERWORLD_ITEM_264",
+                "OVERWORLD_ITEM_277",
+                "OVERWORLD_ITEM_265"
+            ],
+            "exits": {
+                "TEAM_GALACTIC_ETERNA_BUILDING_3F:1": 0,
+                "TEAM_GALACTIC_ETERNA_BUILDING_3F:3": 0
+            }
+        },
+        {
+            "id": 75,
+            "name": "ETERNA_CITY_CONDOMINIUMS_1F",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:4": 0,
+                "ETERNA_CITY_CONDOMINIUMS_2F:0": 0
+            }
+        },
+        {
+            "id": 76,
+            "name": "ETERNA_CITY_CONDOMINIUMS_2F",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY_CONDOMINIUMS_1F:1": 0,
+                "ETERNA_CITY_CONDOMINIUMS_3F:0": 0
+            }
+        },
+        {
+            "id": 77,
+            "name": "ETERNA_CITY_CONDOMINIUMS_3F",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY_CONDOMINIUMS_2F:1": 0,
+                "ETERNA_CITY_CONDOMINIUMS_4F:0": 0
+            }
+        },
+        {
+            "id": 78,
+            "name": "ETERNA_CITY_CONDOMINIUMS_4F",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY_CONDOMINIUMS_3F:1": 0
+            }
+        },
+        {
+            "id": 79,
+            "name": "ROUTE_206_CYCLING_ROAD_NORTH_GATE",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:8": 0,
+                "ROUTE_206:4": 0
+            }
+        },
+        {
+            "id": 80,
+            "name": "ETERNA_CITY_NORTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:7": 0
+            }
+        },
+        {
+            "id": 81,
+            "name": "ETERNA_CITY_SOUTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:5": 0
+            }
+        },
+        {
+            "id": 82,
+            "name": "ETERNA_CITY_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:6": 0
+            }
+        },
+        {
+            "id": 83,
+            "name": "ETERNA_CITY_UNDERGROUND_MAN_HOUSE",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY:11": 0
+            }
+        },
+        {
+            "id": 85,
+            "name": "HEARTHOME_CITY",
+            "locations": [
+                "HIDDEN_ITEM_16"
+            ],
+            "exits": {
+                "HEARTHOME_CITY_WEST_GATE_TO_AMITY_SQUARE:0": 0,
+                "CONTEST_HALL_LOBBY:0": 0,
+                "HEARTHOME_CITY_EAST_GATE_TO_AMITY_SQUARE:0": 0,
+                "HEARTHOME_CITY_POKECENTER_1F:0": 0,
+                "HEARTHOME_CITY_NORTHWEST_HOUSE:0": 0,
+                "HEARTHOME_CITY_SOUTHEAST_HOUSE_1F:0": 0,
+                "HEARTHOME_CITY_GYM_ENTRANCE_ROOM:3": 0,
+                "FOREIGN_BUILDING:0": 0,
+                "POFFIN_HOUSE:0": 0,
+                "HEARTHOME_CITY_MART:0": 0,
+                "HEARTHOME_CITY_POKEMON_FAN_CLUB:0": 0,
+                "HEARTHOME_CITY_NORTHEAST_HOUSE_1F:0": 0,
+                "ROUTE_208_GATE_TO_HEARTHOME_CITY:0": 0,
+                "ROUTE_212_GATE_TO_HEARTHOME_CITY:0": 0,
+                "ROUTE_209_GATE_TO_HEARTHOME_CITY:0": 0,
+                "ROUTE_212_NORTH": 0,
+                "ROUTE_208": 0,
+                "ROUTE_209": 0
+            }
+        },
+        {
+            "id": 86,
+            "name": "HEARTHOME_CITY_MART",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:11": 0
+            }
+        },
+        {
+            "id": 87,
+            "name": "HEARTHOME_CITY_GYM_ENTRANCE_ROOM",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY_GYM_TRAINER_ROOM_2:0": 0,
+                "HEARTHOME_CITY_GYM_TRAINER_ROOM_1:0": 0,
+                "HEARTHOME_CITY_GYM_LEADER_ROOM:3": 0,
+                "HEARTHOME_CITY:8": 0,
+                "HEARTHOME_CITY_GYM_LEADER_ROOM:4": 0
+            }
+        },
+        {
+            "id": 88,
+            "name": "HEARTHOME_CITY_GYM_TRAINER_ROOM_1",
+            "locations": [
+                "TRAINER_YOUNGSTER_DONNY",
+                "TRAINER_LASS_MOLLY"
+            ],
+            "exits": {
+                "HEARTHOME_CITY_GYM_ENTRANCE_ROOM:1": 0,
+                "HEARTHOME_CITY_GYM_TRAINER_ROOM_2:0": 0
+            }
+        },
+        {
+            "id": 89,
+            "name": "HEARTHOME_CITY_GYM_TRAINER_ROOM_2",
+            "locations": [
+                "TRAINER_SCHOOL_KID_MACKENZIE",
+                "TRAINER_ACE_TRAINER_ALLEN",
+                "TRAINER_SCHOOL_KID_CHANCE",
+                "TRAINER_ACE_TRAINER_CATHERINE"
+            ],
+            "exits": {
+                "HEARTHOME_CITY_GYM_ENTRANCE_ROOM:1": 0,
+                "HEARTHOME_CITY_GYM_LEADER_ROOM:3": 0
+            }
+        },
+        {
+            "id": 90,
+            "name": "HEARTHOME_CITY_GYM_LEADER_ROOM",
+            "locations": [
+                "BADGE_3"
+            ],
+            "exits": {
+                "HEARTHOME_CITY_GYM_ENTRANCE_ROOM:1": 0,
+                "HEARTHOME_CITY_GYM_ENTRANCE_ROOM:4": 0
+            }
+        },
+        {
+            "id": 100,
+            "name": "HEARTHOME_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:5": 0,
+                "HEARTHOME_CITY_POKECENTER_2F:0": 0,
+                "HEARTHOME_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 101,
+            "name": "HEARTHOME_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 102,
+            "name": "HEARTHOME_CITY_SOUTHEAST_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:7": 0,
+                "HEARTHOME_CITY_SOUTHEAST_HOUSE_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 104,
+            "name": "HEARTHOME_CITY_SOUTHEAST_HOUSE_ELEVATOR",
+            "locations": [],
+            "exits": {}
+        },
+        {
+            "id": 105,
+            "name": "HEARTHOME_CITY_POKEMON_FAN_CLUB",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:12": 0
+            }
+        },
+        {
+            "id": 106,
+            "name": "HEARTHOME_CITY_WEST_GATE_TO_AMITY_SQUARE",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:0": 0,
+                "AMITY_SQUARE:0": 0
+            }
+        },
+        {
+            "id": 107,
+            "name": "HEARTHOME_CITY_EAST_GATE_TO_AMITY_SQUARE",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:3": 0,
+                "AMITY_SQUARE:2": 0
+            }
+        },
+        {
+            "id": 108,
+            "name": "ROUTE_208_GATE_TO_HEARTHOME_CITY",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:14": 0,
+                "ROUTE_208:0": 0
+            }
+        },
+        {
+            "id": 109,
+            "name": "ROUTE_209_GATE_TO_HEARTHOME_CITY",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:19": 0,
+                "ROUTE_209:0": 0
+            }
+        },
+        {
+            "id": 110,
+            "name": "ROUTE_212_GATE_TO_HEARTHOME_CITY",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:15": 0,
+                "ROUTE_212_NORTH:0": 0
+            }
+        },
+        {
+            "id": 111,
+            "name": "HEARTHOME_CITY_NORTHEAST_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:13": 0,
+                "HEARTHOME_CITY_NORTHEAST_HOUSE_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 113,
+            "name": "HEARTHOME_CITY_NORTHEAST_HOUSE_ELEVATOR",
+            "locations": [],
+            "exits": {}
+        },
+        {
+            "id": 114,
+            "name": "HEARTHOME_CITY_NORTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:6": 0
+            }
+        },
+        {
+            "id": 115,
+            "name": "POFFIN_HOUSE",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:10": 0
+            }
+        },
+        {
+            "id": 116,
+            "name": "CONTEST_HALL_LOBBY",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:2": 0,
+                "CONTEST_HALL_STAGE_NO_CONTEST:0": 0
+            }
+        },
+        {
+            "id": 118,
+            "name": "FOREIGN_BUILDING",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY:9": 0
+            }
+        },
+        {
+            "id": 119,
+            "name": "PASTORIA_CITY",
+            "locations": [
+                "OVERWORLD_ITEM_74",
+                "BERRY_58",
+                "BERRY_60",
+                "BERRY_61",
+                "BERRY_59",
+                "HIDDEN_ITEM_27"
+            ],
+            "exits": {
+                "PASTORIA_CITY_GYM:0": 0,
+                "PASTORIA_CITY_MIDDLE_HOUSE:0": 0,
+                "PASTORIA_CITY_MART:0": 0,
+                "PASTORIA_CITY_NORTH_HOUSE:0": 0,
+                "PASTORIA_CITY_EAST_HOUSE:0": 0,
+                "PASTORIA_CITY_NORTHEAST_HOUSE:0": 0,
+                "PASTORIA_CITY_SOUTHWEST_HOUSE:0": 0,
+                "PASTORIA_CITY_OBSERVATORY_GATE_1F:0": 0,
+                "PASTORIA_CITY_POKECENTER_1F:0": 0,
+                "ROUTE_213_GATE_TO_PASTORIA_CITY:1": 0,
+                "ROUTE_213": 0,
+                "ROUTE_212_SOUTH": 0
+            }
+        },
+        {
+            "id": 120,
+            "name": "PASTORIA_CITY_MART",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY:2": 0
+            }
+        },
+        {
+            "id": 121,
+            "name": "PASTORIA_CITY_GYM",
+            "locations": [
+                "TRAINER_TUBER_CAITLYN",
+                "TRAINER_SAILOR_SAMSON",
+                "TRAINER_FISHERMAN_ERICK",
+                "TRAINER_TUBER_JACKY",
+                "TRAINER_FISHERMAN_WALTER",
+                "TRAINER_SAILOR_DAMIAN",
+                "BADGE_5"
+            ],
+            "exits": {
+                "PASTORIA_CITY:0": 0
+            }
+        },
+        {
+            "id": 122,
+            "name": "PASTORIA_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY:9": 0,
+                "PASTORIA_CITY_POKECENTER_2F:0": 0,
+                "PASTORIA_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 123,
+            "name": "PASTORIA_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 124,
+            "name": "PASTORIA_CITY_OBSERVATORY_GATE_1F",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY:7": 0,
+                "PASTORIA_CITY_OBSERVATORY_GATE_2F:0": 0,
+                "GREAT_MARSH_6:0": 0
+            }
+        },
+        {
+            "id": 125,
+            "name": "PASTORIA_CITY_OBSERVATORY_GATE_2F",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY_OBSERVATORY_GATE_1F:1": 0
+            }
+        },
+        {
+            "id": 126,
+            "name": "PASTORIA_CITY_SOUTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY:6": 0
+            }
+        },
+        {
+            "id": 127,
+            "name": "PASTORIA_CITY_MIDDLE_HOUSE",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY:1": 0
+            }
+        },
+        {
+            "id": 128,
+            "name": "PASTORIA_CITY_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY:4": 0
+            }
+        },
+        {
+            "id": 129,
+            "name": "PASTORIA_CITY_NORTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY:3": 0
+            }
+        },
+        {
+            "id": 130,
+            "name": "PASTORIA_CITY_NORTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY:5": 0
+            }
+        },
+        {
+            "id": 131,
+            "name": "VEILSTONE_CITY",
+            "locations": [
+                "OVERWORLD_ITEM_109",
+                "OVERWORLD_ITEM_271",
+                "OVERWORLD_ITEM_110",
+                "HIDDEN_ITEM_41",
+                "HIDDEN_ITEM_40",
+                "HIDDEN_ITEM_259"
+            ],
+            "exits": {
+                "ROUTE_215_GATE_TO_VEILSTONE_CITY:0": 0,
+                "GAME_CORNER:0": 0,
+                "VEILSTONE_STORE_1F:0": 0,
+                "VEILSTONE_CITY_GALACTIC_WAREHOUSE:0": 0,
+                "VEILSTONE_CITY_PRIZE_EXCHANGE:0": 0,
+                "VEILSTONE_CITY_SOUTHWEST_HOUSE:0": 0,
+                "VEILSTONE_CITY_SOUTHEAST_HOUSE:0": 0,
+                "VEILSTONE_CITY_NORTHWEST_HOUSE:0": 0,
+                "VEILSTONE_CITY_NORTHEAST_HOUSE:0": 0,
+                "VEILSTONE_CITY_POKECENTER_1F:0": 0,
+                "ROUTE_214_GATE_TO_VEILSTONE_CITY:0": 0,
+                "VEILSTONE_CITY_GYM:0": 0,
+                "GALACTIC_HQ_1F:0": 0,
+                "GALACTIC_HQ_1F:1": 0,
+                "GALACTIC_HQ_1F:2": 0,
+                "ROUTE_215": 0,
+                "ROUTE_214": 0
+            }
+        },
+        {
+            "id": 132,
+            "name": "VEILSTONE_CITY_GYM",
+            "locations": [
+                "TRAINER_BLACK_BELT_RAFAEL",
+                "TRAINER_BLACK_BELT_JEFFERY",
+                "TRAINER_BLACK_BELT_COLBY",
+                "TRAINER_BLACK_BELT_DARREN",
+                "BADGE_4"
+            ],
+            "exits": {
+                "VEILSTONE_CITY:13": 0
+            }
+        },
+        {
+            "id": 133,
+            "name": "VEILSTONE_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:10": 0,
+                "VEILSTONE_CITY_POKECENTER_2F:0": 0,
+                "VEILSTONE_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 134,
+            "name": "VEILSTONE_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 135,
+            "name": "GAME_CORNER",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:2": 0
+            }
+        },
+        {
+            "id": 136,
+            "name": "VEILSTONE_STORE_1F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:3": 0,
+                "VEILSTONE_STORE_2F:0": 0,
+                "VEILSTONE_STORE_ELEVATOR:0": 0,
+                "VEILSTONE_STORE_B1F:0": 0
+            }
+        },
+        {
+            "id": 137,
+            "name": "VEILSTONE_STORE_2F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_STORE_1F:1": 0,
+                "VEILSTONE_STORE_3F:0": 0,
+                "VEILSTONE_STORE_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 138,
+            "name": "VEILSTONE_STORE_3F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_STORE_2F:1": 0,
+                "VEILSTONE_STORE_4F:0": 0,
+                "VEILSTONE_STORE_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 139,
+            "name": "VEILSTONE_STORE_4F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_STORE_3F:1": 0,
+                "VEILSTONE_STORE_5F:0": 0,
+                "VEILSTONE_STORE_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 140,
+            "name": "VEILSTONE_STORE_5F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_STORE_4F:1": 0,
+                "VEILSTONE_STORE_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 141,
+            "name": "VEILSTONE_STORE_ELEVATOR",
+            "locations": [],
+            "exits": {}
+        },
+        {
+            "id": 142,
+            "name": "VEILSTONE_CITY_GALACTIC_WAREHOUSE",
+            "locations": [
+                "OVERWORLD_ITEM_236",
+                "OVERWORLD_ITEM_111"
+            ],
+            "exits": {
+                "VEILSTONE_CITY:4": 0,
+                "GALACTIC_HQ_B2F:2": 0
+            }
+        },
+        {
+            "id": 143,
+            "name": "VEILSTONE_CITY_PRIZE_EXCHANGE",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:5": 0
+            }
+        },
+        {
+            "id": 144,
+            "name": "VEILSTONE_CITY_SOUTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:7": 0
+            }
+        },
+        {
+            "id": 145,
+            "name": "VEILSTONE_CITY_NORTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:8": 0
+            }
+        },
+        {
+            "id": 146,
+            "name": "VEILSTONE_CITY_NORTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:9": 0
+            }
+        },
+        {
+            "id": 147,
+            "name": "VEILSTONE_CITY_SOUTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:6": 0
+            }
+        },
+        {
+            "id": 148,
+            "name": "ROUTE_215_GATE_TO_VEILSTONE_CITY",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:0": 0,
+                "ROUTE_215:0": 0
+            }
+        },
+        {
+            "id": 149,
+            "name": "SUNYSHORE_CITY",
+            "locations": [
+                "OVERWORLD_ITEM_177",
+                "HIDDEN_ITEM_111",
+                "HIDDEN_ITEM_110"
+            ],
+            "exits": {
+                "SUNYSHORE_MARKET:0": 0,
+                "SUNYSHORE_CITY_NORTHEAST_HOUSE:0": 0,
+                "SUNYSHORE_CITY_WEST_HOUSE:0": 0,
+                "ROUTE_222_GATE_TO_SUNYSHORE_CITY:1": 0,
+                "SUNYSHORE_CITY_NORTHWEST_HOUSE:0": 0,
+                "SUNYSHORE_CITY_MART:0": 0,
+                "SUNYSHORE_CITY_UNKNOWN_HOUSE_1:0": 0,
+                "SUNYSHORE_CITY_UNKNOWN_HOUSE_2:0": 0,
+                "SUNYSHORE_CITY_EAST_HOUSE:0": 0,
+                "VISTA_LIGHTHOUSE_ELEVATOR:0": 0,
+                "SUNYSHORE_CITY_POKECENTER_1F:0": 0,
+                "SUNYSHORE_CITY_GYM_ROOM_1:0": 0,
+                "ROUTE_223": 0,
+                "ROUTE_222": 0
+            }
+        },
+        {
+            "id": 150,
+            "name": "SUNYSHORE_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:11": 0,
+                "SUNYSHORE_CITY_POKECENTER_2F:0": 0,
+                "SUNYSHORE_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 151,
+            "name": "SUNYSHORE_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 152,
+            "name": "SUNYSHORE_CITY_MART",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:5": 0
+            }
+        },
+        {
+            "id": 153,
+            "name": "SUNYSHORE_CITY_GYM_ROOM_1",
+            "locations": [
+                "TRAINER_SCHOOL_KID_TIERA"
+            ],
+            "exits": {
+                "SUNYSHORE_CITY:12": 0,
+                "SUNYSHORE_CITY_GYM_ROOM_2:0": 0
+            }
+        },
+        {
+            "id": 154,
+            "name": "SUNYSHORE_CITY_GYM_ROOM_2",
+            "locations": [
+                "TRAINER_GUITARIST_JERRY",
+                "TRAINER_SCHOOL_KID_FORREST",
+                "TRAINER_POKE_KID_MEGHAN"
+            ],
+            "exits": {
+                "SUNYSHORE_CITY_GYM_ROOM_1:1": 0,
+                "SUNYSHORE_CITY_GYM_ROOM_3:0": 0
+            }
+        },
+        {
+            "id": 155,
+            "name": "SUNYSHORE_CITY_GYM_ROOM_3",
+            "locations": [
+                "TRAINER_ACE_TRAINER_ZACHERY",
+                "TRAINER_ACE_TRAINER_DESTINY",
+                "TRAINER_GUITARIST_PRESTON",
+                "TRAINER_GUITARIST_LONNIE",
+                "BADGE_8"
+            ],
+            "exits": {
+                "SUNYSHORE_CITY_GYM_ROOM_2:1": 0
+            }
+        },
+        {
+            "id": 156,
+            "name": "SUNYSHORE_MARKET",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:0": 0
+            }
+        },
+        {
+            "id": 157,
+            "name": "SUNYSHORE_CITY_NORTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:1": 0
+            }
+        },
+        {
+            "id": 158,
+            "name": "SUNYSHORE_CITY_WEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:2": 0
+            }
+        },
+        {
+            "id": 159,
+            "name": "SUNYSHORE_CITY_NORTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:4": 0
+            }
+        },
+        {
+            "id": 160,
+            "name": "SUNYSHORE_CITY_UNKNOWN_HOUSE_1",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:7": 0
+            }
+        },
+        {
+            "id": 161,
+            "name": "SUNYSHORE_CITY_UNKNOWN_HOUSE_2",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:8": 0
+            }
+        },
+        {
+            "id": 162,
+            "name": "SUNYSHORE_CITY_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY:9": 0
+            }
+        },
+        {
+            "id": 164,
+            "name": "SNOWPOINT_CITY",
+            "locations": [
+                "OVERWORLD_ITEM_310",
+                "HIDDEN_ITEM_178"
+            ],
+            "exits": {
+                "SNOWPOINT_CITY_WEST_HOUSE:0": 0,
+                "SNOWPOINT_CITY_EAST_HOUSE:0": 0,
+                "SNOWPOINT_TEMPLE_1F:0": 0,
+                "SNOWPOINT_CITY_MART:0": 0,
+                "SNOWPOINT_CITY_POKECENTER_1F:0": 0,
+                "SNOWPOINT_CITY_GYM:0": 0,
+                "FIGHT_AREA": 0,
+                "ACUITY_LAKEFRONT": 0
+            }
+        },
+        {
+            "id": 165,
+            "name": "SNOWPOINT_CITY_MART",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_CITY:3": 0
+            }
+        },
+        {
+            "id": 166,
+            "name": "SNOWPOINT_CITY_GYM",
+            "locations": [
+                "TRAINER_ACE_TRAINER_ISAIAH",
+                "TRAINER_ACE_TRAINER_BRENNA",
+                "TRAINER_ACE_TRAINER_ALICIA",
+                "TRAINER_ACE_TRAINER_ANTON",
+                "TRAINER_ACE_TRAINER_SAVANNAH",
+                "TRAINER_ACE_TRAINER_SERGIO",
+                "BADGE_7"
+            ],
+            "exits": {
+                "SNOWPOINT_CITY:5": 0
+            }
+        },
+        {
+            "id": 167,
+            "name": "SNOWPOINT_CITY_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_CITY:4": 0,
+                "SNOWPOINT_CITY_POKECENTER_2F:0": 0,
+                "SNOWPOINT_CITY_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 168,
+            "name": "SNOWPOINT_CITY_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_CITY_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 169,
+            "name": "SNOWPOINT_CITY_WEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_CITY:0": 0
+            }
+        },
+        {
+            "id": 170,
+            "name": "SNOWPOINT_CITY_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_CITY:1": 0
+            }
+        },
+        {
+            "id": 171,
+            "name": "POKEMON_LEAGUE",
+            "locations": [
+                "HIDDEN_ITEM_120"
+            ],
+            "exits": {
+                "POKEMON_LEAGUE_SOUTH_POKECENTER_1F:0": 0,
+                "POKEMON_LEAGUE_NORTH_POKECENTER_1F:1": 0,
+                "VICTORY_ROAD_1F:7": 0,
+                "VICTORY_ROAD_1F:8": 0,
+                "ROUTE_224": 0,
+                "ROUTE_223": 0
+            }
+        },
+        {
+            "id": 172,
+            "name": "POKEMON_LEAGUE_SOUTH_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE:0": 0,
+                "POKEMON_LEAGUE_SOUTH_POKECENTER_2F:0": 0,
+                "POKEMON_LEAGUE_SOUTH_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 173,
+            "name": "POKEMON_LEAGUE_SOUTH_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_SOUTH_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 174,
+            "name": "POKEMON_LEAGUE_NORTH_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_ELEVATOR_TO_AARON_ROOM:1": 0,
+                "POKEMON_LEAGUE:1": 0,
+                "POKEMON_LEAGUE_NORTH_POKECENTER_2F:0": 0,
+                "POKEMON_LEAGUE_NORTH_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 175,
+            "name": "POKEMON_LEAGUE_ELEVATOR_TO_AARON_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_AARON_ROOM:1": 0,
+                "POKEMON_LEAGUE_NORTH_POKECENTER_1F:0": 0
+            }
+        },
+        {
+            "id": 176,
+            "name": "POKEMON_LEAGUE_AARON_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_ELEVATOR_TO_BERTHA_ROOM:1": 0,
+                "POKEMON_LEAGUE_ELEVATOR_TO_AARON_ROOM:0": 0
+            }
+        },
+        {
+            "id": 177,
+            "name": "POKEMON_LEAGUE_ELEVATOR_TO_BERTHA_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_BERTHA_ROOM:1": 0,
+                "POKEMON_LEAGUE_AARON_ROOM:0": 0
+            }
+        },
+        {
+            "id": 178,
+            "name": "POKEMON_LEAGUE_BERTHA_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_ELEVATOR_TO_FLINT_ROOM:1": 0,
+                "POKEMON_LEAGUE_ELEVATOR_TO_BERTHA_ROOM:0": 0
+            }
+        },
+        {
+            "id": 179,
+            "name": "POKEMON_LEAGUE_ELEVATOR_TO_FLINT_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_FLINT_ROOM:1": 0,
+                "POKEMON_LEAGUE_BERTHA_ROOM:0": 0
+            }
+        },
+        {
+            "id": 180,
+            "name": "POKEMON_LEAGUE_FLINT_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_ELEVATOR_TO_LUCIAN_ROOM:1": 0,
+                "POKEMON_LEAGUE_ELEVATOR_TO_FLINT_ROOM:0": 0
+            }
+        },
+        {
+            "id": 181,
+            "name": "POKEMON_LEAGUE_ELEVATOR_TO_LUCIAN_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_LUCIAN_ROOM:1": 0,
+                "POKEMON_LEAGUE_FLINT_ROOM:0": 0
+            }
+        },
+        {
+            "id": 182,
+            "name": "POKEMON_LEAGUE_LUCIAN_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_ELEVATOR_TO_CHAMPION_ROOM:1": 0,
+                "POKEMON_LEAGUE_ELEVATOR_TO_LUCIAN_ROOM:0": 0
+            }
+        },
+        {
+            "id": 183,
+            "name": "POKEMON_LEAGUE_ELEVATOR_TO_CHAMPION_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_CHAMPION_ROOM:1": 0,
+                "POKEMON_LEAGUE_LUCIAN_ROOM:0": 0
+            }
+        },
+        {
+            "id": 184,
+            "name": "POKEMON_LEAGUE_CHAMPION_ROOM",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_ELEVATOR_TO_HALL_OF_FAME:1": 0,
+                "POKEMON_LEAGUE_ELEVATOR_TO_CHAMPION_ROOM:0": 0
+            }
+        },
+        {
+            "id": 185,
+            "name": "POKEMON_LEAGUE_ELEVATOR_TO_HALL_OF_FAME",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_HALL_OF_FAME:0": 0,
+                "POKEMON_LEAGUE_CHAMPION_ROOM:0": 0
+            }
+        },
+        {
+            "id": 186,
+            "name": "POKEMON_LEAGUE_HALL_OF_FAME",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_ELEVATOR_TO_HALL_OF_FAME:0": 0
+            }
+        },
+        {
+            "id": 187,
+            "name": "FIGHT_AREA",
+            "locations": [
+                "BERRY_90",
+                "BERRY_91",
+                "BERRY_93",
+                "BERRY_92"
+            ],
+            "exits": {
+                "ROUTE_225_GATE_TO_FIGHT_AREA:0": 0,
+                "BATTLE_FRONTIER_GATE_TO_FIGHT_AREA:3": 0,
+                "FIGHT_AREA_MIDDLE_HOUSE:0": 0,
+                "FIGHT_AREA_SOUTH_HOUSE:0": 0,
+                "FIGHT_AREA_POKECENTER_1F:0": 0,
+                "FIGHT_AREA_MART:0": 0,
+                "ROUTE_225": 0,
+                "ROUTE_230": 0
+            }
+        },
+        {
+            "id": 188,
+            "name": "FIGHT_AREA_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "FIGHT_AREA:6": 0,
+                "FIGHT_AREA_POKECENTER_2F:0": 0,
+                "FIGHT_AREA_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 189,
+            "name": "FIGHT_AREA_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "FIGHT_AREA_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 190,
+            "name": "FIGHT_AREA_MART",
+            "locations": [],
+            "exits": {
+                "FIGHT_AREA:7": 0
+            }
+        },
+        {
+            "id": 192,
+            "name": "ROUTE_225_GATE_TO_FIGHT_AREA",
+            "locations": [],
+            "exits": {
+                "FIGHT_AREA:0": 0,
+                "ROUTE_225:0": 0
+            }
+        },
+        {
+            "id": 193,
+            "name": "FIGHT_AREA_MIDDLE_HOUSE",
+            "locations": [],
+            "exits": {
+                "FIGHT_AREA:4": 0
+            }
+        },
+        {
+            "id": 194,
+            "name": "FIGHT_AREA_SOUTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "FIGHT_AREA:5": 0
+            }
+        },
+        {
+            "id": 196,
+            "name": "OREBURGH_MINE_B1F",
+            "locations": [
+                "OVERWORLD_ITEM_235"
+            ],
+            "exits": {
+                "OREBURGH_CITY:12": 0,
+                "OREBURGH_CITY:13": 0,
+                "OREBURGH_CITY:14": 0,
+                "OREBURGH_MINE_B2F:0": 0
+            }
+        },
+        {
+            "id": 197,
+            "name": "OREBURGH_MINE_B2F",
+            "locations": [
+                "OVERWORLD_ITEM_8",
+                "TRAINER_WORKER_COLIN",
+                "OVERWORLD_ITEM_7",
+                "TRAINER_WORKER_MASON"
+            ],
+            "exits": {
+                "OREBURGH_MINE_B1F:3": 0
+            }
+        },
+        {
+            "id": 198,
+            "name": "VALLEY_WINDWORKS_OUTSIDE",
+            "locations": [
+                "OVERWORLD_ITEM_15",
+                "OVERWORLD_ITEM_318",
+                "OVERWORLD_ITEM_252",
+                "HIDDEN_ITEM_0"
+            ],
+            "exits": {
+                "VALLEY_WINDWORKS_BUILDING:0": 0,
+                "ROUTE_205_SOUTH": 0
+            }
+        },
+        {
+            "id": 199,
+            "name": "VALLEY_WINDWORKS_BUILDING",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_VALLEY_WINDWORKS_3",
+                "TRAINER_GALACTIC_GRUNT_VALLEY_WINDWORKS_2"
+            ],
+            "exits": {
+                "VALLEY_WINDWORKS_OUTSIDE:0": 0
+            }
+        },
+        {
+            "id": 200,
+            "name": "ETERNA_FOREST_OUTSIDE",
+            "locations": [
+                "OVERWORLD_ITEM_28",
+                "BERRY_7",
+                "BERRY_6",
+                "BERRY_9",
+                "OVERWORLD_ITEM_29",
+                "BERRY_8"
+            ],
+            "exits": {
+                "ROUTE_205_NORTH": 0,
+                "ROUTE_205_SOUTH": 0
+            }
+        },
+        {
+            "id": 201,
+            "name": "ETERNA_FOREST",
+            "locations": [
+                "OVERWORLD_ITEM_85",
+                "TRAINER_PSYCHIC_RACHAEL",
+                "OVERWORLD_ITEM_21",
+                "TRAINER_PSYCHIC_KODY",
+                "TRAINER_BUG_CATCHER_JACK",
+                "TRAINER_BUG_CATCHER_PHILLIP",
+                "OVERWORLD_ITEM_19",
+                "TRAINER_PSYCHIC_ELIJAH",
+                "OVERWORLD_ITEM_249",
+                "TRAINER_BUG_CATCHER_DONALD",
+                "OVERWORLD_ITEM_18",
+                "TRAINER_PSYCHIC_LINDSEY",
+                "TRAINER_LASS_BRIANA",
+                "OVERWORLD_ITEM_20",
+                "HIDDEN_ITEM_1"
+            ],
+            "exits": {
+                "ROUTE_205_SOUTH:0": 0,
+                "ROUTE_205_SOUTH:1": 0,
+                "ROUTE_205_NORTH:1": 0,
+                "ROUTE_205_NORTH:0": 0,
+                "OLD_CHATEAU:4": 0
+            }
+        },
+        {
+            "id": 202,
+            "name": "FUEGO_IRONWORKS_OUTSIDE",
+            "locations": [
+                "BERRY_13",
+                "BERRY_10",
+                "BERRY_11",
+                "BERRY_12",
+                "HIDDEN_ITEM_156",
+                "HIDDEN_ITEM_155"
+            ],
+            "exits": {
+                "FUEGO_IRONWORKS_BUILDING:0": 0,
+                "ROUTE_205_SOUTH": 0,
+                "FLOAROMA_TOWN": 0
+            }
+        },
+        {
+            "id": 203,
+            "name": "FUEGO_IRONWORKS_BUILDING",
+            "locations": [
+                "OVERWORLD_ITEM_120",
+                "OVERWORLD_ITEM_282",
+                "TRAINER_WORKER_CONRAD",
+                "OVERWORLD_ITEM_121",
+                "TRAINER_WORKER_HOLDEN",
+                "TRAINER_WORKER_DILLAN",
+                "OVERWORLD_ITEM_281",
+                "OVERWORLD_ITEM_122",
+                "OVERWORLD_ITEM_123",
+                "OVERWORLD_ITEM_283",
+                "OVERWORLD_ITEM_280",
+                "HIDDEN_ITEM_47",
+                "HIDDEN_ITEM_46"
+            ],
+            "exits": {
+                "FUEGO_IRONWORKS_OUTSIDE:0": 0
+            }
+        },
+        {
+            "id": 204,
+            "name": "MT_CORONET_1F_SOUTH",
+            "locations": [
+                "OVERWORLD_ITEM_47",
+                "OVERWORLD_ITEM_46",
+                "HIDDEN_ITEM_13",
+                "HIDDEN_ITEM_271",
+                "HIDDEN_ITEM_272"
+            ],
+            "exits": {
+                "ROUTE_207:0": 0,
+                "ROUTE_208:3": 0,
+                "MT_CORONET_2F:0": 0
+            }
+        },
+        {
+            "id": 205,
+            "name": "MT_CORONET_2F",
+            "locations": [
+                "OVERWORLD_ITEM_173",
+                "OVERWORLD_ITEM_172",
+                "OVERWORLD_ITEM_170",
+                "OVERWORLD_ITEM_171",
+                "HIDDEN_ITEM_82",
+                "HIDDEN_ITEM_81"
+            ],
+            "exits": {
+                "MT_CORONET_1F_SOUTH:2": 0,
+                "ROUTE_207:1": 0,
+                "MT_CORONET_2F:3": 0,
+                "MT_CORONET_2F:2": 0,
+                "MT_CORONET_3F:0": 0,
+                "MT_CORONET_3F:1": 0
+            }
+        },
+        {
+            "id": 206,
+            "name": "MT_CORONET_3F",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_3F_1",
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET__3F_1",
+                "HIDDEN_ITEM_83"
+            ],
+            "exits": {
+                "MT_CORONET_2F:4": 0,
+                "MT_CORONET_2F:5": 0,
+                "MT_CORONET_OUTSIDE_SOUTH:0": 0
+            }
+        },
+        {
+            "id": 207,
+            "name": "MT_CORONET_OUTSIDE_NORTH",
+            "locations": [
+                "HIDDEN_ITEM_84",
+                "HIDDEN_ITEM_92",
+                "HIDDEN_ITEM_85",
+                "HIDDEN_ITEM_86",
+                "HIDDEN_ITEM_88",
+                "HIDDEN_ITEM_262",
+                "HIDDEN_ITEM_270"
+            ],
+            "exits": {
+                "MT_CORONET_4F_ROOMS_1_AND_2:4": 0,
+                "MT_CORONET_4F_ROOM_3:0": 0,
+                "MT_CORONET_1F_TUNNEL_ROOM:0": 0
+            }
+        },
+        {
+            "id": 208,
+            "name": "MT_CORONET_OUTSIDE_SOUTH",
+            "locations": [
+                "HIDDEN_ITEM_84_1",
+                "HIDDEN_ITEM_92_1",
+                "HIDDEN_ITEM_89",
+                "HIDDEN_ITEM_90",
+                "HIDDEN_ITEM_260",
+                "HIDDEN_ITEM_269"
+            ],
+            "exits": {
+                "MT_CORONET_3F:2": 0,
+                "MT_CORONET_4F_ROOMS_1_AND_2:0": 0,
+                "MT_CORONET_4F_ROOMS_1_AND_2:1": 0
+            }
+        },
+        {
+            "id": 209,
+            "name": "MT_CORONET_4F_ROOMS_1_AND_2",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_4F_2",
+                "OVERWORLD_ITEM_37",
+                "OVERWORLD_ITEM_39",
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_4F_1",
+                "HIDDEN_ITEM_93",
+                "HIDDEN_ITEM_94",
+                "HIDDEN_ITEM_95",
+                "HIDDEN_ITEM_98",
+                "HIDDEN_ITEM_97",
+                "HIDDEN_ITEM_96",
+                "HIDDEN_ITEM_99",
+                "HIDDEN_ITEM_261"
+            ],
+            "exits": {
+                "MT_CORONET_OUTSIDE_SOUTH:1": 0,
+                "MT_CORONET_OUTSIDE_SOUTH:2": 0,
+                "MT_CORONET_4F_ROOMS_1_AND_2:3": 0,
+                "MT_CORONET_4F_ROOMS_1_AND_2:2": 0,
+                "MT_CORONET_OUTSIDE_NORTH:0": 0
+            }
+        },
+        {
+            "id": 210,
+            "name": "MT_CORONET_4F_ROOM_3",
+            "locations": [
+                "HIDDEN_ITEM_100"
+            ],
+            "exits": {
+                "MT_CORONET_OUTSIDE_NORTH:1": 0,
+                "MT_CORONET_5F:0": 0
+            }
+        },
+        {
+            "id": 211,
+            "name": "MT_CORONET_5F",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_5F_2",
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_5F_1",
+                "HIDDEN_ITEM_102",
+                "HIDDEN_ITEM_101"
+            ],
+            "exits": {
+                "MT_CORONET_4F_ROOM_3:1": 0,
+                "MT_CORONET_6F:0": 0
+            }
+        },
+        {
+            "id": 212,
+            "name": "MT_CORONET_6F",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_6F"
+            ],
+            "exits": {
+                "MT_CORONET_5F:1": 0,
+                "SPEAR_PILLAR:0": 0,
+                "SPEAR_PILLAR_DISTORTED:0": 0,
+                "SPEAR_PILLAR_DIALGA:0": 0,
+                "SPEAR_PILLAR_PALKIA:0": 0
+            }
+        },
+        {
+            "id": 213,
+            "name": "MT_CORONET_1F_TUNNEL_ROOM",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_TUNNEL_ROOM_1",
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_TUNNEL_ROOM_2",
+                "TRAINER_GALACTIC_GRUNT_MT_CORONET_TUNNEL_ROOM_3",
+                "HIDDEN_ITEM_105",
+                "HIDDEN_ITEM_103",
+                "HIDDEN_ITEM_104",
+                "HIDDEN_ITEM_107",
+                "HIDDEN_ITEM_106",
+                "HIDDEN_ITEM_108"
+            ],
+            "exits": {
+                "MT_CORONET_OUTSIDE_NORTH:2": 0,
+                "MT_CORONET_1F_NORTH_ROOM_1:0": 0
+            }
+        },
+        {
+            "id": 214,
+            "name": "MT_CORONET_1F_NORTH_ROOM_2",
+            "locations": [
+                "HIDDEN_ITEM_61"
+            ],
+            "exits": {
+                "MT_CORONET_B1F:1": 0,
+                "ROUTE_216:0": 0,
+                "MT_CORONET_ICEBERG_RUINS:0": 0,
+                "ICEBERG_RUINS:0": 0
+            }
+        },
+        {
+            "id": 215,
+            "name": "MT_CORONET_1F_NORTH_ROOM_1",
+            "locations": [
+                "OVERWORLD_ITEM_150",
+                "OVERWORLD_ITEM_149",
+                "OVERWORLD_ITEM_148",
+                "OVERWORLD_ITEM_261",
+                "OVERWORLD_ITEM_174",
+                "HIDDEN_ITEM_65",
+                "HIDDEN_ITEM_66",
+                "HIDDEN_ITEM_64",
+                "HIDDEN_ITEM_62",
+                "HIDDEN_ITEM_63"
+            ],
+            "exits": {
+                "MT_CORONET_1F_TUNNEL_ROOM:1": 0,
+                "MT_CORONET_B1F:0": 0,
+                "ROUTE_211_WEST:0": 0,
+                "ROUTE_211_EAST:0": 0
+            }
+        },
+        {
+            "id": 216,
+            "name": "MT_CORONET_B1F",
+            "locations": [
+                "OVERWORLD_ITEM_153",
+                "OVERWORLD_ITEM_155",
+                "OVERWORLD_ITEM_152",
+                "OVERWORLD_ITEM_154",
+                "OVERWORLD_ITEM_156",
+                "OVERWORLD_ITEM_151",
+                "HIDDEN_ITEM_70",
+                "HIDDEN_ITEM_69",
+                "HIDDEN_ITEM_68",
+                "HIDDEN_ITEM_67"
+            ],
+            "exits": {
+                "MT_CORONET_1F_NORTH_ROOM_1:1": 0,
+                "MT_CORONET_1F_NORTH_ROOM_2:0": 0
+            }
+        },
+        {
+            "id": 217,
+            "name": "SPEAR_PILLAR",
+            "locations": [],
+            "exits": {
+                "MT_CORONET_6F:1": 0
+            }
+        },
+        {
+            "id": 218,
+            "name": "SPEAR_PILLAR_DISTORTED",
+            "locations": [],
+            "exits": {
+                "MT_CORONET_6F:2": 0,
+                "DISTORTION_WORLD_1F": 0
+            }
+        },
+        {
+            "id": 220,
+            "name": "SOLACEON_RUINS_MANIAC_TUNNEL_ROOM",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:7": 0,
+                "MANIAC_TUNNEL:1": 0
+            }
+        },
+        {
+            "id": 221,
+            "name": "SOLACEON_RUINS_ROOM_1",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:8": 0,
+                "SOLACEON_RUINS_ROOM_2:0": 0,
+                "SOLACEON_RUINS_ROOM_1_SOUTHEAST_DEAD_END:0": 0,
+                "SOLACEON_RUINS_ROOM_1_NORTHWEST_DEAD_END:0": 0
+            }
+        },
+        {
+            "id": 222,
+            "name": "SOLACEON_RUINS_ROOM_2_NORTHEAST_DEAD_END",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_2:2": 0
+            }
+        },
+        {
+            "id": 223,
+            "name": "SOLACEON_RUINS_ROOM_1_NORTHWEST_DEAD_END",
+            "locations": [
+                "HIDDEN_ITEM_36"
+            ],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_1:3": 0
+            }
+        },
+        {
+            "id": 224,
+            "name": "SOLACEON_RUINS_ROOM_2",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_1:1": 0,
+                "SOLACEON_RUINS_ROOM_3:0": 0,
+                "SOLACEON_RUINS_ROOM_2_NORTHEAST_DEAD_END:0": 0,
+                "SOLACEON_RUINS_ROOM_2_SOUTHEAST_DEAD_END:0": 0
+            }
+        },
+        {
+            "id": 225,
+            "name": "SOLACEON_RUINS_ROOM_1_SOUTHEAST_DEAD_END",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_1:2": 0
+            }
+        },
+        {
+            "id": 226,
+            "name": "SOLACEON_RUINS_ROOM_3",
+            "locations": [
+                "TRAINER_RUIN_MANIAC_KARL"
+            ],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_2:1": 0,
+                "SOLACEON_RUINS_ROOM_4:1": 0,
+                "SOLACEON_RUINS_ROOM_3_NORTHWEST_DEAD_END:0": 0,
+                "SOLACEON_RUINS_ROOM_3_SOUTHWEST_DEAD_END:0": 0
+            }
+        },
+        {
+            "id": 227,
+            "name": "SOLACEON_RUINS_ROOM_2_SOUTHEAST_DEAD_END",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_2:3": 0
+            }
+        },
+        {
+            "id": 228,
+            "name": "SOLACEON_RUINS_ROOM_6_SOUTHEAST_DEAD_END",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_6:3": 0
+            }
+        },
+        {
+            "id": 229,
+            "name": "SOLACEON_RUINS_ROOM_5_SOUTHWEST_DEAD_END",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_5:2": 0
+            }
+        },
+        {
+            "id": 230,
+            "name": "SOLACEON_RUINS_ROOM_3_NORTHWEST_DEAD_END",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_3:2": 0
+            }
+        },
+        {
+            "id": 231,
+            "name": "SOLACEON_RUINS_ROOM_3_SOUTHWEST_DEAD_END",
+            "locations": [
+                "HIDDEN_ITEM_37"
+            ],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_3:3": 0
+            }
+        },
+        {
+            "id": 232,
+            "name": "SOLACEON_RUINS_ROOM_4",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_5:1": 0,
+                "SOLACEON_RUINS_ROOM_3:1": 0,
+                "SOLACEON_RUINS_ROOM_4_SOUTHEAST_DEAD_END:0": 0
+            }
+        },
+        {
+            "id": 233,
+            "name": "SOLACEON_RUINS_ROOM_6",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_6_NORTHWEST_DEAD_END:0": 0,
+                "SOLACEON_RUINS_ROOM_5:0": 0,
+                "SOLACEON_RUINS_ROOM_7:0": 0,
+                "SOLACEON_RUINS_ROOM_6_SOUTHEAST_DEAD_END:0": 0
+            }
+        },
+        {
+            "id": 234,
+            "name": "SOLACEON_RUINS_ROOM_5",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_6:1": 0,
+                "SOLACEON_RUINS_ROOM_4:0": 0,
+                "SOLACEON_RUINS_ROOM_5_SOUTHWEST_DEAD_END:0": 0,
+                "SOLACEON_RUINS_ROOM_5_SOUTHEAST_DEADEND:0": 0
+            }
+        },
+        {
+            "id": 235,
+            "name": "SOLACEON_RUINS_ROOM_7",
+            "locations": [
+                "OVERWORLD_ITEM_96",
+                "OVERWORLD_ITEM_98",
+                "OVERWORLD_ITEM_97",
+                "OVERWORLD_ITEM_95"
+            ],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_6:2": 0
+            }
+        },
+        {
+            "id": 236,
+            "name": "SOLACEON_RUINS_ROOM_4_SOUTHEAST_DEAD_END",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_4:2": 0
+            }
+        },
+        {
+            "id": 237,
+            "name": "SOLACEON_RUINS_ROOM_6_NORTHWEST_DEAD_END",
+            "locations": [],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_6:0": 0
+            }
+        },
+        {
+            "id": 238,
+            "name": "VICTORY_ROAD_1F",
+            "locations": [
+                "OVERWORLD_ITEM_185",
+                "OVERWORLD_ITEM_184",
+                "TRAINER_ACE_TRAINER_MARIAH",
+                "OVERWORLD_ITEM_182",
+                "TRAINER_BLACK_BELT_MILES",
+                "TRAINER_BIRD_KEEPER_HANA",
+                "TRAINER_VETERAN_EDGAR",
+                "TRAINER_DRAGON_TAMER_CLINTON",
+                "TRAINER_PSYCHIC_BRYCE",
+                "OVERWORLD_ITEM_183",
+                "OVERWORLD_ITEM_181",
+                "HIDDEN_ITEM_114",
+                "HIDDEN_ITEM_115",
+                "HIDDEN_ITEM_113"
+            ],
+            "exits": {
+                "VICTORY_ROAD_2F:0": 0,
+                "VICTORY_ROAD_2F:1": 0,
+                "VICTORY_ROAD_B1F:0": 0,
+                "VICTORY_ROAD_B1F:1": 0,
+                "VICTORY_ROAD_B1F:2": 0,
+                "VICTORY_ROAD_2F:2": 0,
+                "VICTORY_ROAD_1F_ROOM_1:0": 0,
+                "POKEMON_LEAGUE:2": 0,
+                "POKEMON_LEAGUE:3": 0
+            }
+        },
+        {
+            "id": 239,
+            "name": "VICTORY_ROAD_2F",
+            "locations": [
+                "OVERWORLD_ITEM_187",
+                "TRAINER_ACE_TRAINER_OMAR",
+                "TRAINER_DOUBLE_TEAM_AL_AND_KAY",
+                "OVERWORLD_ITEM_188",
+                "TRAINER_ACE_TRAINER_SYDNEY",
+                "TRAINER_VETERAN_CLAYTON",
+                "OVERWORLD_ITEM_189",
+                "OVERWORLD_ITEM_186",
+                "HIDDEN_ITEM_116",
+                "HIDDEN_ITEM_117"
+            ],
+            "exits": {
+                "VICTORY_ROAD_1F:0": 0,
+                "VICTORY_ROAD_1F:1": 0,
+                "VICTORY_ROAD_1F:5": 0
+            }
+        },
+        {
+            "id": 240,
+            "name": "VICTORY_ROAD_B1F",
+            "locations": [
+                "TRAINER_DOUBLE_TEAM_JO_AND_PAT",
+                "OVERWORLD_ITEM_190",
+                "TRAINER_ACE_TRAINER_HENRY",
+                "OVERWORLD_ITEM_312",
+                "TRAINER_PSYCHIC_VALENCIA",
+                "TRAINER_DRAGON_TAMER_ONDREJ",
+                "OVERWORLD_ITEM_313",
+                "HIDDEN_ITEM_118",
+                "HIDDEN_ITEM_119"
+            ],
+            "exits": {
+                "VICTORY_ROAD_1F:2": 0,
+                "VICTORY_ROAD_1F:3": 0,
+                "VICTORY_ROAD_1F:4": 0
+            }
+        },
+        {
+            "id": 241,
+            "name": "VICTORY_ROAD_1F_ROOM_2",
+            "locations": [
+                "TRAINER_BLACK_BELT_WILLIE",
+                "TRAINER_ACE_TRAINER_MICAH",
+                "TRAINER_PSYCHIC_DEANDRE",
+                "TRAINER_PSYCHIC_LANDON",
+                "TRAINER_PSYCHIC_KENDRA",
+                "OVERWORLD_ITEM_192",
+                "TRAINER_VETERAN_TERRELL",
+                "TRAINER_PSYCHIC_DESIREE",
+                "TRAINER_BLACK_BELT_EDDIE",
+                "TRAINER_DRAGON_TAMER_JOE",
+                "TRAINER_ACE_TRAINER_CLARICE",
+                "TRAINER_VETERAN_BRENDEN",
+                "TRAINER_BIRD_KEEPER_AUTUMN",
+                "TRAINER_ACE_TRAINER_BRANDI",
+                "TRAINER_ACE_TRAINER_ARTHUR",
+                "OVERWORLD_ITEM_193",
+                "OVERWORLD_ITEM_197",
+                "OVERWORLD_ITEM_191",
+                "HIDDEN_ITEM_123",
+                "HIDDEN_ITEM_122",
+                "HIDDEN_ITEM_121",
+                "HIDDEN_ITEM_129",
+                "HIDDEN_ITEM_128"
+            ],
+            "exits": {
+                "VICTORY_ROAD_1F_ROOM_1:1": 0,
+                "VICTORY_ROAD_1F_ROOM_3:0": 0
+            }
+        },
+        {
+            "id": 242,
+            "name": "VICTORY_ROAD_1F_ROOM_1",
+            "locations": [],
+            "exits": {
+                "VICTORY_ROAD_1F:6": 0,
+                "VICTORY_ROAD_1F_ROOM_2:0": 0
+            }
+        },
+        {
+            "id": 243,
+            "name": "VICTORY_ROAD_1F_ROOM_3",
+            "locations": [],
+            "exits": {
+                "VICTORY_ROAD_1F_ROOM_2:1": 0,
+                "ROUTE_224:0": 0
+            }
+        },
+        {
+            "id": 245,
+            "name": "PAL_PARK",
+            "locations": [],
+            "exits": {
+                "PAL_PARK_LOBBY:1": 0
+            }
+        },
+        {
+            "id": 246,
+            "name": "AMITY_SQUARE",
+            "locations": [
+                "OVERWORLD_ITEM_250",
+                "OVERWORLD_ITEM_53",
+                "OVERWORLD_ITEM_52",
+                "OVERWORLD_ITEM_51"
+            ],
+            "exits": {
+                "HEARTHOME_CITY_WEST_GATE_TO_AMITY_SQUARE:1": 0,
+                "HEARTHOME_CITY_EAST_GATE_TO_AMITY_SQUARE:1": 0
+            }
+        },
+        {
+            "id": 247,
+            "name": "RAVAGED_PATH",
+            "locations": [
+                "OVERWORLD_ITEM_12",
+                "OVERWORLD_ITEM_13",
+                "OVERWORLD_ITEM_251",
+                "OVERWORLD_ITEM_11"
+            ],
+            "exits": {
+                "ROUTE_204_SOUTH:0": 0,
+                "ROUTE_204_NORTH:0": 0
+            }
+        },
+        {
+            "id": 249,
+            "name": "FLOAROMA_MEADOW",
+            "locations": [
+                "OVERWORLD_ITEM_285",
+                "OVERWORLD_ITEM_146",
+                "OVERWORLD_ITEM_284",
+                "OVERWORLD_ITEM_234",
+                "HIDDEN_ITEM_58",
+                "HIDDEN_ITEM_59",
+                "HIDDEN_ITEM_220",
+                "HIDDEN_ITEM_227",
+                "HIDDEN_ITEM_226",
+                "HIDDEN_ITEM_219",
+                "HIDDEN_ITEM_222",
+                "HIDDEN_ITEM_223",
+                "HIDDEN_ITEM_224",
+                "HIDDEN_ITEM_225",
+                "HIDDEN_ITEM_221"
+            ],
+            "exits": {
+                "FLOAROMA_TOWN:5": 0,
+                "FLOAROMA_TOWN:6": 0,
+                "FLOAROMA_MEADOW_HOUSE:0": 0,
+                "FLOAROMA_TOWN:7": 0,
+                "FLOAROMA_TOWN:8": 0
+            }
+        },
+        {
+            "id": 250,
+            "name": "FLOAROMA_MEADOW_HOUSE",
+            "locations": [],
+            "exits": {
+                "FLOAROMA_MEADOW:2": 0
+            }
+        },
+        {
+            "id": 251,
+            "name": "OREBURGH_GATE_1F",
+            "locations": [
+                "TRAINER_PICNICKER_DIANA",
+                "TRAINER_CAMPER_CURTIS"
+            ],
+            "exits": {
+                "ROUTE_203:0": 0,
+                "OREBURGH_CITY:10": 0,
+                "OREBURGH_GATE_B1F:0": 0
+            }
+        },
+        {
+            "id": 252,
+            "name": "OREBURGH_GATE_B1F",
+            "locations": [
+                "OVERWORLD_ITEM_169",
+                "OVERWORLD_ITEM_4",
+                "OVERWORLD_ITEM_6",
+                "OVERWORLD_ITEM_3",
+                "OVERWORLD_ITEM_5",
+                "TRAINER_VETERAN_GRANT"
+            ],
+            "exits": {
+                "OREBURGH_GATE_1F:2": 0
+            }
+        },
+        {
+            "id": 253,
+            "name": "FULLMOON_ISLAND",
+            "locations": [],
+            "exits": {
+                "FULLMOON_ISLAND_FOREST:0": 0,
+                "FULLMOON_ISLAND_FOREST:1": 0
+            }
+        },
+        {
+            "id": 254,
+            "name": "FULLMOON_ISLAND_FOREST",
+            "locations": [
+                "OVERWORLD_ITEM_92"
+            ],
+            "exits": {
+                "FULLMOON_ISLAND:0": 0,
+                "FULLMOON_ISLAND:1": 0
+            }
+        },
+        {
+            "id": 255,
+            "name": "STARK_MOUNTAIN_OUTSIDE",
+            "locations": [
+                "OVERWORLD_ITEM_211",
+                "TRAINER_DRAGON_TAMER_DARIEN",
+                "OVERWORLD_ITEM_210"
+            ],
+            "exits": {
+                "STARK_MOUNTAIN_ROOM_1:0": 0,
+                "ROUTE_227": 0
+            }
+        },
+        {
+            "id": 256,
+            "name": "STARK_MOUNTAIN_ROOM_1",
+            "locations": [
+                "OVERWORLD_ITEM_214",
+                "OVERWORLD_ITEM_215",
+                "OVERWORLD_ITEM_213",
+                "OVERWORLD_ITEM_212",
+                "HIDDEN_ITEM_138"
+            ],
+            "exits": {
+                "STARK_MOUNTAIN_OUTSIDE:0": 0,
+                "STARK_MOUNTAIN_ROOM_2:1": 0
+            }
+        },
+        {
+            "id": 257,
+            "name": "STARK_MOUNTAIN_ROOM_2",
+            "locations": [
+                "OVERWORLD_ITEM_219",
+                "TRAINER_ACE_TRAINER_KEENAN",
+                "OVERWORLD_ITEM_223",
+                "TRAINER_ACE_TRAINER_KASSANDRA",
+                "OVERWORLD_ITEM_217",
+                "TRAINER_BIRD_KEEPER_KRYSTAL",
+                "TRAINER_ACE_TRAINER_SKYLAR",
+                "TRAINER_PSYCHIC_CHELSEY",
+                "TRAINER_ACE_TRAINER_MONIQUE",
+                "OVERWORLD_ITEM_220",
+                "OVERWORLD_ITEM_222",
+                "TRAINER_VETERAN_HARLAN",
+                "TRAINER_BLACK_BELT_JARRETT",
+                "OVERWORLD_ITEM_216",
+                "TRAINER_BLACK_BELT_RAY",
+                "TRAINER_PSYCHIC_STERLING",
+                "TRAINER_DRAGON_TAMER_KENNY",
+                "TRAINER_ACE_TRAINER_NATASHA",
+                "TRAINER_ACE_TRAINER_JASMIN",
+                "OVERWORLD_ITEM_221",
+                "OVERWORLD_ITEM_218",
+                "TRAINER_DRAGON_TAMER_DRAKE",
+                "TRAINER_ACE_TRAINER_STEFAN",
+                "TRAINER_ACE_TRAINER_ABEL",
+                "HIDDEN_ITEM_140",
+                "HIDDEN_ITEM_141",
+                "HIDDEN_ITEM_139",
+                "HIDDEN_ITEM_175",
+                "HIDDEN_ITEM_176",
+                "HIDDEN_ITEM_177",
+                "HIDDEN_ITEM_268"
+            ],
+            "exits": {
+                "STARK_MOUNTAIN_ROOM_3:0": 0,
+                "STARK_MOUNTAIN_ROOM_1:1": 0
+            }
+        },
+        {
+            "id": 258,
+            "name": "STARK_MOUNTAIN_ROOM_3",
+            "locations": [],
+            "exits": {
+                "STARK_MOUNTAIN_ROOM_2:0": 0
+            }
+        },
+        {
+            "id": 259,
+            "name": "SENDOFF_SPRING",
+            "locations": [],
+            "exits": {
+                "SPRING_PATH:0": 0,
+                "SPRING_PATH:1": 0,
+                "TURNBACK_CAVE_ENTRANCE:4": 0
+            }
+        },
+        {
+            "id": 260,
+            "name": "TURNBACK_CAVE_ENTRANCE",
+            "locations": [],
+            "exits": {
+                "TURNBACK_CAVE_ENTRANCE:2": 0,
+                "TURNBACK_CAVE_ENTRANCE:3": 0,
+                "TURNBACK_CAVE_ENTRANCE:0": 0,
+                "TURNBACK_CAVE_ENTRANCE:1": 0,
+                "SENDOFF_SPRING:2": 0
+            }
+        },
+        {
+            "id": 266,
+            "name": "FLOWER_PARADISE",
+            "locations": [],
+            "exits": {
+                "SEABREAK_PATH": 0
+            }
+        },
+        {
+            "id": 267,
+            "name": "SNOWPOINT_TEMPLE_1F",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_CITY:2": 0,
+                "SNOWPOINT_TEMPLE_B1F:0": 0
+            }
+        },
+        {
+            "id": 268,
+            "name": "SNOWPOINT_TEMPLE_B1F",
+            "locations": [
+                "OVERWORLD_ITEM_242"
+            ],
+            "exits": {
+                "SNOWPOINT_TEMPLE_1F:1": 0,
+                "SNOWPOINT_TEMPLE_B2F:0": 0
+            }
+        },
+        {
+            "id": 269,
+            "name": "SNOWPOINT_TEMPLE_B2F",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_TEMPLE_B1F:1": 0,
+                "SNOWPOINT_TEMPLE_B3F:0": 0
+            }
+        },
+        {
+            "id": 270,
+            "name": "SNOWPOINT_TEMPLE_B3F",
+            "locations": [
+                "HIDDEN_ITEM_179"
+            ],
+            "exits": {
+                "SNOWPOINT_TEMPLE_B2F:1": 0,
+                "SNOWPOINT_TEMPLE_B4F:0": 0
+            }
+        },
+        {
+            "id": 271,
+            "name": "SNOWPOINT_TEMPLE_B4F",
+            "locations": [
+                "OVERWORLD_ITEM_243"
+            ],
+            "exits": {
+                "SNOWPOINT_TEMPLE_B3F:1": 0,
+                "SNOWPOINT_TEMPLE_B5F:0": 0
+            }
+        },
+        {
+            "id": 272,
+            "name": "SNOWPOINT_TEMPLE_B5F",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_TEMPLE_B4F:1": 0
+            }
+        },
+        {
+            "id": 273,
+            "name": "WAYWARD_CAVE_1F",
+            "locations": [
+                "TRAINER_COLLECTOR_TERRY",
+                "TRAINER_PICNICKER_ANA",
+                "TRAINER_RUIN_MANIAC_GERALD",
+                "OVERWORLD_ITEM_36",
+                "TRAINER_CAMPER_DIEGO",
+                "OVERWORLD_ITEM_35",
+                "OVERWORLD_ITEM_34",
+                "TRAINER_HIKER_REGINALD",
+                "OVERWORLD_ITEM_38",
+                "TRAINER_YOUNGSTER_WAYNE",
+                "TRAINER_LASS_CASSIDY",
+                "TRAINER_HIKER_LORENZO",
+                "TRAINER_PICNICKER_TORI",
+                "TRAINER_CAMPER_PARKER",
+                "HIDDEN_ITEM_6",
+                "HIDDEN_ITEM_9",
+                "HIDDEN_ITEM_8",
+                "HIDDEN_ITEM_162",
+                "HIDDEN_ITEM_208",
+                "HIDDEN_ITEM_209"
+            ],
+            "exits": {
+                "ROUTE_206:12": 0,
+                "ROUTE_206:13": 0,
+                "WAYWARD_CAVE_B1F:1": 0,
+                "WAYWARD_CAVE_B1F:0": 0
+            }
+        },
+        {
+            "id": 274,
+            "name": "WAYWARD_CAVE_B1F",
+            "locations": [
+                "OVERWORLD_ITEM_42",
+                "OVERWORLD_ITEM_41",
+                "OVERWORLD_ITEM_40",
+                "HIDDEN_ITEM_11",
+                "HIDDEN_ITEM_10"
+            ],
+            "exits": {
+                "WAYWARD_CAVE_1F:3": 0,
+                "WAYWARD_CAVE_1F:2": 0
+            }
+        },
+        {
+            "id": 275,
+            "name": "RUIN_MANIAC_CAVE_SHORT",
+            "locations": [
+                "OVERWORLD_ITEM_116"
+            ],
+            "exits": {
+                "ROUTE_214:2": 0
+            }
+        },
+        {
+            "id": 276,
+            "name": "TROPHY_GARDEN",
+            "locations": [],
+            "exits": {
+                "POKEMON_MANSION:5": 0
+            }
+        },
+        {
+            "id": 277,
+            "name": "IRON_ISLAND",
+            "locations": [
+                "HIDDEN_ITEM_51"
+            ],
+            "exits": {
+                "IRON_ISLAND_HOUSE:0": 0,
+                "IRON_ISLAND_1F:0": 0,
+                "IRON_ISLAND_B3F:0": 0
+            }
+        },
+        {
+            "id": 278,
+            "name": "IRON_ISLAND_1F",
+            "locations": [],
+            "exits": {
+                "IRON_ISLAND:1": 0,
+                "IRON_ISLAND_B1F_LEFT_ROOM:0": 0,
+                "IRON_ISLAND_B1F_RIGHT_ROOM:2": 0
+            }
+        },
+        {
+            "id": 279,
+            "name": "IRON_ISLAND_B1F_LEFT_ROOM",
+            "locations": [
+                "OVERWORLD_ITEM_287",
+                "OVERWORLD_ITEM_135",
+                "TRAINER_CAMPER_LAWRENCE"
+            ],
+            "exits": {
+                "IRON_ISLAND_1F:1": 0
+            }
+        },
+        {
+            "id": 280,
+            "name": "IRON_ISLAND_B1F_RIGHT_ROOM",
+            "locations": [
+                "TRAINER_PICNICKER_SUMMER",
+                "OVERWORLD_ITEM_289",
+                "OVERWORLD_ITEM_136",
+                "OVERWORLD_ITEM_137",
+                "HIDDEN_ITEM_52"
+            ],
+            "exits": {
+                "IRON_ISLAND_B2F_LEFT_ROOM:0": 0,
+                "IRON_ISLAND_B2F_RIGHT_ROOM:0": 0,
+                "IRON_ISLAND_1F:2": 0
+            }
+        },
+        {
+            "id": 281,
+            "name": "IRON_ISLAND_B2F_RIGHT_ROOM",
+            "locations": [
+                "TRAINER_WORKER_BRADEN",
+                "OVERWORLD_ITEM_138",
+                "OVERWORLD_ITEM_139",
+                "TRAINER_WORKER_NOEL",
+                "HIDDEN_ITEM_53"
+            ],
+            "exits": {
+                "IRON_ISLAND_B1F_RIGHT_ROOM:1": 0
+            }
+        },
+        {
+            "id": 282,
+            "name": "IRON_ISLAND_B2F_LEFT_ROOM",
+            "locations": [
+                "OVERWORLD_ITEM_142",
+                "TRAINER_HIKER_DAMON",
+                "TRAINER_WORKER_BRENDON",
+                "TRAINER_BATTLE_GIRL_TYLER",
+                "TRAINER_WORKER_QUENTIN",
+                "OVERWORLD_ITEM_143",
+                "OVERWORLD_ITEM_288",
+                "TRAINER_HIKER_MAURICE",
+                "OVERWORLD_ITEM_140",
+                "TRAINER_BLACK_BELT_KENDAL",
+                "TRAINER_ACE_TRAINER_JONAH",
+                "OVERWORLD_ITEM_141",
+                "TRAINER_ACE_TRAINER_BRENDA",
+                "OVERWORLD_ITEM_286",
+                "HIDDEN_ITEM_56",
+                "HIDDEN_ITEM_54",
+                "HIDDEN_ITEM_55"
+            ],
+            "exits": {
+                "IRON_ISLAND_B1F_RIGHT_ROOM:0": 0,
+                "IRON_ISLAND_B3F:1": 0
+            }
+        },
+        {
+            "id": 283,
+            "name": "IRON_ISLAND_B3F",
+            "locations": [
+                "OVERWORLD_ITEM_144"
+            ],
+            "exits": {
+                "IRON_ISLAND:2": 0,
+                "IRON_ISLAND_B2F_LEFT_ROOM:1": 0,
+                "IRON_ISLAND_IRON_RUINS:0": 0,
+                "IRON_RUINS:0": 0
+            }
+        },
+        {
+            "id": 284,
+            "name": "OLD_CHATEAU",
+            "locations": [],
+            "exits": {
+                "OLD_CHATEAU_SIDE_ROOMS:0": 0,
+                "OLD_CHATEAU_SIDE_ROOMS:1": 0,
+                "OLD_CHATEAU_DINING_AREA:0": 0,
+                "OLD_CHATEAU_CORRIDOR:0": 0,
+                "ETERNA_FOREST:4": 0
+            }
+        },
+        {
+            "id": 285,
+            "name": "OLD_CHATEAU_DINING_AREA",
+            "locations": [
+                "OVERWORLD_ITEM_267",
+                "OVERWORLD_ITEM_266",
+                "HIDDEN_ITEM_167"
+            ],
+            "exits": {
+                "OLD_CHATEAU:2": 0
+            }
+        },
+        {
+            "id": 286,
+            "name": "OLD_CHATEAU_SIDE_ROOMS",
+            "locations": [
+                "OVERWORLD_ITEM_22"
+            ],
+            "exits": {
+                "OLD_CHATEAU:0": 0,
+                "OLD_CHATEAU:1": 0
+            }
+        },
+        {
+            "id": 287,
+            "name": "OLD_CHATEAU_CORRIDOR",
+            "locations": [],
+            "exits": {
+                "OLD_CHATEAU:3": 0,
+                "OLD_CHATEAU_BACK_WEST_ROOM:0": 0,
+                "OLD_CHATEAU_BACK_MIDDLE_WEST_ROOM:0": 0,
+                "OLD_CHATEAU_BACK_MIDDLE_ROOM:0": 0,
+                "OLD_CHATEAU_BACK_MIDDLE_EAST_ROOM:0": 0,
+                "OLD_CHATEAU_BACK_EAST_ROOM:0": 0
+            }
+        },
+        {
+            "id": 288,
+            "name": "OLD_CHATEAU_BACK_WEST_ROOM",
+            "locations": [
+                "OVERWORLD_ITEM_247"
+            ],
+            "exits": {
+                "OLD_CHATEAU_CORRIDOR:1": 0
+            }
+        },
+        {
+            "id": 289,
+            "name": "OLD_CHATEAU_BACK_MIDDLE_WEST_ROOM",
+            "locations": [
+                "OVERWORLD_ITEM_247_1"
+            ],
+            "exits": {
+                "OLD_CHATEAU_CORRIDOR:2": 0
+            }
+        },
+        {
+            "id": 290,
+            "name": "OLD_CHATEAU_BACK_MIDDLE_ROOM",
+            "locations": [],
+            "exits": {
+                "OLD_CHATEAU_CORRIDOR:3": 0
+            }
+        },
+        {
+            "id": 291,
+            "name": "OLD_CHATEAU_BACK_MIDDLE_EAST_ROOM",
+            "locations": [
+                "OVERWORLD_ITEM_248"
+            ],
+            "exits": {
+                "OLD_CHATEAU_CORRIDOR:4": 0
+            }
+        },
+        {
+            "id": 292,
+            "name": "OLD_CHATEAU_BACK_EAST_ROOM",
+            "locations": [
+                "OVERWORLD_ITEM_248_1"
+            ],
+            "exits": {
+                "OLD_CHATEAU_CORRIDOR:5": 0
+            }
+        },
+        {
+            "id": 293,
+            "name": "GALACTIC_HQ_1F",
+            "locations": [
+                "OVERWORLD_ITEM_297",
+                "TRAINER_SCIENTIST_FREDRICK",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_1F",
+                "OVERWORLD_ITEM_165",
+                "HIDDEN_ITEM_74"
+            ],
+            "exits": {
+                "VEILSTONE_CITY:14": 0,
+                "VEILSTONE_CITY:15": 0,
+                "VEILSTONE_CITY:16": 0,
+                "GALACTIC_HQ_2F:0": 0,
+                "GALACTIC_HQ_2F:2": 0,
+                "GALACTIC_HQ_2F:1": 0,
+                "GALACTIC_HQ_B2F:0": 0,
+                "GALACTIC_HQ_B1F:0": 0,
+                "GALACTIC_HQ_1F:9": 0,
+                "GALACTIC_HQ_1F:8": 0,
+                "GALACTIC_HQ_1F:11": 0,
+                "GALACTIC_HQ_1F:10": 0,
+                "GALACTIC_HQ_1F:13": 0,
+                "GALACTIC_HQ_1F:12": 0,
+                "GALACTIC_HQ_4F:2": 0
+            }
+        },
+        {
+            "id": 294,
+            "name": "GALACTIC_HQ_2F",
+            "locations": [
+                "OVERWORLD_ITEM_167",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_2F_1",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_2F_3",
+                "OVERWORLD_ITEM_298",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_2F_2",
+                "TRAINER_SCIENTIST_DARRIUS",
+                "HIDDEN_ITEM_75",
+                "HIDDEN_ITEM_76"
+            ],
+            "exits": {
+                "GALACTIC_HQ_1F:3": 0,
+                "GALACTIC_HQ_1F:5": 0,
+                "GALACTIC_HQ_1F:4": 0,
+                "GALACTIC_HQ_3F:0": 0,
+                "GALACTIC_HQ_3F:1": 0,
+                "GALACTIC_HQ_2F:6": 0,
+                "GALACTIC_HQ_2F:5": 0,
+                "GALACTIC_HQ_2F:8": 0,
+                "GALACTIC_HQ_2F:7": 0,
+                "GALACTIC_HQ_HALL:1": 0,
+                "GALACTIC_HQ_HALL:0": 0,
+                "GALACTIC_HQ_2F:12": 0,
+                "GALACTIC_HQ_2F:11": 0,
+                "GALACTIC_HQ_2F:14": 0,
+                "GALACTIC_HQ_2F:13": 0
+            }
+        },
+        {
+            "id": 295,
+            "name": "GALACTIC_HQ_3F",
+            "locations": [
+                "OVERWORLD_ITEM_166",
+                "OVERWORLD_ITEM_295",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_3F_4",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_3F_2",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_3F_1",
+                "OVERWORLD_ITEM_168",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_3F_3",
+                "HIDDEN_ITEM_78",
+                "HIDDEN_ITEM_77",
+                "HIDDEN_ITEM_79"
+            ],
+            "exits": {
+                "GALACTIC_HQ_2F:3": 0,
+                "GALACTIC_HQ_2F:4": 0,
+                "GALACTIC_HQ_4F:0": 0,
+                "GALACTIC_HQ_3F:4": 0,
+                "GALACTIC_HQ_3F:3": 0,
+                "GALACTIC_HQ_3F:6": 0,
+                "GALACTIC_HQ_3F:5": 0,
+                "GALACTIC_HQ_3F:8": 0,
+                "GALACTIC_HQ_3F:7": 0
+            }
+        },
+        {
+            "id": 296,
+            "name": "GALACTIC_HQ_4F",
+            "locations": [
+                "HIDDEN_ITEM_80"
+            ],
+            "exits": {
+                "GALACTIC_HQ_3F:2": 0,
+                "GALACTIC_HQ_LABORATORY:0": 0,
+                "GALACTIC_HQ_1F:14": 0,
+                "GALACTIC_HQ_HALL:2": 0
+            }
+        },
+        {
+            "id": 297,
+            "name": "GALACTIC_HQ_B1F",
+            "locations": [],
+            "exits": {
+                "GALACTIC_HQ_1F:7": 0,
+                "GALACTIC_HQ_B2F:1": 0
+            }
+        },
+        {
+            "id": 298,
+            "name": "GALACTIC_HQ_B2F",
+            "locations": [
+                "OVERWORLD_ITEM_237",
+                "OVERWORLD_ITEM_164",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_B2F_2",
+                "TRAINER_GALACTIC_GRUNT_GALACTIC_HQ_B2F_1",
+                "OVERWORLD_ITEM_244"
+            ],
+            "exits": {
+                "GALACTIC_HQ_1F:6": 0,
+                "GALACTIC_HQ_B1F:1": 0,
+                "VEILSTONE_CITY_GALACTIC_WAREHOUSE:1": 0
+            }
+        },
+        {
+            "id": 299,
+            "name": "LAKE_VERITY_LOW_WATER",
+            "locations": [
+                "OVERWORLD_ITEM_239"
+            ],
+            "exits": {
+                "VERITY_LAKEFRONT:1": 0,
+                "VERITY_LAKEFRONT:0": 0
+            }
+        },
+        {
+            "id": 300,
+            "name": "LAKE_VERITY",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_LAKE_VERITY_4",
+                "TRAINER_GALACTIC_GRUNT_LAKE_VERITY_3",
+                "TRAINER_GALACTIC_GRUNT_LAKE_VERITY_2",
+                "OVERWORLD_ITEM_239_1",
+                "TRAINER_GALACTIC_GRUNT_LAKE_VERITY_1"
+            ],
+            "exits": {
+                "VERITY_CAVERN:0": 0,
+                "VERITY_LAKEFRONT:2": 0,
+                "VERITY_LAKEFRONT:3": 0
+            }
+        },
+        {
+            "id": 301,
+            "name": "VERITY_CAVERN",
+            "locations": [],
+            "exits": {
+                "LAKE_VERITY:0": 0
+            }
+        },
+        {
+            "id": 302,
+            "name": "LAKE_VALOR_DRAINED",
+            "locations": [
+                "TRAINER_GALACTIC_GRUNT_LAKE_VALOR_2",
+                "OVERWORLD_ITEM_240",
+                "TRAINER_GALACTIC_GRUNT_LAKE_VALOR_1",
+                "TRAINER_GALACTIC_GRUNT_LAKE_VALOR_3",
+                "HIDDEN_ITEM_57"
+            ],
+            "exits": {
+                "VALOR_LAKEFRONT:3": 0,
+                "VALOR_CAVERN:0": 0,
+                "VALOR_LAKEFRONT:4": 0
+            }
+        },
+        {
+            "id": 303,
+            "name": "LAKE_VALOR",
+            "locations": [
+                "OVERWORLD_ITEM_240_1"
+            ],
+            "exits": {
+                "VALOR_LAKEFRONT:3": 0,
+                "VALOR_CAVERN:1": 0,
+                "VALOR_LAKEFRONT:4": 0,
+                "VALOR_LAKEFRONT:5": 0,
+                "VALOR_LAKEFRONT:6": 0
+            }
+        },
+        {
+            "id": 304,
+            "name": "VALOR_CAVERN",
+            "locations": [],
+            "exits": {
+                "LAKE_VALOR_DRAINED:1": 0,
+                "LAKE_VALOR:1": 0
+            }
+        },
+        {
+            "id": 305,
+            "name": "LAKE_ACUITY_LOW_WATER",
+            "locations": [
+                "OVERWORLD_ITEM_241"
+            ],
+            "exits": {
+                "ACUITY_LAKEFRONT:0": 0,
+                "ACUITY_LAKEFRONT:1": 0
+            }
+        },
+        {
+            "id": 306,
+            "name": "LAKE_ACUITY",
+            "locations": [
+                "OVERWORLD_ITEM_241_1"
+            ],
+            "exits": {
+                "ACUITY_LAKEFRONT:0": 0,
+                "ACUITY_CAVERN:0": 0,
+                "ACUITY_LAKEFRONT:1": 0,
+                "ACUITY_LAKEFRONT:2": 0,
+                "ACUITY_LAKEFRONT:3": 0
+            }
+        },
+        {
+            "id": 307,
+            "name": "ACUITY_CAVERN",
+            "locations": [],
+            "exits": {
+                "LAKE_ACUITY:1": 0
+            }
+        },
+        {
+            "id": 308,
+            "name": "NEWMOON_ISLAND",
+            "locations": [],
+            "exits": {
+                "NEWMOON_ISLAND_FOREST:0": 0,
+                "NEWMOON_ISLAND_FOREST:1": 0
+            }
+        },
+        {
+            "id": 309,
+            "name": "NEWMOON_ISLAND_FOREST",
+            "locations": [],
+            "exits": {
+                "NEWMOON_ISLAND:0": 0,
+                "NEWMOON_ISLAND:1": 0
+            }
+        },
+        {
+            "id": 312,
+            "name": "BATTLE_TOWER",
+            "locations": [],
+            "exits": {
+                "BATTLE_FRONTIER:0": 0
+            }
+        },
+        {
+            "id": 320,
+            "name": "VERITY_LAKEFRONT",
+            "locations": [
+                "HIDDEN_ITEM_160",
+                "EVENT_HAS_STARTER"
+            ],
+            "exits": {
+                "LAKE_VERITY_LOW_WATER:1": 0,
+                "LAKE_VERITY_LOW_WATER:0": 0,
+                "LAKE_VERITY:1": 0,
+                "LAKE_VERITY:2": 0,
+                "ROUTE_201": 0
+            }
+        },
+        {
+            "id": 322,
+            "name": "VALOR_LAKEFRONT",
+            "locations": [
+                "OVERWORLD_ITEM_84",
+                "OVERWORLD_ITEM_315",
+                "OVERWORLD_ITEM_83",
+                "HIDDEN_ITEM_31",
+                "HIDDEN_ITEM_7",
+                "HIDDEN_ITEM_166",
+                "HIDDEN_ITEM_180"
+            ],
+            "exits": {
+                "RESTAURANT:0": 0,
+                "GRAND_LAKE_VALOR_LAKEFRONT_EAST_HOUSE:0": 0,
+                "GRAND_LAKE_VALOR_LAKEFRONT_WEST_HOUSE:0": 0,
+                "LAKE_VALOR_DRAINED:0": 0,
+                "LAKE_VALOR_DRAINED:2": 0,
+                "LAKE_VALOR:3": 0,
+                "LAKE_VALOR:4": 0,
+                "ROUTE_214": 0,
+                "ROUTE_213": 0,
+                "ROUTE_222": 0
+            }
+        },
+        {
+            "id": 323,
+            "name": "RESTAURANT",
+            "locations": [],
+            "exits": {
+                "VALOR_LAKEFRONT:0": 0
+            }
+        },
+        {
+            "id": 324,
+            "name": "GRAND_LAKE_VALOR_LAKEFRONT_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "VALOR_LAKEFRONT:1": 0
+            }
+        },
+        {
+            "id": 325,
+            "name": "GRAND_LAKE_VALOR_LAKEFRONT_WEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "VALOR_LAKEFRONT:2": 0
+            }
+        },
+        {
+            "id": 326,
+            "name": "ACUITY_LAKEFRONT",
+            "locations": [
+                "OVERWORLD_ITEM_163",
+                "OVERWORLD_ITEM_309"
+            ],
+            "exits": {
+                "LAKE_ACUITY_LOW_WATER:0": 0,
+                "LAKE_ACUITY_LOW_WATER:1": 0,
+                "LAKE_ACUITY:3": 0,
+                "LAKE_ACUITY:4": 0,
+                "SNOWPOINT_CITY": 0,
+                "ROUTE_217": 0
+            }
+        },
+        {
+            "id": 327,
+            "name": "SPRING_PATH",
+            "locations": [],
+            "exits": {
+                "SENDOFF_SPRING:0": 0,
+                "SENDOFF_SPRING:1": 0,
+                "ROUTE_214": 0
+            }
+        },
+        {
+            "id": 328,
+            "name": "ROUTE_201",
+            "locations": [],
+            "exits": {
+                "TWINLEAF_TOWN": 0,
+                "VERITY_LAKEFRONT": 0,
+                "SANDGEM_TOWN": 0
+            }
+        },
+        {
+            "id": 329,
+            "name": "ROUTE_202",
+            "locations": [
+                "OVERWORLD_ITEM_0",
+                "TRAINER_LASS_NATALIE",
+                "TRAINER_YOUNGSTER_LOGAN",
+                "TRAINER_YOUNGSTER_TRISTAN",
+                "HIDDEN_ITEM_161_1"
+            ],
+            "exits": {
+                "JUBILIFE_CITY": 0,
+                "SANDGEM_TOWN": 0
+            }
+        },
+        {
+            "id": 330,
+            "name": "ROUTE_203",
+            "locations": [
+                "TRAINER_LASS_MADELINE",
+                "TRAINER_LASS_KAITLIN",
+                "OVERWORLD_ITEM_1",
+                "OVERWORLD_ITEM_255",
+                "TRAINER_YOUNGSTER_DALLAS",
+                "TRAINER_YOUNGSTER_SEBASTIAN",
+                "TRAINER_YOUNGSTER_MICHAEL",
+                "OVERWORLD_ITEM_2"
+            ],
+            "exits": {
+                "OREBURGH_GATE_1F:0": 0,
+                "JUBILIFE_CITY": 0,
+                "OREBURGH_CITY": 0
+            }
+        },
+        {
+            "id": 331,
+            "name": "ROUTE_204_SOUTH",
+            "locations": [
+                "OVERWORLD_ITEM_10",
+                "TRAINER_YOUNGSTER_TYLER",
+                "TRAINER_LASS_SARAH",
+                "OVERWORLD_ITEM_82",
+                "TRAINER_LASS_SAMANTHA",
+                "OVERWORLD_ITEM_9"
+            ],
+            "exits": {
+                "RAVAGED_PATH:0": 0,
+                "ROUTE_204_NORTH": 0,
+                "JUBILIFE_CITY": 0
+            }
+        },
+        {
+            "id": 332,
+            "name": "ROUTE_204_NORTH",
+            "locations": [
+                "TRAINER_BUG_CATCHER_BRANDON",
+                "OVERWORLD_ITEM_14",
+                "OVERWORLD_ITEM_254",
+                "TRAINER_AROMA_LADY_TAYLOR",
+                "TRAINER_TWINS_LIV_AND_LIZ"
+            ],
+            "exits": {
+                "RAVAGED_PATH:1": 0,
+                "FLOAROMA_TOWN": 0,
+                "ROUTE_204_SOUTH": 0
+            }
+        },
+        {
+            "id": 333,
+            "name": "ROUTE_205_SOUTH",
+            "locations": [
+                "BERRY_2",
+                "BERRY_3",
+                "TRAINER_PICNICKER_SIENA",
+                "TRAINER_BATTLE_GIRL_KELSEY",
+                "OVERWORLD_ITEM_16",
+                "OVERWORLD_ITEM_126",
+                "OVERWORLD_ITEM_17",
+                "TRAINER_CAMPER_JACOB",
+                "TRAINER_HIKER_DANIEL",
+                "OVERWORLD_ITEM_253",
+                "TRAINER_AROMA_LADY_ELIZABETH",
+                "TRAINER_PICNICKER_KARINA",
+                "BERRY_5",
+                "BERRY_4",
+                "TRAINER_HIKER_NICHOLAS",
+                "TRAINER_CAMPER_ZACKARY",
+                "HIDDEN_ITEM_217"
+            ],
+            "exits": {
+                "ETERNA_FOREST:0": 0,
+                "ETERNA_FOREST:1": 0,
+                "ROUTE_205_HOUSE:0": 0,
+                "ETERNA_FOREST_OUTSIDE": 0,
+                "FUEGO_IRONWORKS_OUTSIDE": 0,
+                "FLOAROMA_TOWN": 0,
+                "VALLEY_WINDWORKS_OUTSIDE": 0
+            }
+        },
+        {
+            "id": 334,
+            "name": "ROUTE_205_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_205_SOUTH:2": 0
+            }
+        },
+        {
+            "id": 335,
+            "name": "ROUTE_205_NORTH",
+            "locations": [
+                "TRAINER_FISHERMAN_ANDREW",
+                "BERRY_16",
+                "BERRY_17",
+                "TRAINER_FISHERMAN_JOSEPH",
+                "TRAINER_FISHERMAN_ZACHARY",
+                "BERRY_14",
+                "BERRY_15",
+                "OVERWORLD_ITEM_23",
+                "HIDDEN_ITEM_150_1"
+            ],
+            "exits": {
+                "ETERNA_FOREST:3": 0,
+                "ETERNA_FOREST:2": 0,
+                "ETERNA_CITY": 0,
+                "ETERNA_FOREST_OUTSIDE": 0
+            }
+        },
+        {
+            "id": 336,
+            "name": "ROUTE_206",
+            "locations": [
+                "TRAINER_CYCLIST_RYAN",
+                "BERRY_19",
+                "TRAINER_CYCLIST_JAMES",
+                "BERRY_18",
+                "BERRY_20",
+                "TRAINER_CYCLIST_KAYLA",
+                "OVERWORLD_ITEM_30",
+                "BERRY_21",
+                "TRAINER_HIKER_THEODORE",
+                "TRAINER_CYCLIST_RACHEL",
+                "TRAINER_CYCLIST_AXEL",
+                "OVERWORLD_ITEM_32",
+                "TRAINER_CYCLIST_JOHN",
+                "OVERWORLD_ITEM_33",
+                "OVERWORLD_ITEM_31",
+                "TRAINER_CYCLIST_NICOLE",
+                "TRAINER_CYCLIST_MEGAN",
+                "HIDDEN_ITEM_4",
+                "HIDDEN_ITEM_5"
+            ],
+            "exits": {
+                "ROUTE_206_CYCLING_ROAD_SOUTH_GATE:4": 0,
+                "ROUTE_206_CYCLING_ROAD_SOUTH_GATE:2": 0,
+                "ROUTE_206_CYCLING_ROAD_NORTH_GATE:1": 0,
+                "ROUTE_206_CYCLING_ROAD_SOUTH_GATE:0": 0,
+                "ROUTE_206_CYCLING_ROAD_SOUTH_GATE:3": 0,
+                "ROUTE_206_CYCLING_ROAD_SOUTH_GATE:1": 0,
+                "ROUTE_206_CYCLING_ROAD_SOUTH_GATE:5": 0,
+                "WAYWARD_CAVE_1F:0": 0,
+                "WAYWARD_CAVE_1F:1": 0,
+                "ETERNA_CITY": 0,
+                "ROUTE_207": 0
+            }
+        },
+        {
+            "id": 337,
+            "name": "ROUTE_206_CYCLING_ROAD_SOUTH_GATE",
+            "locations": [],
+            "exits": {
+                "ROUTE_206:7": 0,
+                "ROUTE_206:0": 0,
+                "ROUTE_206:2": 0,
+                "ROUTE_206:8": 0,
+                "ROUTE_206:1": 0
+            }
+        },
+        {
+            "id": 339,
+            "name": "ROUTE_207",
+            "locations": [
+                "TRAINER_BATTLE_GIRL_HELEN",
+                "TRAINER_PICNICKER_LAUREN",
+                "BERRY_23",
+                "TRAINER_CAMPER_ANTHONY",
+                "BERRY_24",
+                "OVERWORLD_ITEM_44",
+                "OVERWORLD_ITEM_145",
+                "OVERWORLD_ITEM_320",
+                "TRAINER_HIKER_JUSTIN",
+                "BERRY_25",
+                "OVERWORLD_ITEM_43",
+                "TRAINER_YOUNGSTER_AUSTIN",
+                "OVERWORLD_ITEM_45",
+                "BERRY_22",
+                "TRAINER_HIKER_KEVIN",
+                "HIDDEN_ITEM_12",
+                "HIDDEN_ITEM_8_1",
+                "HIDDEN_ITEM_91",
+                "HIDDEN_ITEM_151",
+                "HIDDEN_ITEM_256"
+            ],
+            "exits": {
+                "MT_CORONET_1F_SOUTH:0": 0,
+                "MT_CORONET_2F:1": 0,
+                "ROUTE_206": 0,
+                "OREBURGH_CITY": 0
+            }
+        },
+        {
+            "id": 340,
+            "name": "ROUTE_208",
+            "locations": [
+                "TRAINER_ARTIST_WILLIAM",
+                "TRAINER_HIKER_ALEXANDER",
+                "TRAINER_BLACK_BELT_KYLE",
+                "TRAINER_HIKER_ROBERT",
+                "BERRY_26",
+                "BERRY_27",
+                "BERRY_28",
+                "OVERWORLD_ITEM_48",
+                "OVERWORLD_ITEM_49",
+                "OVERWORLD_ITEM_50",
+                "TRAINER_HIKER_JONATHAN",
+                "BERRY_29",
+                "TRAINER_AROMA_LADY_HANNAH",
+                "TRAINER_FISHERMAN_CODY",
+                "HIDDEN_ITEM_14",
+                "HIDDEN_ITEM_15"
+            ],
+            "exits": {
+                "ROUTE_208_GATE_TO_HEARTHOME_CITY:1": 0,
+                "ROUTE_208_HOUSE:0": 0,
+                "MT_CORONET_1F_SOUTH:1": 0,
+                "HEARTHOME_CITY": 0
+            }
+        },
+        {
+            "id": 341,
+            "name": "ROUTE_208_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_208:2": 0
+            }
+        },
+        {
+            "id": 342,
+            "name": "ROUTE_209",
+            "locations": [
+                "BERRY_32",
+                "OVERWORLD_ITEM_88",
+                "TRAINER_TWINS_EMMA_AND_LIL",
+                "BERRY_33",
+                "TRAINER_COWGIRL_SHELLEY",
+                "OVERWORLD_ITEM_90",
+                "TRAINER_YOUNG_COUPLE_TY_AND_SUE",
+                "OVERWORLD_ITEM_89",
+                "TRAINER_BREEDER_ALBERT",
+                "TRAINER_POKE_KID_DANIELLE",
+                "TRAINER_JOGGER_RICHARD",
+                "TRAINER_JOGGER_RAUL",
+                "OVERWORLD_ITEM_86",
+                "BERRY_30",
+                "OVERWORLD_ITEM_268",
+                "OVERWORLD_ITEM_87",
+                "TRAINER_BREEDER_JENNIFER",
+                "BERRY_31",
+                "HIDDEN_ITEM_33",
+                "HIDDEN_ITEM_32",
+                "HIDDEN_ITEM_35",
+                "HIDDEN_ITEM_153"
+            ],
+            "exits": {
+                "ROUTE_209_GATE_TO_HEARTHOME_CITY:1": 0,
+                "ROUTE_209_LOST_TOWER_1F:0": 0,
+                "SOLACEON_TOWN": 0,
+                "HEARTHOME_CITY": 0
+            }
+        },
+        {
+            "id": 343,
+            "name": "ROUTE_209_LOST_TOWER_1F",
+            "locations": [],
+            "exits": {
+                "ROUTE_209:2": 0,
+                "ROUTE_209_LOST_TOWER_2F:0": 0
+            }
+        },
+        {
+            "id": 344,
+            "name": "ROUTE_209_LOST_TOWER_2F",
+            "locations": [
+                "TRAINER_YOUNGSTER_OLIVER",
+                "OVERWORLD_ITEM_91",
+                "HIDDEN_ITEM_187"
+            ],
+            "exits": {
+                "ROUTE_209_LOST_TOWER_1F:1": 0,
+                "ROUTE_209_LOST_TOWER_3F:0": 0
+            }
+        },
+        {
+            "id": 345,
+            "name": "ROUTE_209_LOST_TOWER_3F",
+            "locations": [
+                "OVERWORLD_ITEM_93",
+                "TRAINER_ROUGHNECK_KIRBY",
+                "TRAINER_POKEFAN_LEONARD"
+            ],
+            "exits": {
+                "ROUTE_209_LOST_TOWER_2F:1": 0,
+                "ROUTE_209_LOST_TOWER_4F:0": 0
+            }
+        },
+        {
+            "id": 346,
+            "name": "ROUTE_209_LOST_TOWER_4F",
+            "locations": [
+                "TRAINER_YOUNG_COUPLE_MIKE_AND_NAT",
+                "TRAINER_BELLE_AND_PA_BETH_AND_BOB",
+                "OVERWORLD_ITEM_94",
+                "TRAINER_POKEFAN_REBEKAH",
+                "HIDDEN_ITEM_188"
+            ],
+            "exits": {
+                "ROUTE_209_LOST_TOWER_3F:1": 0,
+                "ROUTE_209_LOST_TOWER_5F:0": 0
+            }
+        },
+        {
+            "id": 347,
+            "name": "ROUTE_209_LOST_TOWER_5F",
+            "locations": [],
+            "exits": {
+                "ROUTE_209_LOST_TOWER_4F:1": 0
+            }
+        },
+        {
+            "id": 348,
+            "name": "ROUTE_210_SOUTH",
+            "locations": [
+                "BERRY_41",
+                "BERRY_38",
+                "BERRY_39",
+                "TRAINER_BREEDER_AMBER",
+                "TRAINER_RANCHER_MARCO",
+                "BERRY_40",
+                "TRAINER_NINJA_BOY_BRUCE",
+                "TRAINER_BELLE_AND_PA_AVA_AND_MATT",
+                "TRAINER_NINJA_BOY_BRENNAN",
+                "OVERWORLD_ITEM_99",
+                "TRAINER_NINJA_BOY_FABIAN",
+                "OVERWORLD_ITEM_100",
+                "TRAINER_JOGGER_WYATT",
+                "OVERWORLD_ITEM_103",
+                "OVERWORLD_ITEM_102",
+                "TRAINER_BREEDER_KAHLIL",
+                "TRAINER_TWINS_TERI_AND_TIA",
+                "HIDDEN_ITEM_39",
+                "HIDDEN_ITEM_149",
+                "HIDDEN_ITEM_154",
+                "HIDDEN_ITEM_189",
+                "HIDDEN_ITEM_202"
+            ],
+            "exits": {
+                "CAFE:0": 0,
+                "ROUTE_210_NORTH": 0,
+                "ROUTE_215": 0,
+                "SOLACEON_TOWN": 0
+            }
+        },
+        {
+            "id": 349,
+            "name": "ROUTE_210_NORTH",
+            "locations": [
+                "TRAINER_NINJA_BOY_DAVIDO",
+                "OVERWORLD_ITEM_278",
+                "BERRY_43",
+                "TRAINER_NINJA_BOY_NATHAN",
+                "BERRY_42",
+                "TRAINER_DOUBLE_TEAM_ZAC_AND_JEN",
+                "TRAINER_ACE_TRAINER_ALYSSA",
+                "TRAINER_BIRD_KEEPER_BRIANNA",
+                "OVERWORLD_ITEM_117",
+                "TRAINER_DRAGON_TAMER_PATRICK",
+                "OVERWORLD_ITEM_118",
+                "TRAINER_BLACK_BELT_ADAM",
+                "OVERWORLD_ITEM_279",
+                "BERRY_44",
+                "BERRY_45",
+                "TRAINER_ACE_TRAINER_ERNEST",
+                "TRAINER_NINJA_BOY_JOEL",
+                "TRAINER_VETERAN_BRIAN",
+                "OVERWORLD_ITEM_119",
+                "HIDDEN_ITEM_45",
+                "HIDDEN_ITEM_44"
+            ],
+            "exits": {
+                "ROUTE_210_GRANDMA_WILMA_HOUSE:0": 0,
+                "CELESTIC_TOWN": 0,
+                "ROUTE_210_SOUTH": 0
+            }
+        },
+        {
+            "id": 350,
+            "name": "ROUTE_210_GRANDMA_WILMA_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_210_NORTH:0": 0
+            }
+        },
+        {
+            "id": 351,
+            "name": "ROUTE_211_WEST",
+            "locations": [
+                "TRAINER_HIKER_LOUIS",
+                "OVERWORLD_ITEM_27",
+                "TRAINER_NINJA_BOY_ZACH",
+                "TRAINER_BIRD_KEEPER_ALEXANDRA",
+                "HIDDEN_ITEM_3_1",
+                "HIDDEN_ITEM_228_1"
+            ],
+            "exits": {
+                "MT_CORONET_1F_NORTH_ROOM_1:2": 0,
+                "ETERNA_CITY": 0
+            }
+        },
+        {
+            "id": 352,
+            "name": "ROUTE_211_EAST",
+            "locations": [
+                "OVERWORLD_ITEM_147",
+                "BERRY_47",
+                "TRAINER_NINJA_BOY_NICK",
+                "BERRY_49",
+                "BERRY_46",
+                "BERRY_48",
+                "TRAINER_BIRD_KEEPER_KATHERINE",
+                "TRAINER_RUIN_MANIAC_HARRY",
+                "OVERWORLD_ITEM_316",
+                "TRAINER_BLACK_BELT_SEAN",
+                "HIDDEN_ITEM_60"
+            ],
+            "exits": {
+                "MT_CORONET_1F_NORTH_ROOM_1:3": 0,
+                "CELESTIC_TOWN": 0
+            }
+        },
+        {
+            "id": 353,
+            "name": "ROUTE_212_NORTH",
+            "locations": [
+                "BERRY_51",
+                "BERRY_53",
+                "OVERWORLD_ITEM_56",
+                "TRAINER_POLICEMAN_CALEB",
+                "BERRY_50",
+                "BERRY_52",
+                "OVERWORLD_ITEM_55",
+                "TRAINER_POLICEMAN_DYLAN",
+                "TRAINER_LADY_MELISSA",
+                "TRAINER_GENTLEMAN_JEREMY",
+                "OVERWORLD_ITEM_54",
+                "OVERWORLD_ITEM_272",
+                "TRAINER_POLICEMAN_BOBBY",
+                "TRAINER_RICH_BOY_JASON",
+                "TRAINER_SOCIALITE_REINA",
+                "OVERWORLD_ITEM_273",
+                "TRAINER_POLICEMAN_ALEX",
+                "HIDDEN_ITEM_18",
+                "HIDDEN_ITEM_17"
+            ],
+            "exits": {
+                "ROUTE_212_GATE_TO_HEARTHOME_CITY:1": 0,
+                "POKEMON_MANSION:0": 0,
+                "HEARTHOME_CITY": 0,
+                "ROUTE_212_SOUTH": 0
+            }
+        },
+        {
+            "id": 354,
+            "name": "POKEMON_MANSION",
+            "locations": [],
+            "exits": {
+                "ROUTE_212_NORTH:2": 0,
+                "POKEMON_MANSION_MAIDS_ROOM:1": 0,
+                "POKEMON_MANSION_MAIDS_ROOM:2": 0,
+                "POKEMON_MANSION_MAIDS_ROOM:0": 0,
+                "POKEMON_MANSION_OFFICE:0": 0,
+                "TROPHY_GARDEN:0": 0
+            }
+        },
+        {
+            "id": 355,
+            "name": "POKEMON_MANSION_MAIDS_ROOM",
+            "locations": [
+                "OVERWORLD_ITEM_58",
+                "HIDDEN_ITEM_163"
+            ],
+            "exits": {
+                "POKEMON_MANSION:3": 0,
+                "POKEMON_MANSION:1": 0,
+                "POKEMON_MANSION:2": 0
+            }
+        },
+        {
+            "id": 356,
+            "name": "POKEMON_MANSION_OFFICE",
+            "locations": [
+                "OVERWORLD_ITEM_57"
+            ],
+            "exits": {
+                "POKEMON_MANSION:4": 0
+            }
+        },
+        {
+            "id": 357,
+            "name": "ROUTE_212_SOUTH",
+            "locations": [
+                "TRAINER_RANGER_JEFFREY",
+                "OVERWORLD_ITEM_60",
+                "OVERWORLD_ITEM_63",
+                "TRAINER_FISHERMAN_JUAN",
+                "BERRY_57",
+                "OVERWORLD_ITEM_61",
+                "TRAINER_COLLECTOR_DEAN",
+                "TRAINER_SCIENTIST_STEFANO",
+                "OVERWORLD_ITEM_275",
+                "BERRY_55",
+                "BERRY_54",
+                "TRAINER_POLICEMAN_DANNY",
+                "OVERWORLD_ITEM_65",
+                "TRAINER_FISHERMAN_JOSH",
+                "OVERWORLD_ITEM_274",
+                "TRAINER_FISHERMAN_TRAVIS",
+                "TRAINER_RANGER_TAYLOR",
+                "TRAINER_PARASOL_LADY_SABRINA",
+                "TRAINER_SCIENTIST_SHAUN",
+                "OVERWORLD_ITEM_59",
+                "OVERWORLD_ITEM_64",
+                "BERRY_56",
+                "TRAINER_PARASOL_LADY_ALEXA",
+                "OVERWORLD_ITEM_62",
+                "TRAINER_RANGER_ALLISON",
+                "HIDDEN_ITEM_19",
+                "HIDDEN_ITEM_26",
+                "HIDDEN_ITEM_25",
+                "HIDDEN_ITEM_21",
+                "HIDDEN_ITEM_24",
+                "HIDDEN_ITEM_23",
+                "HIDDEN_ITEM_22",
+                "HIDDEN_ITEM_20"
+            ],
+            "exits": {
+                "ROUTE_212_HOUSE:0": 0,
+                "ROUTE_212_NORTH": 0,
+                "PASTORIA_CITY": 0
+            }
+        },
+        {
+            "id": 358,
+            "name": "ROUTE_212_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_212_SOUTH:0": 0
+            }
+        },
+        {
+            "id": 359,
+            "name": "ROUTE_213",
+            "locations": [
+                "BERRY_65",
+                "TRAINER_SAILOR_PAUL",
+                "OVERWORLD_ITEM_76",
+                "TRAINER_SWIMMER_HALEY",
+                "TRAINER_SWIMMER_EVAN",
+                "TRAINER_TUBER_CHELSEA",
+                "TRAINER_BEAUTY_CYNDY",
+                "TRAINER_FISHERMAN_KENNETH",
+                "OVERWORLD_ITEM_75",
+                "TRAINER_SWIMMER_MARY",
+                "OVERWORLD_ITEM_80",
+                "BERRY_62",
+                "TRAINER_TUBER_JARED",
+                "TRAINER_SWIMMER_SHELTIN",
+                "OVERWORLD_ITEM_77",
+                "OVERWORLD_ITEM_79",
+                "OVERWORLD_ITEM_81",
+                "OVERWORLD_ITEM_78",
+                "BERRY_64",
+                "BERRY_63",
+                "HIDDEN_ITEM_30",
+                "HIDDEN_ITEM_29",
+                "HIDDEN_ITEM_28",
+                "HIDDEN_ITEM_152",
+                "HIDDEN_ITEM_164",
+                "HIDDEN_ITEM_165",
+                "HIDDEN_ITEM_166_1",
+                "HIDDEN_ITEM_184",
+                "HIDDEN_ITEM_185",
+                "HIDDEN_ITEM_186",
+                "HIDDEN_ITEM_216",
+                "HIDDEN_ITEM_258"
+            ],
+            "exits": {
+                "ROUTE_213_GATE_TO_PASTORIA_CITY:0": 0,
+                "FOOTSTEP_HOUSE:0": 0,
+                "GRAND_LAKE_ROUTE_213_LOBBY:1": 0,
+                "GRAND_LAKE_ROUTE_213_LOBBY:0": 0,
+                "GRAND_LAKE_ROUTE_213_EAST_HOUSE:0": 0,
+                "GRAND_LAKE_ROUTE_213_NORTHWEST_HOUSE:0": 0,
+                "GRAND_LAKE_ROUTE_213_NORTHEAST_HOUSE:0": 0,
+                "PASTORIA_CITY": 0,
+                "VALOR_LAKEFRONT": 0
+            }
+        },
+        {
+            "id": 360,
+            "name": "ROUTE_213_GATE_TO_PASTORIA_CITY",
+            "locations": [],
+            "exits": {
+                "ROUTE_213:0": 0,
+                "PASTORIA_CITY:10": 0
+            }
+        },
+        {
+            "id": 361,
+            "name": "FOOTSTEP_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_213:2": 0
+            }
+        },
+        {
+            "id": 362,
+            "name": "GRAND_LAKE_ROUTE_213_LOBBY",
+            "locations": [],
+            "exits": {
+                "ROUTE_213:4": 0,
+                "ROUTE_213:3": 0
+            }
+        },
+        {
+            "id": 363,
+            "name": "GRAND_LAKE_ROUTE_213_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_213:5": 0
+            }
+        },
+        {
+            "id": 364,
+            "name": "GRAND_LAKE_ROUTE_213_NORTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_213:6": 0
+            }
+        },
+        {
+            "id": 365,
+            "name": "GRAND_LAKE_ROUTE_213_NORTHEAST_HOUSE",
+            "locations": [
+                "HIDDEN_ITEM_174"
+            ],
+            "exits": {
+                "ROUTE_213:7": 0
+            }
+        },
+        {
+            "id": 366,
+            "name": "ROUTE_214",
+            "locations": [
+                "BERRY_68",
+                "OVERWORLD_ITEM_115",
+                "TRAINER_RUIN_MANIAC_BRYAN",
+                "TRAINER_RUIN_MANIAC_RONALD",
+                "OVERWORLD_ITEM_317",
+                "BERRY_66",
+                "OVERWORLD_ITEM_114",
+                "TRAINER_COLLECTOR_BRADY",
+                "BERRY_69",
+                "BERRY_67",
+                "TRAINER_PSYCHIC_MITCHELL",
+                "TRAINER_BEAUTY_DEVON",
+                "OVERWORLD_ITEM_112",
+                "TRAINER_COLLECTOR_DOUGLAS",
+                "TRAINER_PI_CARLOS",
+                "TRAINER_COLLECTOR_JAMAL",
+                "OVERWORLD_ITEM_113",
+                "TRAINER_PSYCHIC_ABIGAIL",
+                "HIDDEN_ITEM_43",
+                "HIDDEN_ITEM_42",
+                "HIDDEN_ITEM_168"
+            ],
+            "exits": {
+                "ROUTE_214_GATE_TO_VEILSTONE_CITY:1": 0,
+                "RUIN_MANIAC_CAVE_SHORT:0": 0,
+                "RUIN_MANIAC_CAVE_LONG:0": 0,
+                "MANIAC_TUNNEL:0": 0,
+                "VEILSTONE_CITY": 0,
+                "SPRING_PATH": 0,
+                "VALOR_LAKEFRONT": 0
+            }
+        },
+        {
+            "id": 367,
+            "name": "ROUTE_214_GATE_TO_VEILSTONE_CITY",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY:11": 0,
+                "ROUTE_214:0": 0
+            }
+        },
+        {
+            "id": 368,
+            "name": "ROUTE_215",
+            "locations": [
+                "OVERWORLD_ITEM_108",
+                "TRAINER_BLACK_BELT_GREGORY",
+                "TRAINER_RUIN_MANIAC_CALVIN",
+                "BERRY_73",
+                "TRAINER_ACE_TRAINER_MAYA",
+                "BERRY_72",
+                "OVERWORLD_ITEM_107",
+                "TRAINER_JOGGER_SCOTT",
+                "OVERWORLD_ITEM_105",
+                "OVERWORLD_ITEM_106",
+                "OVERWORLD_ITEM_270",
+                "TRAINER_BLACK_BELT_DEREK",
+                "BERRY_70",
+                "BERRY_71",
+                "OVERWORLD_ITEM_104",
+                "TRAINER_BLACK_BELT_NATHANIEL",
+                "TRAINER_JOGGER_CRAIG",
+                "TRAINER_ACE_TRAINER_DENNIS",
+                "HIDDEN_ITEM_181",
+                "HIDDEN_ITEM_182",
+                "HIDDEN_ITEM_183"
+            ],
+            "exits": {
+                "ROUTE_215_GATE_TO_VEILSTONE_CITY:1": 0,
+                "ROUTE_210_SOUTH": 0,
+                "VEILSTONE_CITY": 0
+            }
+        },
+        {
+            "id": 369,
+            "name": "ROUTE_216",
+            "locations": [
+                "TRAINER_SKIER_ANDREA",
+                "TRAINER_ACE_TRAINER_BLAKE",
+                "TRAINER_SKIER_BRADLEY",
+                "OVERWORLD_ITEM_246",
+                "TRAINER_ACE_TRAINER_MARIA",
+                "TRAINER_BLACK_BELT_PHILIP",
+                "OVERWORLD_ITEM_291",
+                "OVERWORLD_ITEM_290",
+                "TRAINER_SKIER_KAITLYN",
+                "TRAINER_ACE_TRAINER_GARRETT",
+                "TRAINER_ACE_TRAINER_LAURA",
+                "TRAINER_SKIER_EDWARD",
+                "OVERWORLD_ITEM_159",
+                "OVERWORLD_ITEM_157",
+                "OVERWORLD_ITEM_158",
+                "HIDDEN_ITEM_71"
+            ],
+            "exits": {
+                "MT_CORONET_1F_NORTH_ROOM_2:1": 0,
+                "ROUTE_216_HOUSE:0": 0,
+                "ROUTE_217": 0
+            }
+        },
+        {
+            "id": 370,
+            "name": "ROUTE_216_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_216:1": 0
+            }
+        },
+        {
+            "id": 371,
+            "name": "ROUTE_217",
+            "locations": [
+                "TRAINER_SKIER_LEXIE",
+                "TRAINER_SKIER_SHAWN",
+                "OVERWORLD_ITEM_160",
+                "OVERWORLD_ITEM_294",
+                "TRAINER_SKIER_BJORN",
+                "TRAINER_ACE_TRAINER_OLIVIA",
+                "OVERWORLD_ITEM_161",
+                "TRAINER_BLACK_BELT_LUKE",
+                "OVERWORLD_ITEM_293",
+                "TRAINER_SKIER_MADISON",
+                "TRAINER_NINJA_BOY_MATTHEW",
+                "TRAINER_ACE_TRAINER_DALTON",
+                "TRAINER_NINJA_BOY_ETHAN",
+                "OVERWORLD_ITEM_292",
+                "OVERWORLD_ITEM_162",
+                "HIDDEN_ITEM_72",
+                "HIDDEN_ITEM_73",
+                "HIDDEN_ITEM_193",
+                "HIDDEN_ITEM_194",
+                "HIDDEN_ITEM_195",
+                "HIDDEN_ITEM_196",
+                "HIDDEN_ITEM_197",
+                "HIDDEN_ITEM_198",
+                "HIDDEN_ITEM_199",
+                "HIDDEN_ITEM_200"
+            ],
+            "exits": {
+                "ROUTE_217_WEST_HOUSE:0": 0,
+                "ROUTE_217_NORTHEAST_HOUSE:0": 0,
+                "ACUITY_LAKEFRONT": 0,
+                "ROUTE_216": 0
+            }
+        },
+        {
+            "id": 372,
+            "name": "ROUTE_217_WEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_217:0": 0
+            }
+        },
+        {
+            "id": 373,
+            "name": "ROUTE_217_NORTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_217:1": 0
+            }
+        },
+        {
+            "id": 374,
+            "name": "ROUTE_218",
+            "locations": [
+                "BERRY_74",
+                "OVERWORLD_ITEM_132",
+                "TRAINER_SAILOR_SKYLER",
+                "TRAINER_FISHERMAN_LUC",
+                "TRAINER_GUITARIST_TONY",
+                "BERRY_75",
+                "BERRY_76",
+                "OVERWORLD_ITEM_133",
+                "BERRY_77",
+                "OVERWORLD_ITEM_256",
+                "TRAINER_FISHERMAN_MIGUEL"
+            ],
+            "exits": {
+                "ROUTE_218_GATE_TO_CANALAVE_CITY:1": 0,
+                "ROUTE_218_GATE_TO_JUBILIFE_CITY:0": 0,
+                "CANALAVE_CITY": 0,
+                "JUBILIFE_CITY": 0
+            }
+        },
+        {
+            "id": 375,
+            "name": "ROUTE_218_GATE_TO_JUBILIFE_CITY",
+            "locations": [],
+            "exits": {
+                "ROUTE_218:2": 0,
+                "JUBILIFE_CITY:12": 0
+            }
+        },
+        {
+            "id": 376,
+            "name": "ROUTE_218_GATE_TO_CANALAVE_CITY",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:7": 0,
+                "ROUTE_218:0": 0
+            }
+        },
+        {
+            "id": 377,
+            "name": "ROUTE_219",
+            "locations": [
+                "OVERWORLD_ITEM_124",
+                "TRAINER_TUBER_MARIEL",
+                "TRAINER_TUBER_TRENTON",
+                "HIDDEN_ITEM_169"
+            ],
+            "exits": {
+                "SANDGEM_TOWN": 0,
+                "ROUTE_220": 0
+            }
+        },
+        {
+            "id": 378,
+            "name": "ROUTE_221",
+            "locations": [
+                "BERRY_79",
+                "OVERWORLD_ITEM_130",
+                "BERRY_81",
+                "BERRY_80",
+                "OVERWORLD_ITEM_101",
+                "OVERWORLD_ITEM_129",
+                "TRAINER_ACE_TRAINER_JAKE",
+                "BERRY_78",
+                "TRAINER_FISHERMAN_CORY",
+                "OVERWORLD_ITEM_131",
+                "TRAINER_SWIMMER_DILLON",
+                "TRAINER_ACE_TRAINER_SHANNON",
+                "TRAINER_SWIMMER_VANESSA",
+                "TRAINER_COLLECTOR_IVAN",
+                "HIDDEN_ITEM_50",
+                "HIDDEN_ITEM_49",
+                "HIDDEN_ITEM_190",
+                "HIDDEN_ITEM_191",
+                "HIDDEN_ITEM_192"
+            ],
+            "exits": {
+                "ROUTE_221_HOUSE:0": 0,
+                "PAL_PARK_LOBBY:0": 0,
+                "ROUTE_220": 0
+            }
+        },
+        {
+            "id": 379,
+            "name": "PAL_PARK_LOBBY",
+            "locations": [],
+            "exits": {
+                "ROUTE_221:1": 0,
+                "PAL_PARK:0": 0
+            }
+        },
+        {
+            "id": 380,
+            "name": "ROUTE_221_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_221:0": 0
+            }
+        },
+        {
+            "id": 381,
+            "name": "ROUTE_222",
+            "locations": [
+                "BERRY_84",
+                "TRAINER_SAILOR_LUTHER",
+                "TRAINER_TUBER_CONNER",
+                "TRAINER_RICH_BOY_TREY",
+                "TRAINER_FISHERMAN_BRETT",
+                "TRAINER_FISHERMAN_GEORGE",
+                "TRAINER_TUBER_HOLLY",
+                "TRAINER_FISHERMAN_COLE",
+                "BERRY_85",
+                "TRAINER_BEAUTY_NICOLA",
+                "OVERWORLD_ITEM_300",
+                "TRAINER_POLICEMAN_THOMAS",
+                "OVERWORLD_ITEM_176",
+                "BERRY_82",
+                "OVERWORLD_ITEM_299",
+                "BERRY_83",
+                "TRAINER_FISHERMAN_ALEC",
+                "OVERWORLD_ITEM_175",
+                "TRAINER_SAILOR_MARC",
+                "HIDDEN_ITEM_109",
+                "HIDDEN_ITEM_7_1",
+                "HIDDEN_ITEM_157",
+                "HIDDEN_ITEM_158",
+                "HIDDEN_ITEM_263",
+                "HIDDEN_ITEM_264",
+                "HIDDEN_ITEM_265",
+                "HIDDEN_ITEM_266"
+            ],
+            "exits": {
+                "ROUTE_222_GATE_TO_SUNYSHORE_CITY:0": 0,
+                "ROUTE_222_EAST_HOUSE:0": 0,
+                "ROUTE_222_WEST_HOUSE:0": 0,
+                "VALOR_LAKEFRONT": 0,
+                "SUNYSHORE_CITY": 0
+            }
+        },
+        {
+            "id": 382,
+            "name": "ROUTE_222_WEST_HOUSE",
+            "locations": [
+                "TRAINER_POKE_KID_JANET"
+            ],
+            "exits": {
+                "ROUTE_222:3": 0
+            }
+        },
+        {
+            "id": 383,
+            "name": "ROUTE_222_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_222:2": 0
+            }
+        },
+        {
+            "id": 384,
+            "name": "ROUTE_222_GATE_TO_SUNYSHORE_CITY",
+            "locations": [],
+            "exits": {
+                "ROUTE_222:0": 0,
+                "SUNYSHORE_CITY:3": 0
+            }
+        },
+        {
+            "id": 385,
+            "name": "ROUTE_224",
+            "locations": [
+                "TRAINER_ACE_TRAINER_JAMIE",
+                "BERRY_86",
+                "TRAINER_BLACK_BELT_CARL",
+                "OVERWORLD_ITEM_304",
+                "OVERWORLD_ITEM_196",
+                "OVERWORLD_ITEM_302",
+                "TRAINER_ACE_TRAINER_RUBEN",
+                "TRAINER_RUIN_MANIAC_LARRY",
+                "OVERWORLD_ITEM_195",
+                "BERRY_89",
+                "TRAINER_VETERAN_ARMANDO",
+                "OVERWORLD_ITEM_194",
+                "OVERWORLD_ITEM_303",
+                "TRAINER_DRAGON_TAMER_HAYDEN",
+                "TRAINER_PSYCHIC_BRITTNEY",
+                "BERRY_88",
+                "TRAINER_PSYCHIC_MAXWELL",
+                "BERRY_87",
+                "OVERWORLD_ITEM_305",
+                "HIDDEN_ITEM_124",
+                "HIDDEN_ITEM_125",
+                "HIDDEN_ITEM_126",
+                "HIDDEN_ITEM_127",
+                "HIDDEN_ITEM_170",
+                "HIDDEN_ITEM_171",
+                "HIDDEN_ITEM_172"
+            ],
+            "exits": {
+                "VICTORY_ROAD_1F_ROOM_3:1": 0,
+                "SEABREAK_PATH": 0,
+                "POKEMON_LEAGUE": 0
+            }
+        },
+        {
+            "id": 386,
+            "name": "ROUTE_225",
+            "locations": [
+                "OVERWORLD_ITEM_203",
+                "OVERWORLD_ITEM_198",
+                "TRAINER_ACE_TRAINER_DEANNA",
+                "OVERWORLD_ITEM_199",
+                "OVERWORLD_ITEM_306",
+                "TRAINER_RANGER_DWAYNE",
+                "BERRY_96",
+                "TRAINER_RANGER_ASHLEE",
+                "OVERWORLD_ITEM_200",
+                "OVERWORLD_ITEM_204",
+                "TRAINER_PSYCHIC_DAISY",
+                "OVERWORLD_ITEM_202",
+                "TRAINER_ACE_TRAINER_RODOLFO",
+                "BERRY_94",
+                "BERRY_97",
+                "TRAINER_BIRD_KEEPER_AUDREY",
+                "BERRY_95",
+                "OVERWORLD_ITEM_201",
+                "TRAINER_ACE_TRAINER_QUINN",
+                "TRAINER_DRAGON_TAMER_GEOFFREY",
+                "HIDDEN_ITEM_130",
+                "HIDDEN_ITEM_173",
+                "HIDDEN_ITEM_203",
+                "HIDDEN_ITEM_204"
+            ],
+            "exits": {
+                "ROUTE_225_GATE_TO_FIGHT_AREA:1": 0,
+                "ROUTE_225_HOUSE:0": 0,
+                "SURVIVAL_AREA": 0,
+                "FIGHT_AREA": 0
+            }
+        },
+        {
+            "id": 387,
+            "name": "ROUTE_227",
+            "locations": [
+                "TRAINER_ACE_TRAINER_SAUL",
+                "OVERWORLD_ITEM_307",
+                "TRAINER_RANGER_FELICIA",
+                "OVERWORLD_ITEM_208",
+                "TRAINER_BLACK_BELT_GRIFFIN",
+                "TRAINER_ACE_TRAINER_MIKAYLA",
+                "OVERWORLD_ITEM_209",
+                "HIDDEN_ITEM_136",
+                "HIDDEN_ITEM_137",
+                "HIDDEN_ITEM_159"
+            ],
+            "exits": {
+                "ROUTE_227_HOUSE:0": 0,
+                "STARK_MOUNTAIN_OUTSIDE": 0,
+                "ROUTE_226": 0
+            }
+        },
+        {
+            "id": 388,
+            "name": "ROUTE_228",
+            "locations": [
+                "BERRY_105",
+                "TRAINER_ACE_TRAINER_MEAGAN",
+                "TRAINER_ACE_TRAINER_JOSE",
+                "TRAINER_RANGER_KRISTA",
+                "BERRY_104",
+                "TRAINER_BLACK_BELT_DAVON",
+                "TRAINER_PSYCHIC_CORBIN",
+                "OVERWORLD_ITEM_226",
+                "BERRY_102",
+                "OVERWORLD_ITEM_225",
+                "OVERWORLD_ITEM_224",
+                "OVERWORLD_ITEM_228",
+                "TRAINER_RANGER_KYLER",
+                "TRAINER_DRAGON_TAMER_KEEGAN",
+                "BERRY_103",
+                "TRAINER_ACE_TRAINER_MOIRA",
+                "OVERWORLD_ITEM_227",
+                "HIDDEN_ITEM_142",
+                "HIDDEN_ITEM_144",
+                "HIDDEN_ITEM_143",
+                "HIDDEN_ITEM_205",
+                "HIDDEN_ITEM_206",
+                "HIDDEN_ITEM_207"
+            ],
+            "exits": {
+                "ROUTE_228_GATE_TO_ROUTE_226:1": 0,
+                "ROUTE_228_NORTH_HOUSE:0": 0,
+                "ROUTE_228_SOUTH_HOUSE:0": 0,
+                "ROUTE_228_ROCK_PEAK_RUINS:0": 0,
+                "ROCK_PEAK_RUINS:0": 0,
+                "ROUTE_226": 0,
+                "ROUTE_229": 0
+            }
+        },
+        {
+            "id": 389,
+            "name": "ROUTE_229",
+            "locations": [
+                "BERRY_107",
+                "OVERWORLD_ITEM_229",
+                "TRAINER_ACE_TRAINER_DANA",
+                "TRAINER_ACE_TRAINER_FELIX",
+                "OVERWORLD_ITEM_231",
+                "BERRY_109",
+                "BERRY_108",
+                "TRAINER_ACE_TRAINER_SANDRA",
+                "OVERWORLD_ITEM_230",
+                "TRAINER_RANGER_DESHAWN",
+                "BERRY_106",
+                "HIDDEN_ITEM_145"
+            ],
+            "exits": {
+                "ROUTE_228": 0,
+                "ROUTE_230": 0,
+                "RESORT_AREA": 0
+            }
+        },
+        {
+            "id": 390,
+            "name": "TWINLEAF_TOWN",
+            "locations": [
+                "HIDDEN_ITEM_201"
+            ],
+            "exits": {
+                "TWINLEAF_TOWN_RIVAL_HOUSE_1F:0": 0,
+                "TWINLEAF_TOWN_PLAYER_HOUSE_1F:0": 0,
+                "TWINLEAF_TOWN_NORTHEAST_HOUSE:0": 0,
+                "TWINLEAF_TOWN_SOUTHWEST_HOUSE:0": 0,
+                "ROUTE_201": 0
+            }
+        },
+        {
+            "id": 391,
+            "name": "TWINLEAF_TOWN_RIVAL_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "TWINLEAF_TOWN:0": 0,
+                "TWINLEAF_TOWN_RIVAL_HOUSE_2F:0": 0
+            }
+        },
+        {
+            "id": 392,
+            "name": "TWINLEAF_TOWN_RIVAL_HOUSE_2F",
+            "locations": [
+                "EVENT_BERRY_LEFT_HOUSE"
+            ],
+            "exits": {
+                "TWINLEAF_TOWN_RIVAL_HOUSE_1F:1": 0
+            }
+        },
+        {
+            "id": 393,
+            "name": "TWINLEAF_TOWN_PLAYER_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "TWINLEAF_TOWN:1": 0,
+                "TWINLEAF_TOWN_PLAYER_HOUSE_2F:0": 0
+            }
+        },
+        {
+            "id": 394,
+            "name": "TWINLEAF_TOWN_PLAYER_HOUSE_2F",
+            "locations": [],
+            "exits": {
+                "TWINLEAF_TOWN_PLAYER_HOUSE_1F:1": 0
+            }
+        },
+        {
+            "id": 395,
+            "name": "TWINLEAF_TOWN_NORTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "TWINLEAF_TOWN:2": 0
+            }
+        },
+        {
+            "id": 396,
+            "name": "TWINLEAF_TOWN_SOUTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "TWINLEAF_TOWN:3": 0
+            }
+        },
+        {
+            "id": 397,
+            "name": "SANDGEM_TOWN",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN_MART:0": 0,
+                "SANDGEM_TOWN_POKECENTER_1F:0": 0,
+                "SANDGEM_TOWN_POKEMON_RESEARCH_LAB:0": 0,
+                "SANDGEM_TOWN_COUNTERPART_HOUSE_1F:0": 0,
+                "SANDGEM_TOWN_HOUSE:0": 0,
+                "ROUTE_202": 0,
+                "ROUTE_219": 0,
+                "ROUTE_201": 0
+            }
+        },
+        {
+            "id": 398,
+            "name": "SANDGEM_TOWN_MART",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN:0": 0
+            }
+        },
+        {
+            "id": 399,
+            "name": "SANDGEM_TOWN_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN:1": 0,
+                "SANDGEM_TOWN_POKECENTER_2F:0": 0,
+                "SANDGEM_TOWN_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 400,
+            "name": "SANDGEM_TOWN_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 401,
+            "name": "SANDGEM_TOWN_POKEMON_RESEARCH_LAB",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN:2": 0
+            }
+        },
+        {
+            "id": 402,
+            "name": "SANDGEM_TOWN_COUNTERPART_HOUSE_1F",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN:3": 0,
+                "SANDGEM_TOWN_COUNTERPART_HOUSE_2F:0": 0
+            }
+        },
+        {
+            "id": 403,
+            "name": "SANDGEM_TOWN_COUNTERPART_HOUSE_2F",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN_COUNTERPART_HOUSE_1F:1": 0
+            }
+        },
+        {
+            "id": 404,
+            "name": "SANDGEM_TOWN_HOUSE",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN:4": 0
+            }
+        },
+        {
+            "id": 405,
+            "name": "FLOAROMA_TOWN",
+            "locations": [
+                "BERRY_1",
+                "BERRY_0"
+            ],
+            "exits": {
+                "FLOAROMA_TOWN_MART:0": 0,
+                "FLOAROMA_TOWN_POKECENTER_1F:0": 0,
+                "FLOWER_SHOP:0": 0,
+                "FLOAROMA_TOWN_SOUTHEAST_HOUSE:0": 0,
+                "FLOAROMA_TOWN_MIDDLE_HOUSE:0": 0,
+                "FLOAROMA_MEADOW:0": 0,
+                "FLOAROMA_MEADOW:1": 0,
+                "FLOAROMA_MEADOW:3": 0,
+                "FLOAROMA_MEADOW:4": 0,
+                "FUEGO_IRONWORKS_OUTSIDE": 0,
+                "ROUTE_205_SOUTH": 0,
+                "ROUTE_204_NORTH": 0
+            }
+        },
+        {
+            "id": 406,
+            "name": "FLOAROMA_TOWN_MART",
+            "locations": [],
+            "exits": {
+                "FLOAROMA_TOWN:0": 0
+            }
+        },
+        {
+            "id": 407,
+            "name": "FLOAROMA_TOWN_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "FLOAROMA_TOWN:1": 0,
+                "FLOAROMA_TOWN_POKECENTER_2F:0": 0,
+                "FLOAROMA_TOWN_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 408,
+            "name": "FLOAROMA_TOWN_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "FLOAROMA_TOWN_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 409,
+            "name": "FLOWER_SHOP",
+            "locations": [],
+            "exits": {
+                "FLOAROMA_TOWN:2": 0
+            }
+        },
+        {
+            "id": 410,
+            "name": "FLOAROMA_TOWN_SOUTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "FLOAROMA_TOWN:3": 0
+            }
+        },
+        {
+            "id": 411,
+            "name": "FLOAROMA_TOWN_MIDDLE_HOUSE",
+            "locations": [],
+            "exits": {
+                "FLOAROMA_TOWN:4": 0
+            }
+        },
+        {
+            "id": 412,
+            "name": "SOLACEON_TOWN",
+            "locations": [
+                "BERRY_36",
+                "BERRY_35",
+                "OVERWORLD_ITEM_276",
+                "BERRY_37",
+                "BERRY_34",
+                "OVERWORLD_ITEM_269",
+                "HIDDEN_ITEM_34"
+            ],
+            "exits": {
+                "POKEMON_DAY_CARE:0": 0,
+                "SOLACEON_TOWN_NORTHEAST_HOUSE:0": 0,
+                "SOLACEON_TOWN_POKEMON_NEWS_PRESS:0": 0,
+                "SOLACEON_TOWN_NORTH_HOUSE:0": 0,
+                "SOLACEON_TOWN_EAST_HOUSE:0": 0,
+                "SOLACEON_TOWN_POKECENTER_1F:0": 0,
+                "SOLACEON_TOWN_MART:0": 0,
+                "SOLACEON_RUINS_MANIAC_TUNNEL_ROOM:0": 0,
+                "SOLACEON_RUINS_ROOM_1:0": 0,
+                "ROUTE_210_SOUTH": 0,
+                "ROUTE_209": 0
+            }
+        },
+        {
+            "id": 413,
+            "name": "SOLACEON_TOWN_MART",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:6": 0
+            }
+        },
+        {
+            "id": 414,
+            "name": "SOLACEON_TOWN_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:5": 0,
+                "SOLACEON_TOWN_POKECENTER_2F:0": 0,
+                "SOLACEON_TOWN_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 415,
+            "name": "SOLACEON_TOWN_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 416,
+            "name": "POKEMON_DAY_CARE",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:0": 0
+            }
+        },
+        {
+            "id": 417,
+            "name": "SOLACEON_TOWN_NORTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:1": 0
+            }
+        },
+        {
+            "id": 418,
+            "name": "SOLACEON_TOWN_POKEMON_NEWS_PRESS",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:2": 0
+            }
+        },
+        {
+            "id": 419,
+            "name": "SOLACEON_TOWN_NORTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:3": 0
+            }
+        },
+        {
+            "id": 420,
+            "name": "SOLACEON_TOWN_EAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN:4": 0
+            }
+        },
+        {
+            "id": 421,
+            "name": "CELESTIC_TOWN",
+            "locations": [
+                "OVERWORLD_ITEM_319",
+                "HIDDEN_ITEM_273"
+            ],
+            "exits": {
+                "CELESTIC_TOWN_NORTH_HOUSE:0": 0,
+                "CELESTIC_TOWN_NORTHWEST_HOUSE:0": 0,
+                "CELESTIC_TOWN_NORTHEAST_HOUSE:0": 0,
+                "CELESTIC_TOWN_SOUTHWEST_HOUSE:0": 0,
+                "CELESTIC_TOWN_CAVE:0": 0,
+                "CELESTIC_TOWN_POKECENTER_1F:0": 0,
+                "ROUTE_210_NORTH": 0,
+                "ROUTE_211_EAST": 0
+            }
+        },
+        {
+            "id": 422,
+            "name": "CELESTIC_TOWN_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "CELESTIC_TOWN:5": 0,
+                "CELESTIC_TOWN_POKECENTER_2F:0": 0,
+                "CELESTIC_TOWN_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 423,
+            "name": "CELESTIC_TOWN_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "CELESTIC_TOWN_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 424,
+            "name": "CELESTIC_TOWN_NORTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "CELESTIC_TOWN:0": 0
+            }
+        },
+        {
+            "id": 425,
+            "name": "CELESTIC_TOWN_NORTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "CELESTIC_TOWN:1": 0
+            }
+        },
+        {
+            "id": 426,
+            "name": "CELESTIC_TOWN_NORTHEAST_HOUSE",
+            "locations": [],
+            "exits": {
+                "CELESTIC_TOWN:2": 0
+            }
+        },
+        {
+            "id": 427,
+            "name": "CELESTIC_TOWN_SOUTHWEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "CELESTIC_TOWN:3": 0
+            }
+        },
+        {
+            "id": 428,
+            "name": "CELESTIC_TOWN_CAVE",
+            "locations": [],
+            "exits": {
+                "CELESTIC_TOWN:4": 0
+            }
+        },
+        {
+            "id": 429,
+            "name": "SURVIVAL_AREA",
+            "locations": [
+                "OVERWORLD_ITEM_311",
+                "OVERWORLD_ITEM_314",
+                "HIDDEN_ITEM_131"
+            ],
+            "exits": {
+                "BATTLEGROUND:0": 0,
+                "SURVIVAL_AREA_SOUTH_HOUSE:0": 0,
+                "SURVIVAL_AREA_NORTH_HOUSE:0": 0,
+                "SURVIVAL_AREA_POKECENTER_1F:0": 0,
+                "SURVIVAL_AREA_MART:0": 0,
+                "ROUTE_226": 0,
+                "ROUTE_225": 0
+            }
+        },
+        {
+            "id": 430,
+            "name": "SURVIVAL_AREA_MART",
+            "locations": [],
+            "exits": {
+                "SURVIVAL_AREA:4": 0
+            }
+        },
+        {
+            "id": 431,
+            "name": "SURVIVAL_AREA_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "SURVIVAL_AREA:3": 0,
+                "SURVIVAL_AREA_POKECENTER_2F:0": 0,
+                "SURVIVAL_AREA_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 432,
+            "name": "SURVIVAL_AREA_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "SURVIVAL_AREA_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 433,
+            "name": "BATTLEGROUND",
+            "locations": [],
+            "exits": {
+                "SURVIVAL_AREA:0": 0
+            }
+        },
+        {
+            "id": 434,
+            "name": "SURVIVAL_AREA_SOUTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "SURVIVAL_AREA:1": 0
+            }
+        },
+        {
+            "id": 435,
+            "name": "SURVIVAL_AREA_NORTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "SURVIVAL_AREA:2": 0
+            }
+        },
+        {
+            "id": 436,
+            "name": "RESORT_AREA",
+            "locations": [
+                "BERRY_113",
+                "BERRY_110",
+                "OVERWORLD_ITEM_232",
+                "BERRY_112",
+                "BERRY_111",
+                "HIDDEN_ITEM_146",
+                "HIDDEN_ITEM_145_1"
+            ],
+            "exits": {
+                "VILLA:0": 0,
+                "RESORT_AREA_HOUSE:0": 0,
+                "RESORT_AREA_RIBBON_SYNDICATE_1F:0": 0,
+                "RESORT_AREA_POKECENTER_1F:0": 0,
+                "ROUTE_229": 0
+            }
+        },
+        {
+            "id": 438,
+            "name": "RESORT_AREA_POKECENTER_1F",
+            "locations": [],
+            "exits": {
+                "RESORT_AREA:3": 0,
+                "RESORT_AREA_POKECENTER_2F:0": 0,
+                "RESORT_AREA_POKECENTER_B1F:0": 0
+            }
+        },
+        {
+            "id": 439,
+            "name": "RESORT_AREA_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "RESORT_AREA_POKECENTER_1F:1": 0
+            }
+        },
+        {
+            "id": 440,
+            "name": "RESORT_AREA_RIBBON_SYNDICATE_1F",
+            "locations": [],
+            "exits": {
+                "RESORT_AREA:2": 0,
+                "RESORT_AREA_RIBBON_SYNDICATE_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 442,
+            "name": "RESORT_AREA_RIBBON_SYNDICATE_ELEVATOR",
+            "locations": [],
+            "exits": {}
+        },
+        {
+            "id": 443,
+            "name": "VILLA",
+            "locations": [],
+            "exits": {
+                "RESORT_AREA:0": 0
+            }
+        },
+        {
+            "id": 444,
+            "name": "RESORT_AREA_HOUSE",
+            "locations": [],
+            "exits": {
+                "RESORT_AREA:1": 0
+            }
+        },
+        {
+            "id": 446,
+            "name": "ROUTE_220",
+            "locations": [
+                "TRAINER_SWIMMER_KATELYN",
+                "TRAINER_SWIMMER_CLAIRE",
+                "OVERWORLD_ITEM_128",
+                "TRAINER_SWIMMER_VINCENT",
+                "TRAINER_SWIMMER_ERICA",
+                "TRAINER_SWIMMER_ADRIAN",
+                "TRAINER_SWIMMER_ERIK",
+                "OVERWORLD_ITEM_127",
+                "TRAINER_SWIMMER_JESSICA",
+                "OVERWORLD_ITEM_125",
+                "HIDDEN_ITEM_48",
+                "HIDDEN_ITEM_169_1"
+            ],
+            "exits": {
+                "ROUTE_219": 0,
+                "ROUTE_221": 0
+            }
+        },
+        {
+            "id": 447,
+            "name": "ROUTE_223",
+            "locations": [
+                "TRAINER_SWIMMER_FRANCISCO",
+                "OVERWORLD_ITEM_301",
+                "TRAINER_SWIMMER_WESLEY",
+                "TRAINER_SWIMMER_PAIGE",
+                "TRAINER_SWIMMER_GABRIELLE",
+                "TRAINER_SWIMMER_MIRANDA",
+                "OVERWORLD_ITEM_178",
+                "TRAINER_SWIMMER_RICARDO",
+                "TRAINER_SWIMMER_TROY",
+                "TRAINER_SWIMMER_OSCAR",
+                "TRAINER_SAILOR_ZACHARIAH",
+                "TRAINER_SWIMMER_CRYSTAL",
+                "TRAINER_SWIMMER_CASSANDRA",
+                "OVERWORLD_ITEM_180",
+                "OVERWORLD_ITEM_179",
+                "TRAINER_SWIMMER_AUBREE",
+                "TRAINER_SWIMMER_COLTON",
+                "HIDDEN_ITEM_112",
+                "HIDDEN_ITEM_267"
+            ],
+            "exits": {
+                "POKEMON_LEAGUE": 0,
+                "SUNYSHORE_CITY": 0
+            }
+        },
+        {
+            "id": 448,
+            "name": "ROUTE_226",
+            "locations": [
+                "OVERWORLD_ITEM_205",
+                "TRAINER_BIRD_KEEPER_GENEVA",
+                "TRAINER_ACE_TRAINER_GRAHAM",
+                "TRAINER_SWIMMER_WADE",
+                "BERRY_101",
+                "TRAINER_DRAGON_TAMER_STANLEY",
+                "BERRY_98",
+                "OVERWORLD_ITEM_207",
+                "TRAINER_SWIMMER_LYDIA",
+                "OVERWORLD_ITEM_206",
+                "BERRY_99",
+                "BERRY_100",
+                "HIDDEN_ITEM_135",
+                "HIDDEN_ITEM_132",
+                "HIDDEN_ITEM_134",
+                "HIDDEN_ITEM_133",
+                "HIDDEN_ITEM_159_1"
+            ],
+            "exits": {
+                "ROUTE_226_HOUSE:0": 0,
+                "ROUTE_228_GATE_TO_ROUTE_226:0": 0,
+                "SURVIVAL_AREA": 0,
+                "ROUTE_227": 0,
+                "ROUTE_228": 0
+            }
+        },
+        {
+            "id": 449,
+            "name": "ROUTE_230",
+            "locations": [
+                "OVERWORLD_ITEM_233",
+                "BERRY_116",
+                "TRAINER_SWIMMER_GLENN",
+                "BERRY_114",
+                "TRAINER_SWIMMER_KURT",
+                "OVERWORLD_ITEM_308",
+                "BERRY_115",
+                "TRAINER_SWIMMER_SAM",
+                "TRAINER_SWIMMER_JOANNA",
+                "TRAINER_SWIMMER_MALLORY",
+                "BERRY_117",
+                "TRAINER_SWIMMER_SOPHIA",
+                "HIDDEN_ITEM_147",
+                "HIDDEN_ITEM_148"
+            ],
+            "exits": {
+                "FIGHT_AREA": 0,
+                "ROUTE_229": 0
+            }
+        },
+        {
+            "id": 450,
+            "name": "SEABREAK_PATH",
+            "locations": [],
+            "exits": {
+                "FLOWER_PARADISE": 0,
+                "ROUTE_224": 0
+            }
+        },
+        {
+            "id": 451,
+            "name": "JUBILIFE_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 452,
+            "name": "CANALAVE_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 453,
+            "name": "OREBURGH_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "OREBURGH_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 454,
+            "name": "ETERNA_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "ETERNA_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 455,
+            "name": "HEARTHOME_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "HEARTHOME_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 456,
+            "name": "PASTORIA_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "PASTORIA_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 457,
+            "name": "VEILSTONE_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 458,
+            "name": "SUNYSHORE_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "SUNYSHORE_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 459,
+            "name": "SNOWPOINT_CITY_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "SNOWPOINT_CITY_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 460,
+            "name": "POKEMON_LEAGUE_SOUTH_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_SOUTH_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 461,
+            "name": "FIGHT_AREA_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "FIGHT_AREA_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 462,
+            "name": "SANDGEM_TOWN_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "SANDGEM_TOWN_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 463,
+            "name": "FLOAROMA_TOWN_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "FLOAROMA_TOWN_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 464,
+            "name": "SOLACEON_TOWN_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "SOLACEON_TOWN_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 465,
+            "name": "CELESTIC_TOWN_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "CELESTIC_TOWN_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 466,
+            "name": "SURVIVAL_AREA_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "SURVIVAL_AREA_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 467,
+            "name": "RESORT_AREA_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "RESORT_AREA_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 468,
+            "name": "CANALAVE_CITY_WEST_HOUSE",
+            "locations": [],
+            "exits": {
+                "CANALAVE_CITY:10": 0
+            }
+        },
+        {
+            "id": 469,
+            "name": "CAFE",
+            "locations": [
+                "TRAINER_WAITRESS_KATI",
+                "TRAINER_COLLECTOR_EDWIN",
+                "TRAINER_COLLECTOR_FERNANDO"
+            ],
+            "exits": {
+                "ROUTE_210_SOUTH:0": 0
+            }
+        },
+        {
+            "id": 471,
+            "name": "GALACTIC_HQ_CONTROL_ROOM",
+            "locations": [],
+            "exits": {
+                "GALACTIC_HQ_LABORATORY:1": 0
+            }
+        },
+        {
+            "id": 472,
+            "name": "POKEMON_LEAGUE_NORTH_POKECENTER_2F",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_NORTH_POKECENTER_1F:2": 0
+            }
+        },
+        {
+            "id": 473,
+            "name": "POKEMON_LEAGUE_NORTH_POKECENTER_B1F",
+            "locations": [],
+            "exits": {
+                "POKEMON_LEAGUE_NORTH_POKECENTER_1F:3": 0
+            }
+        },
+        {
+            "id": 474,
+            "name": "GALACTIC_HQ_LABORATORY",
+            "locations": [
+                "OVERWORLD_ITEM_296"
+            ],
+            "exits": {
+                "GALACTIC_HQ_4F:1": 0,
+                "GALACTIC_HQ_CONTROL_ROOM:0": 0
+            }
+        },
+        {
+            "id": 475,
+            "name": "ROUTE_225_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_225:2": 0
+            }
+        },
+        {
+            "id": 476,
+            "name": "ROUTE_226_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_226:0": 0
+            }
+        },
+        {
+            "id": 477,
+            "name": "ROUTE_227_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_227:0": 0
+            }
+        },
+        {
+            "id": 478,
+            "name": "ROUTE_228_GATE_TO_ROUTE_226",
+            "locations": [],
+            "exits": {
+                "ROUTE_226:1": 0,
+                "ROUTE_228:1": 0
+            }
+        },
+        {
+            "id": 479,
+            "name": "ROUTE_228_NORTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_228:2": 0
+            }
+        },
+        {
+            "id": 480,
+            "name": "ROUTE_228_SOUTH_HOUSE",
+            "locations": [],
+            "exits": {
+                "ROUTE_228:3": 0
+            }
+        },
+        {
+            "id": 481,
+            "name": "GREAT_MARSH_1",
+            "locations": [
+                "OVERWORLD_ITEM_66",
+                "OVERWORLD_ITEM_67",
+                "HIDDEN_ITEM_210"
+            ],
+            "exits": {
+                "GREAT_MARSH_2": 0,
+                "GREAT_MARSH_3": 0
+            }
+        },
+        {
+            "id": 482,
+            "name": "GREAT_MARSH_2",
+            "locations": [
+                "OVERWORLD_ITEM_68",
+                "HIDDEN_ITEM_211"
+            ],
+            "exits": {
+                "GREAT_MARSH_4": 0,
+                "GREAT_MARSH_1": 0
+            }
+        },
+        {
+            "id": 483,
+            "name": "GREAT_MARSH_3",
+            "locations": [
+                "OVERWORLD_ITEM_70",
+                "HIDDEN_ITEM_212"
+            ],
+            "exits": {
+                "GREAT_MARSH_1": 0,
+                "GREAT_MARSH_4": 0,
+                "GREAT_MARSH_5": 0
+            }
+        },
+        {
+            "id": 484,
+            "name": "GREAT_MARSH_4",
+            "locations": [
+                "OVERWORLD_ITEM_71",
+                "OVERWORLD_ITEM_69",
+                "HIDDEN_ITEM_213"
+            ],
+            "exits": {
+                "GREAT_MARSH_2": 0,
+                "GREAT_MARSH_6": 0,
+                "GREAT_MARSH_3": 0
+            }
+        },
+        {
+            "id": 485,
+            "name": "GREAT_MARSH_5",
+            "locations": [
+                "OVERWORLD_ITEM_72",
+                "HIDDEN_ITEM_214"
+            ],
+            "exits": {
+                "GREAT_MARSH_3": 0,
+                "GREAT_MARSH_6": 0
+            }
+        },
+        {
+            "id": 486,
+            "name": "GREAT_MARSH_6",
+            "locations": [
+                "OVERWORLD_ITEM_73",
+                "HIDDEN_ITEM_215"
+            ],
+            "exits": {
+                "PASTORIA_CITY_OBSERVATORY_GATE_1F:2": 0,
+                "GREAT_MARSH_4": 0,
+                "GREAT_MARSH_5": 0
+            }
+        },
+        {
+            "id": 488,
+            "name": "RUIN_MANIAC_CAVE_LONG",
+            "locations": [
+                "OVERWORLD_ITEM_116_1"
+            ],
+            "exits": {
+                "ROUTE_214:3": 0
+            }
+        },
+        {
+            "id": 489,
+            "name": "MANIAC_TUNNEL",
+            "locations": [
+                "OVERWORLD_ITEM_116_2"
+            ],
+            "exits": {
+                "ROUTE_214:4": 0,
+                "SOLACEON_RUINS_MANIAC_TUNNEL_ROOM:1": 0
+            }
+        },
+        {
+            "id": 490,
+            "name": "IRON_ISLAND_HOUSE",
+            "locations": [],
+            "exits": {
+                "IRON_ISLAND:0": 0
+            }
+        },
+        {
+            "id": 491,
+            "name": "SOLACEON_RUINS_ROOM_5_SOUTHEAST_DEADEND",
+            "locations": [
+                "HIDDEN_ITEM_38"
+            ],
+            "exits": {
+                "SOLACEON_RUINS_ROOM_5:3": 0
+            }
+        },
+        {
+            "id": 492,
+            "name": "VISTA_LIGHTHOUSE_ELEVATOR",
+            "locations": [],
+            "exits": {}
+        },
+        {
+            "id": 493,
+            "name": "JUBILIFE_CITY_SOUTHWEST_HOUSE_2F",
+            "locations": [],
+            "exits": {
+                "JUBILIFE_CITY_SOUTHWEST_HOUSE_1F:1": 0
+            }
+        },
+        {
+            "id": 512,
+            "name": "CONTEST_HALL_STAGE_NO_CONTEST",
+            "locations": [],
+            "exits": {
+                "CONTEST_HALL_LOBBY:1": 0
+            }
+        },
+        {
+            "id": 513,
+            "name": "BATTLE_FRONTIER",
+            "locations": [],
+            "exits": {
+                "BATTLE_TOWER:0": 0,
+                "BATTLE_FACTORY:0": 0,
+                "BATTLE_HALL:0": 0,
+                "BATTLE_CASTLE:0": 0,
+                "BATTLE_ARCADE:0": 0,
+                "BATTLE_FRONTIER_GATE_TO_FIGHT_AREA:0": 0
+            }
+        },
+        {
+            "id": 514,
+            "name": "BATTLE_FRONTIER_GATE_TO_FIGHT_AREA",
+            "locations": [],
+            "exits": {
+                "BATTLE_FRONTIER:10": 0,
+                "FIGHT_AREA:2": 0
+            }
+        },
+        {
+            "id": 515,
+            "name": "BATTLE_FACTORY",
+            "locations": [],
+            "exits": {
+                "BATTLE_FRONTIER:12": 0
+            }
+        },
+        {
+            "id": 516,
+            "name": "BATTLE_HALL",
+            "locations": [],
+            "exits": {
+                "BATTLE_FRONTIER:13": 0
+            }
+        },
+        {
+            "id": 517,
+            "name": "BATTLE_CASTLE",
+            "locations": [],
+            "exits": {
+                "BATTLE_FRONTIER:15": 0
+            }
+        },
+        {
+            "id": 518,
+            "name": "BATTLE_ARCADE",
+            "locations": [],
+            "exits": {
+                "BATTLE_FRONTIER:14": 0
+            }
+        },
+        {
+            "id": 519,
+            "name": "VEILSTONE_STORE_B1F",
+            "locations": [],
+            "exits": {
+                "VEILSTONE_STORE_1F:3": 0,
+                "VEILSTONE_STORE_ELEVATOR:0": 0
+            }
+        },
+        {
+            "id": 520,
+            "name": "GLOBAL_TERMINAL_2F",
+            "locations": [],
+            "exits": {
+                "GLOBAL_TERMINAL_1F:1": 0,
+                "GLOBAL_TERMINAL_3F:1": 0
+            }
+        },
+        {
+            "id": 521,
+            "name": "GLOBAL_TERMINAL_3F",
+            "locations": [],
+            "exits": {
+                "GLOBAL_TERMINAL_1F:2": 0,
+                "GLOBAL_TERMINAL_2F:1": 0
+            }
+        },
+        {
+            "id": 522,
+            "name": "GALACTIC_HQ_HALL",
+            "locations": [],
+            "exits": {
+                "GALACTIC_HQ_2F:10": 0,
+                "GALACTIC_HQ_2F:9": 0,
+                "GALACTIC_HQ_4F:3": 0
+            }
+        },
+        {
+            "id": 523,
+            "name": "ROTOMS_ROOM",
+            "locations": [],
+            "exits": {
+                "TEAM_GALACTIC_ETERNA_BUILDING_1F:3": 0
+            }
+        },
+        {
+            "id": 524,
+            "name": "DISTORTION_WORLD_1F",
+            "locations": [],
+            "exits": {
+                "MT_CORONET_6F:2": 0
+            }
+        },
+        {
+            "id": 525,
+            "name": "SPEAR_PILLAR_DIALGA",
+            "locations": [],
+            "exits": {
+                "MT_CORONET_6F:3": 0
+            }
+        },
+        {
+            "id": 526,
+            "name": "SPEAR_PILLAR_PALKIA",
+            "locations": [],
+            "exits": {
+                "MT_CORONET_6F:4": 0
+            }
+        },
+        {
+            "id": 528,
+            "name": "IRON_ISLAND_IRON_RUINS",
+            "locations": [
+                "OVERWORLD_ITEM_322",
+                "HIDDEN_ITEM_274"
+            ],
+            "exits": {
+                "IRON_ISLAND_B3F:2": 0
+            }
+        },
+        {
+            "id": 529,
+            "name": "IRON_RUINS",
+            "locations": [],
+            "exits": {
+                "IRON_ISLAND_B3F:3": 0
+            }
+        },
+        {
+            "id": 530,
+            "name": "MT_CORONET_ICEBERG_RUINS",
+            "locations": [
+                "OVERWORLD_ITEM_323",
+                "HIDDEN_ITEM_275"
+            ],
+            "exits": {
+                "MT_CORONET_1F_NORTH_ROOM_2:2": 0
+            }
+        },
+        {
+            "id": 531,
+            "name": "ICEBERG_RUINS",
+            "locations": [],
+            "exits": {
+                "MT_CORONET_1F_NORTH_ROOM_2:3": 0
+            }
+        },
+        {
+            "id": 532,
+            "name": "ROUTE_228_ROCK_PEAK_RUINS",
+            "locations": [
+                "OVERWORLD_ITEM_324",
+                "HIDDEN_ITEM_276"
+            ],
+            "exits": {
+                "ROUTE_228:4": 0
+            }
+        },
+        {
+            "id": 533,
+            "name": "ROCK_PEAK_RUINS",
+            "locations": [],
+            "exits": {
+                "ROUTE_228:5": 0
+            }
+        }
+    ]
+}

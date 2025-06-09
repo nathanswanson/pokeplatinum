@@ -5,14 +5,13 @@
             "name": "Debug in melonDS",
             "type": "cppdbg",
             "request": "launch",
+            "preLaunchTask": "Makefile: debug",
             "program": "${workspaceFolder}/build/debug.nef",
             "MIMode": "gdb",
             "cwd": "${workspaceFolder}",
             "externalConsole": true,
             "miDebuggerServerAddress": "localhost:3333",
-            // point this to your own gdb path...
-            "miDebuggerPath": "/path/to/binutils-gdb/gdb/gdb",
-            //"miDebuggerPath": "gdb-multiarch",
+            "miDebuggerPath": "/home/wsl/gdb",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing",
@@ -34,6 +33,6 @@
             ],
             "stopAtConnect": false,
             "stopAtEntry": false
-        }
+        },
     ]
 }

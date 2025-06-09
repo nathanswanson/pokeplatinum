@@ -1,0 +1,18 @@
+{
+    "desume_printf": {
+        "offset": "0x0209C868",
+        "size": "0x00000026"
+    },
+    "loc_data_registry": {
+        "offset": "0x020F9AF6",
+        "size": "0x00000B00"
+    },
+    "ap_player_offset_table": {
+        "offset": "0x020FA5F8",
+        "size": "0x00000080"
+    },
+    "ap_player_names": {
+        "offset": "0x020FA678",
+        "size": "0x00000FA0"
+    }
+}

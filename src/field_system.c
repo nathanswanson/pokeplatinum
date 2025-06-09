@@ -38,7 +38,7 @@
 #include "system.h"
 #include "unk_0205F180.h"
 #include "unk_0209C370.h"
-#include "ap_memory.h"
+#include "ap/ap_memory.h"
 
 FS_EXTERN_OVERLAY(overlay5);
 FS_EXTERN_OVERLAY(overlay77);
