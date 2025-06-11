@@ -87,14 +87,13 @@ cmake-build-*
 
 diff.txt
 
-.vs/
-.vscode/*
-!.vscode/launch.json
+.vscode/
+scratch_folder/out/
 
 temp_asm/
 asm_old/
 
-!platinum.us/banner.bnr
+scratch_folder/out/*
 
 uncrustify.cfg
 compare.sh
