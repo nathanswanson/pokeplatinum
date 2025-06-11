@@ -50,3 +50,16 @@ end
 
 --- Reboots the currently loaded core
 function client.reboot_core() end
+
+--- Opens a ROM file.
+--- @param path string
+--- @return boolean success
+function client.openrom(path)
+    return false
+end
+
+--- Closes the currently loaded ROM.
+function client.closerom() end
+
+--- Opens Ram Watcher.
+function client.openramwatch() end

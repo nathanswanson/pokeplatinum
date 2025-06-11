@@ -211,7 +211,7 @@ local function input_callback()
         if inputs["Shift"] then
             client.pause()
         end
-        SendClientCommand(COMMAND_SEND_ITEM | PLAYER_ID(1) | ITEM_ID(471))
+        SendClientCommand(COMMAND_SEND_ITEM | PLAYER_ID(1) | ITEM_ID(470))
     end
 end
 

@@ -143,6 +143,7 @@ void APComm_receive()
 
         } else if (local_id < MAX_ITEMS + 8) {
             // badge
+            locked_input = TRUE;
             int badge_num = local_id - MAX_ITEMS;
             desume_printf("sending badge %d\n", badge_num);
             Strbuf *badgeBuf = Strbuf_Init(128, HEAP_ID_FIELDMAP);

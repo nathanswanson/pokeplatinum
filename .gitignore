@@ -126,3 +126,6 @@ compile_commands.json
 *.mch
 scratch_folder/out/memory_mapping.json
 scratch_folder/out/platinum.sha1
+.vscode/launch.json
+scratch_folder/out/platinum.sha1
+scratch_folder/out/memory_mapping.json

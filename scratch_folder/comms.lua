@@ -56,9 +56,6 @@ function SendClientCommand(data)
         emu.frameadvance()
     end
     memory.write_u32_le(COMMAND_SEND_ADDR, data)
-    while not CommandAccepted() do
-        emu.frameadvance()
-    end
 end
 
 function DisasmAtPC()
