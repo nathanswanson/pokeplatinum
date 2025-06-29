@@ -371,6 +371,7 @@ Static main
 	Object main.nef.p/src_ap_ap_memory.c.o
 	Object main.nef.p/src_ap_ap_debug_print.c.o
 	Object main.nef.p/src_ap_ap_player_names.c.o
+	Object main.net.p/src_ap_ap_scrcmd_item.c.o
 	Library libspl.a
 	Library libwvr.a
 	Library libdwcbm.a

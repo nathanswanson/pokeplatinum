@@ -4,6 +4,7 @@
 
 #include "constants/heap.h"
 #include "generated/badges.h"
+#include "generated/items.h"
 #include "generated/text_banks.h"
 
 #include "ap/ap_debug_print.h"
@@ -76,11 +77,11 @@ static APBuffer buffer;
 static APMemoryConfig *ap_config;
 static BOOL locked_input = FALSE;
 const APLocData loc_data_registry[MAX_LOC_SIZE] = { { 0 } };
-
+const u16 local_player_id = 0;
 static APCommands get_command_id(int packet);
 static void long_to_binary(u32 data, char *out_buffer);
 static void ap_player_message_task(SysTask *task, void *data);
-static void ap_player_message_send(int other_player_id, Strbuf *itemName, BOOL inbound_item);
+static void ap_player_message_send(int other_player_id, Strbuf *itemName, int quantity);
 
 void APComm_init(FieldSystem *fieldSystem)
 {
@@ -115,52 +116,13 @@ void APComm_receive()
         u32 in_buf = AP_CMD_IN_ADDR;
         AP_CMD_IN_ADDR = 0xFFFFFFFF;
         // 4 bits command
-        // 24 bits ap_item_id
-        // 4 bits player id
+        // 28 bits ap_item_id
         u32 ap_item_id = in_buf >> 4 & 0xFFFFFF;
-        u32 player_id = in_buf >> 28;
-        partition = ap_item_id / 32;
-        offset = ap_item_id % 32;
-        data = MiscSaveBlock_GetItem(recording, partition);
-        BOOL item_status = data >> offset & 1;
-        data |= 1 << offset;
-        desume_printf("APComm_receive: SET_ITEM:game_id %d, ap_item_id %d, partition %d, offset %d, player_id %d, data %d\n", loc_data_registry[ap_item_id].id, ap_item_id, partition, offset, player_id, data);
-        if (item_status) {
-            AP_CMD_IN_ADDR = 0;
-            return;
-        }
-        int local_id = loc_data_registry[ap_item_id].id;
-        if (local_id < MAX_ITEMS) {
-            // regular item
-            if (Bag_TryAddItem(SaveData_GetBag(_fieldSystem->saveData), local_id, 1, HEAP_ID_FIELD)) {
-                desume_printf("sending item %d\n", local_id);
-                locked_input = TRUE;
-                Strbuf *itemBuf = Strbuf_Init(128, HEAP_ID_FIELDMAP);
-                Item_LoadName(itemBuf, local_id, HEAP_ID_FIELDMAP);
-                ap_player_message_send(player_id, itemBuf, FALSE);
-                Strbuf_Free(itemBuf);
-            }
-
-        } else if (local_id < MAX_ITEMS + 8) {
-            // badge
-            locked_input = TRUE;
-            int badge_num = local_id - MAX_ITEMS;
-            desume_printf("sending badge %d\n", badge_num);
-            Strbuf *badgeBuf = Strbuf_Init(128, HEAP_ID_FIELDMAP);
-            Strbuf_CopyChars(badgeBuf, badge_strings[badge_num]);
-            ap_player_message_send(player_id, badgeBuf, FALSE);
-            TrainerInfo_SetBadge(SaveData_GetTrainerInfo(_fieldSystem->saveData), badge_num);
-            Strbuf_Free(badgeBuf);
-        } else if (local_id == MAX_ITEMS + 8) {
-            // money
-            desume_printf("sending money %d\n", ap_item_id);
-            TrainerInfo_GiveMoney(SaveData_GetTrainerInfo(_fieldSystem->saveData), ap_item_id);
-        }
-        MiscSaveBlock_SetItem(recording, partition, data);
+        APComm_sendMessage(ap_item_id);
     }
 }
 
-static void ap_player_message_send(int other_player_id, Strbuf *itemName, BOOL inbound_item)
+static void ap_player_message_send(int other_player_id, Strbuf *itemName, int quantity)
 {
     StringTemplate *strTemplate = StringTemplate_Default(HEAP_ID_FIELDMAP);
     MessageLoader *msgLoader = MessageLoader_Init(MESSAGE_LOADER_NARC_HANDLE, NARC_INDEX_MSGDATA__PL_MSG, TEXT_BANK_COMMON_STRINGS, HEAP_ID_FIELDMAP);
@@ -170,9 +132,12 @@ static void ap_player_message_send(int other_player_id, Strbuf *itemName, BOOL i
     u16 *playerName = Heap_AllocFromHeap(HEAP_ID_FIELDMAP, 128);
     ap_player_name_get(other_player_id, playerName);
     Strbuf_CopyChars(playerNameBuf, playerName);
+
     StringTemplate_SetStrbuf(strTemplate, 0, itemName, 0, TRUE, GAME_LANGUAGE);
-    StringTemplate_SetStrbuf(strTemplate, 1, playerNameBuf, 0, TRUE, GAME_LANGUAGE);
+    StringTemplate_SetNumber(strTemplate, 1, quantity, 3, TRUE, GAME_LANGUAGE);
+    StringTemplate_SetStrbuf(strTemplate, 2, playerNameBuf, 0, TRUE, GAME_LANGUAGE);
     StringTemplate_Format(strTemplate, tmpbuf, strbuf);
+
     ap_config->printer_id = FieldMessage_Print(ap_config->window, tmpbuf, SaveData_GetOptions(_fieldSystem->saveData), TRUE);
     FieldMessage_AddWindow(_fieldSystem->bgConfig, ap_config->window, 3);
     FieldMessage_DrawWindow(ap_config->window, SaveData_GetOptions(_fieldSystem->saveData));
@@ -217,9 +182,36 @@ void APComm_setItemStatus(u32 ap_item_id)
     MiscSaveBlock_SetItem(recording, partition, data);
 }
 
-void APComm_sendMessage()
+void APComm_sendMessage(u16 ap_item_id)
 {
-    AP_CMD_OUT_ADDR = 0xFFFFFFFF;
+    if (APComm_getItemStatus(ap_item_id)) {
+        desume_printf("APComm_sendMessage: item %d already sent\n", ap_item_id);
+        return;
+    }
+    APLocData loc_data = loc_data_registry[ap_item_id];
+    charcode_t name[128];
+    ap_item_name_get(ap_item_id, name);
+    Strbuf *itemBuf = Strbuf_Init(128, HEAP_ID_FIELDMAP);
+    Strbuf_CopyChars(itemBuf, name);
+
+    ap_player_message_send(loc_data.remote_player_id, itemBuf, loc_data.count);
+    if (loc_data.local_item_id != 0) {
+        if (loc_data.local_item_id < MAX_ITEMS) {
+            // regular item
+            Bag_TryAddItem(SaveData_GetBag(_fieldSystem->saveData), loc_data.local_item_id, loc_data.count, HEAP_ID_FIELD);
+            // desume_printf("APComm_sendMessage: giving item %d to player\n", loc_data.local_item_id);
+        } else if (loc_data.local_item_id < MAX_ITEMS + 8) {
+            // badge
+            int badge_num = loc_data.local_item_id - MAX_ITEMS;
+            TrainerInfo_SetBadge(SaveData_GetTrainerInfo(_fieldSystem->saveData), badge_num);
+            // desume_printf("APComm_sendMessage: giving badge %d to player\n", loc_data.local_item_id - MAX_ITEMS);
+        } else if (loc_data.local_item_id == MAX_ITEMS + 8) {
+            // money
+            TrainerInfo_GiveMoney(SaveData_GetTrainerInfo(_fieldSystem->saveData), loc_data.count);
+            // desume_printf("APComm_sendMessage: giving money %d to player\n", loc_data.count);
+        }
+    }
+    APComm_setItemStatus(ap_item_id);
 }
 
 static APCommands get_command_id(int packet)

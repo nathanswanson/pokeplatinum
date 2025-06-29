@@ -5,7 +5,6 @@
             "name": "Debug in melonDS",
             "type": "cppdbg",
             "request": "launch",
-            "preLaunchTask": "Makefile: debug",
             "program": "${workspaceFolder}/build/debug.nef",
             "MIMode": "gdb",
             "cwd": "${workspaceFolder}",

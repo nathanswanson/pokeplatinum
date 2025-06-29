@@ -1020,5 +1020,6 @@ pokeplatinum_c = files(
     'dw_warp/dw_warp.c',
     'ap/ap_memory.c',
     'ap/ap_debug_print.c',
-    'ap/ap_player_names.c'
+    'ap/ap_player_names.c',
+    'ap/ap_scrcmd_item.c'
 )

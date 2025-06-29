@@ -17,25 +17,7 @@ BOOL ScrCmd_AddItem(ScriptContext *ctx)
     u16 item = ScriptContext_GetVar(ctx);
     u16 count = ScriptContext_GetVar(ctx);
     u16 *destVar = ScriptContext_GetVarPointer(ctx);
-    u16 ap_id = ScriptContext_GetVar(ctx);
-    if (ap_id != 0) {
-        APLocData data = loc_data_registry[ap_id];
-        if (!APComm_getItemStatus(ap_id)) {
-            if (data.is_local) {
-                *destVar = Bag_TryAddItem(SaveData_GetBag(fieldSystem->saveData), data.id, data.count, HEAP_ID_FIELD);
-            } else {
-                *destVar = TRUE;
-            }
-            if (*destVar) {
-                APComm_sendMessage();
-                APComm_setItemStatus(ap_id);
-            }
-        }
-
-    } else {
-        // regular item or item not assigned yet
-        *destVar = Bag_TryAddItem(SaveData_GetBag(fieldSystem->saveData), item, count, HEAP_ID_FIELD);
-    }
+    *destVar = Bag_TryAddItem(SaveData_GetBag(fieldSystem->saveData), item, count, HEAP_ID_FIELD);
     return FALSE;
 }
 

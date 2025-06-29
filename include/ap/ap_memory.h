@@ -8,12 +8,9 @@
 #define MAX_LOC_SIZE    1408
 
 typedef struct {
-    unsigned short is_local : 1;
-    // if !is_local it is the ap location id
-    // if is_local && item_id < max_items (additem item_id)
-    // if is_local && item_id > max_items it is a special location (badge, key_item, berry...)
-    unsigned short id : 12;
-    unsigned short count : 3;
+    u16 local_item_id; // 0 if not local
+    u16 count; // 0 if not local
+    u16 remote_player_id;
 } APLocData;
 
 typedef enum {
@@ -30,6 +27,6 @@ void APComm_receive();
 void APComm_send();
 BOOL APComm_getItemStatus(u32 ap_item_id);
 void APComm_setItemStatus(u32 ap_item_id);
-void APComm_sendMessage();
+void APComm_sendMessage(u16 item_id);
 
 #endif // AP_MEMORY_H

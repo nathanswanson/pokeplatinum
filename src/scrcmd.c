@@ -46,6 +46,7 @@
 #include "struct_defs/struct_0204AFC4.h"
 #include "struct_defs/struct_02098C44.h"
 
+#include "ap/ap_scrcmd_item.h"
 #include "applications/pokemon_summary_screen/main.h"
 #include "field/field_system.h"
 #include "field/field_system_sub2_t.h"
@@ -1607,6 +1608,7 @@ const ScrCmdFunc Unk_020EAC58[] = {
     ScrCmd_345,
     ScrCmd_346,
     ScrCmd_347,
+    ScrCmd_TriggerLocation,
 };
 
 const u32 Unk_020EAB80 = NELEMS(Unk_020EAC58);

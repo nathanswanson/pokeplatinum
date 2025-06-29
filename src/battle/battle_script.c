@@ -75,7 +75,7 @@
 
 #include "constdata/const_020F2DAC.h"
 
-static volatile u32 gBattleScriptSettings = 0x6E6F7274;
+volatile const u32 gBattleScriptSettings = 0x00000000; //< Default settings for battle scripts
 
 typedef BOOL (*BtlCmd)(BattleSystem *, BattleContext *);
 
@@ -11139,7 +11139,7 @@ static const struct Fraction sSafariCatchRate[] = {
  */
 static int BattleScript_CalcCatchShakes(BattleSystem *battleSys, BattleContext *battleCtx)
 {
-    //10 bit
+    // 10 bit
     if (gBattleScriptSettings >> 10 & 1) {
         return 4;
     }

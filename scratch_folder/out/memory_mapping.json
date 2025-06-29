@@ -1,18 +1,30 @@
 {
-    "desume_printf": {
-        "offset": "0x0209C868",
-        "size": "0x00000026"
-    },
     "loc_data_registry": {
-        "offset": "0x020F9AF6",
-        "size": "0x00000B00"
+        "offset": "0xfd9a8",
+        "size": "0x2100"
     },
     "ap_player_offset_table": {
-        "offset": "0x020FA5F8",
-        "size": "0x00000080"
+        "offset": "0xffaa8",
+        "size": "0x80"
     },
     "ap_player_names": {
-        "offset": "0x020FA678",
-        "size": "0x00000FA0"
+        "offset": "0xffb28",
+        "size": "0xfa0"
+    },
+    "gBattleScriptSettings": {
+        "offset": "0x27f840",
+        "size": "0x4"
+    },
+    "gStarterSpecies": {
+        "offset": "0x1e3bc0",
+        "size": "0xc"
+    },
+    "cmd_bus_addr": {
+        "offset": "0x2263290",
+        "size": "-1"
+    },
+    "recv_bus_addr": {
+        "offset": "0x2263294",
+        "size": "-1"
     }
 }
